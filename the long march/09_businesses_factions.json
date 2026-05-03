@@ -1,0 +1,285 @@
+{
+  "business_naming_philosophy": "Specificity over genericism. Not 'Blacksmith' but a name that implies a person, a history, a specialty. Names suggest age, personality, regional character. No lame or repeating names. Every business is someone's livelihood.",
+
+  "businesses_by_type": [
+    {
+      "category": "Smithing and Metalwork",
+      "businesses": [
+        "Corvan's Ironworks", "The Bent Nail", "Halvard's Cold Forge",
+        "The Slag House", "Durn & Sons Metalworking", "The Tallow Anvil",
+        "Redmark Blades", "The Chain and Hammer", "Torven's Edge",
+        "The Broken Mold", "Keld Metalcraft", "The Soot and Steel",
+        "Aldric's Bladesmith", "Gorvan's Farrier and General Metal",
+        "The Third Anvil", "Warden Ironcraft", "The Pale Forge",
+        "Osric's Tools and Fittings", "The Hammer's Rest",
+        "Farel & Brena Metalwork", "The Bent Bar",
+        "Veldmoor Ironworks", "The Notched Blade (repairs only)",
+        "The Rust and Recovery (salvage metalwork)"
+      ]
+    },
+    {
+      "category": "Carpentry and Woodcraft",
+      "businesses": [
+        "Keld & Brena Cartwright", "The Straight Grain",
+        "Soren's Joinery", "Aldren's Timber Frame",
+        "The Crooked Post (repairs, budget)", "Fenward Woodcraft",
+        "Morra's Furniture", "The Notched Beam",
+        "Davan's Cooperage (barrels primarily)", "The Knot and Grain",
+        "Torven's Millwork", "The Planed Board",
+        "Halvard's Wheelwright", "The Seasoned Wood",
+        "Brenmar Cabinet and Joinery", "The Sawdust Quarter (market district)",
+        "Osric's Handles and Hafts (tool handles, weapon hafts)",
+        "The Shaved Stave"
+      ]
+    },
+    {
+      "category": "Food and Drink",
+      "businesses": [
+        "The Greyfield Alehouse", "Morra's Bread", "The Salted Ham",
+        "The Kettle Below", "The Cracked Barrel", "Osric's Grain Store",
+        "The Wet Hearth", "The Tilted Cup", "The Low Table",
+        "The Bitter Pint", "Falla's Provisions", "The Warm Loaf",
+        "Torven's Butchery", "The Salt and Rye",
+        "The Three Coppers (cheap eating house)", "The Hearthstone Inn",
+        "Brena's Preserves and Pickles", "The Smoke House",
+        "The Cold Cellar (food storage, for hire)", "Keld's Mill and Bakehouse",
+        "The Evening Meal (meal service only, no lodging)", "Esten's Sausage",
+        "The Dried Fish Quarter (market district)", "The Cider Press",
+        "Aldren's Cheese", "The Boiled Bone (poor man's soup kitchen)",
+        "Gorvan's Spice Counter", "The Honey Seller (also beeswax candles)"
+      ]
+    },
+    {
+      "category": "Inns and Lodging",
+      "businesses": [
+        "The Straw Bed (floor space, shared, cheapest)",
+        "The Narrow Room (budget, private space barely)",
+        "The Common Roof (respectable cheap)",
+        "Gorvan's Livery and Rest (horse care + rider lodging)",
+        "The Quiet House (mid-tier, clean, boring)",
+        "The Aldric Arms (upper mid-tier, proper meals)",
+        "The Merchant's Rest (upper tier, private rooms, secure storage)",
+        "The Factor's House (best in town, expensive, merchant clientele)",
+        "The Soldier's Welcome (cheap but tolerant of rough company)",
+        "The Pilgrim's Station (temple-adjacent, faith-based lodging)",
+        "The Waymark (roadside inn between settlements)"
+      ]
+    },
+    {
+      "category": "Taverns and Alehouses (distinct from inns)",
+      "businesses": [
+        "The Bent Spoon", "The Salt Dog", "The Empty Purse",
+        "The Soldier's Debt", "The Caved Roof", "The Low Tide",
+        "The Dry Ditch", "The Unmarked Door",
+        "The Three Bad Decisions", "The Long Seat",
+        "The Sour Barrel", "The Broken Staff",
+        "The Stone Floor", "The Candle's End",
+        "The Muddy Boot", "The Bitter Man",
+        "The Crowing Crow", "The Last Light",
+        "The Half Measure", "The Uncorked"
+      ]
+    },
+    {
+      "category": "Textiles and Clothing",
+      "businesses": [
+        "The Bent Loom (major guild consortium)",
+        "Aldeth's Tailoring", "The Worn Thread (repairs and alterations)",
+        "Brena's Cloth", "The Full Bolt (fabric merchant, wholesale)",
+        "Kela's Needlework", "The Dyer's Row (market district)",
+        "Sova's Garments", "The Mended Seam",
+        "Torven's Saddlery and Leather Goods",
+        "The Hide and Thread (combined tanner/tailor)",
+        "The Fulling Mill", "Morra's Linens",
+        "The Wool Factor (raw wool brokerage)"
+      ]
+    },
+    {
+      "category": "Leather and Tanning",
+      "businesses": [
+        "The Tanner's Row (district, not single business)",
+        "Aldric's Hides", "The Soak Pit (budget tanning)",
+        "Keld's Fine Leather", "The Stink House (honest name)",
+        "Gorvan's Skins", "The Currier (leather finishing)",
+        "The Cobbler's Quarter (district)", "Osric's Boots and Shoes",
+        "The Last and Awl", "Brenmar's Harness and Tack"
+      ]
+    },
+    {
+      "category": "Commerce and Trade",
+      "businesses": [
+        "The Dust Market (general goods — anything, not specialized)",
+        "Halverness Factors (major Cauldenmoor trading house)",
+        "The Iron Counter (money-changing, basic credit)",
+        "Moor & Reach Imports (long-distance specialty goods)",
+        "The Sealed Ledger (notary, contracts, legal records)",
+        "The Assay House (metal valuation, official weights)",
+        "The Bond Warehouse (secure goods storage)",
+        "The Broker's Bench (general commission broker)",
+        "The Factor's Office (local representative of distant merchant houses)",
+        "The Open Hand (pawnbroker — loans against goods)",
+        "The Register (official records, licenses, permits)",
+        "The Caravan Master (organizes and leads trade caravans)",
+        "The Scales and Coin (independent money-changer)",
+        "The Cargo House (freight forwarding)",
+        "The Manifest Office (harbor paperwork and cargo declarations)"
+      ]
+    },
+    {
+      "category": "Services",
+      "businesses": [
+        "The Wash House (laundry, bathing facility)",
+        "The Barber of Durn Street (haircuts, tooth-pulling, minor surgery, bleeding)",
+        "The Letter Writer (scribing for the illiterate)",
+        "Gorvan's Livery (horse boarding and care)",
+        "The Muck Cart (waste removal — essential, unglamorous)",
+        "The Night Soil Man (specifically sewage — different from general muck)",
+        "The Midwife (Kela Aldrath — three generations in this town)",
+        "The Rat Catcher (Soren Keldwick — also dogs, pest removal)",
+        "The Well Tender (maintenance of communal water supply)",
+        "The Lamplighter (maintains street lighting in wealthier districts)",
+        "The Messenger (Aldren's Post — paid courier service)",
+        "The Porter (Gorvan's Heavy Work — moving things)",
+        "The Grave Digger (Torven — also handles burial arrangements)",
+        "The Printer (rare, expensive — woodblock print, not press)",
+        "The Scribe (copying documents, not a notary, just labor)"
+      ]
+    },
+    {
+      "category": "Medical",
+      "businesses": [
+        "The Surgeon (Halvard Croft — military trained, rough but competent)",
+        "The Apothecary (Brena Aldeth — extensive herb knowledge, cautious)",
+        "The Tooth-Puller (The Barber doubles — or dedicated specialist in larger towns)",
+        "The Herb Garden (Morra's Medicinals — raw plant materials, not compounds)",
+        "The Bone Setter (Keld Morrend — fractures, dislocations, doesn't do much else)",
+        "The Leech House (budget medical — bloodletting, minor treatment)",
+        "The Lazaret (isolation facility for contagious illness — town-funded, no profit)"
+      ]
+    },
+    {
+      "category": "Religious and Institutional",
+      "businesses": [
+        "The Temple of the Undying Ember (Durnward)",
+        "The Station of the Moor Communion",
+        "The Archive of Keth",
+        "The Tidewarden Cathedral (Anchorage)",
+        "The Furrow Hall (Reclaimed Path — also community granary)",
+        "The Salt Silence Meeting Room (unmarked, unremarkable building)",
+        "The Pilgrim House (faith-subsidized lodging for travelers)",
+        "The Almshouse (charity for destitute — temple-funded)",
+        "The Poorbox Office (distribution of charitable goods)"
+      ]
+    },
+    {
+      "category": "Specialized and Rare",
+      "businesses": [
+        "The Glassblower (Aldric Sorn — extremely rare outside cities)",
+        "The Bookbinder (Esven Keld — also repairs old books, literacy required to use fully)",
+        "The Chandler (Aldeth's Candles — also lamp oil and wicks)",
+        "The Dung Seller (Gorvan's Amendments — composted manure for farmers)",
+        "The Ice House (seasonal — stored winter ice for summer use, wealthy clients only)",
+        "The Perfumer (Sova's Scents — cities only, luxury trade)",
+        "The Cartographer (Brenmar's Maps — rare, expensive, questionable accuracy outside local area)",
+        "The Fencer (The unmarked shop — stolen goods, no name on door)",
+        "The Poisoner (no sign, no name, you're referred)",
+        "The Locksmith (Keld Mechanism — also makes the locks, charges to open them)"
+      ]
+    }
+  ],
+
+  "major_factions": [
+    {
+      "id": "grey_contracts",
+      "name": "The Grey Contracts",
+      "type": "Mercenary company",
+      "size": "~400 active members",
+      "current_contract": "Border patrol for Lord-Marshal Brennwatch (Ironmark Borderlands)",
+      "captain": "Vael Sorn — keeps contracts to the letter and not a word further",
+      "reputation": "Reliable, literal, not heroic",
+      "joining": "Open recruitment when understaffed. Background check is: can you hold a weapon and follow an order"
+    },
+    {
+      "id": "bent_loom_guild",
+      "name": "The Bent Loom Guild",
+      "type": "Textile and general goods trading consortium",
+      "base": "Durnward (Thornsveld Marches)",
+      "public_stance": "Neutral in all political matters",
+      "actual_stance": "Backing nephew Pelvar financially in Thornsveld succession",
+      "joining": "Merchant background or demonstrated commercial competence. They hire factors, clerks, caravan guards, warehouse staff."
+    },
+    {
+      "id": "halverness_factors",
+      "name": "The Halverness Factors",
+      "type": "Long-distance trading house",
+      "base": "Cauldenmoor (The Free Compact of Halverness)",
+      "presence": "Major offices in Keth and Amber Coast. Regional presence across Cauldenmoor.",
+      "reputation": "Politically neutral, commercially ruthless, reliable on contracts",
+      "joining": "Formal application. Literacy strongly preferred. References from existing members."
+    },
+    {
+      "id": "hollow_road",
+      "name": "The Hollow Road",
+      "type": "Criminal information and logistics network",
+      "base": "No fixed base — operates through no-man's-land settlements primarily",
+      "services": ["Information brokering", "Contraband movement", "Unofficial banking for those who can't use official services", "Moving people who need to move quietly"],
+      "joining": "You don't apply. You make yourself useful to someone who's already in it."
+    },
+    {
+      "id": "salvage_authority",
+      "name": "The Salvage Authority",
+      "type": "Quasi-governmental licensing and enforcement body",
+      "base": "Ossrath, operating from Keth",
+      "function": "Licenses ruin excavation, taxes extraction, maintains road-guard force",
+      "joining": "Road-guard: open hiring, physical requirements. Licensing: fees and paperwork."
+    },
+    {
+      "id": "first_scholars",
+      "name": "The First Scholars / Archive of Keth",
+      "type": "Academic religious institution",
+      "base": "The Archive of Keth",
+      "function": "Historical preservation, scholarship, Reckoning faith practice",
+      "joining": "Literacy required. Academic aptitude. They prefer to approach candidates rather than be approached."
+    },
+    {
+      "id": "salt_silence",
+      "name": "The Salt Silence",
+      "type": "Information network / Depth faith mystics",
+      "base": "Unknown. Present in every major port.",
+      "function": "Information brokering. Observation. Unclear ultimate purpose.",
+      "joining": "Unknown. You notice them watching you, or you don't."
+    },
+    {
+      "id": "dust_council",
+      "name": "The Dust Council",
+      "type": "Merchant oligarchy",
+      "base": "Keth",
+      "function": "Governing body of Keth — seven seats, wealthiest trading houses",
+      "joining": "Become one of the seven wealthiest trading houses in Keth. Long-term goal only."
+    },
+    {
+      "id": "drift_lords",
+      "name": "The Drift Lords",
+      "type": "Mobile pastoral confederation",
+      "base": "Ossrath plateau (no fixed settlements)",
+      "function": "Pastoral economy, plateau control in practice",
+      "joining": "Acceptance by a Drift Lord clan. Requires demonstrated competence in plateau survival and earning of trust over time."
+    },
+    {
+      "id": "corsair_throne",
+      "name": "The Corsair Throne",
+      "type": "Pirate sovereign entity",
+      "base": "The Shattered Reach (mobile, sea-based)",
+      "leader": "The Iron Wake (Rael Sorveth)",
+      "function": "Controls sea lanes, imposes unofficial tariffs, seeks formal political recognition",
+      "joining": "The Corsair Throne's quartermaster office is the entry point. No background questions asked."
+    },
+    {
+      "id": "fen_lords",
+      "name": "The Fen Lords",
+      "type": "Informal governing council",
+      "base": "The Free Fens (meets at Mossward twice yearly)",
+      "function": "Collective decision-making for Free Fens when external pressure requires it",
+      "joining": "Become the most powerful village head in your settlement. Earn recognition from the existing Lords."
+    }
+  ]
+}

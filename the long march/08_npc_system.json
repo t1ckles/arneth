@@ -1,0 +1,163 @@
+{
+  "npc_system_philosophy": "Every NPC is a person with a role, a location tendency, needs of their own (food, shelter, coin). They can die of disease, war, starvation, old age. They can have children slowly replenishing the pool. Population is finite — deaths matter. NPCs work on schedules and do things that make sense for their archetype and profession.",
+
+  "npc_generation_components": [
+    "Name (from regional name bank)",
+    "Age",
+    "Background (how they came to their current situation)",
+    "Profession (primary and sometimes secondary)",
+    "Daily schedule",
+    "Financial state",
+    "Needs (current hunger, thirst, sleep, health status)",
+    "Disposition (base temperament)",
+    "Faction affiliations",
+    "Religious observance",
+    "Relationship web (family, employer, rivals, debts)",
+    "A secret or complication (not always — but enough to feel like real people)"
+  ],
+
+  "daily_schedules": [
+    {
+      "archetype": "Farmer",
+      "schedule": [
+        { "time": "Dawn", "activity": "Rise, morning meal prep, feeding animals" },
+        { "time": "Early morning", "activity": "Field work — plowing, planting, or harvesting depending on season" },
+        { "time": "Midday", "activity": "Rest in shade, light meal" },
+        { "time": "Afternoon", "activity": "Field work continues, lighter tasks in peak summer heat" },
+        { "time": "Dusk", "activity": "Return home, animal care" },
+        { "time": "Evening", "activity": "Evening meal, family time, repair of tools and equipment" },
+        { "time": "Night", "activity": "Sleep" }
+      ],
+      "seasonal_variations": "Harvest season — all hands, longer hours. Winter — minimal field work, indoor repair, animal care, near-sedentary"
+    },
+    {
+      "archetype": "Blacksmith",
+      "schedule": [
+        { "time": "Late morning", "activity": "Rise, breakfast, fire up forge (takes time)" },
+        { "time": "Morning", "activity": "Morning forge work — commission pieces, standard stock" },
+        { "time": "Midday", "activity": "Meal at home or at tavern if nearby" },
+        { "time": "Afternoon", "activity": "Forge work continues — heavier pieces, apprentice instruction" },
+        { "time": "Dusk", "activity": "Close forge, bank coals, clean up" },
+        { "time": "Evening", "activity": "Accounts, material inventory, family time, tavern occasionally" },
+        { "time": "Night", "activity": "Sleep — smiths sleep hard" }
+      ]
+    },
+    {
+      "archetype": "Militia Soldier",
+      "schedule": [
+        { "time": "Dawn", "activity": "Morning muster and inspection (on duty days)" },
+        { "time": "Morning", "activity": "Patrol rotation or gate duty" },
+        { "time": "Midday", "activity": "Meal at garrison or barracks" },
+        { "time": "Afternoon", "activity": "Continued duty — patrol, watch, escort" },
+        { "time": "Evening", "activity": "End of watch, off-duty time" },
+        { "time": "Night", "activity": "Tavern on off-days, night watch rotation otherwise" }
+      ],
+      "notes": "Drills twice weekly. Rotating watch shifts mean schedule varies by day."
+    },
+    {
+      "archetype": "Merchant",
+      "schedule": [
+        { "time": "Morning", "activity": "Inventory check, correspondence, morning market opening" },
+        { "time": "Midday", "activity": "Active trading hours — negotiations, sales" },
+        { "time": "Afternoon", "activity": "Negotiations continue, factor meetings, supply chain discussions" },
+        { "time": "Evening", "activity": "Accounts, records, planning" },
+        { "time": "Night", "activity": "Social dining with contacts if prosperous, private accounts if not" }
+      ]
+    },
+    {
+      "archetype": "Priest / Temple Clergy",
+      "schedule": [
+        { "time": "Pre-dawn", "activity": "Dawn prayer (varies by faith)" },
+        { "time": "Morning", "activity": "Pastoral visits — sick, elderly, recently bereaved in community" },
+        { "time": "Midday", "activity": "At temple for midday observance and open office" },
+        { "time": "Afternoon", "activity": "Teaching, instruction of acolytes, ritual preparation" },
+        { "time": "Evening", "activity": "Evening service (varies by faith)" },
+        { "time": "Night", "activity": "Study, correspondence, private prayer" }
+      ]
+    },
+    {
+      "archetype": "Tavern Keeper",
+      "schedule": [
+        { "time": "Late morning", "activity": "Rise, prep — cleaning, food preparation, barrel check" },
+        { "time": "Midday", "activity": "Open for midday custom — laborers, travelers" },
+        { "time": "Afternoon", "activity": "Slower period — accounts, supply orders" },
+        { "time": "Evening", "activity": "Busy period — peak trade" },
+        { "time": "Late night", "activity": "Close, final cleanup, accounts" },
+        { "time": "Night", "activity": "Sleep late" }
+      ]
+    },
+    {
+      "archetype": "Lord / Noble",
+      "schedule": [
+        { "time": "Morning", "activity": "Petitions — common people and minor officials with requests and grievances" },
+        { "time": "Midday", "activity": "Formal meal with household staff, family, or visiting parties" },
+        { "time": "Afternoon", "activity": "Administration, correspondence, meetings with steward" },
+        { "time": "Evening", "activity": "Social obligations, dining, political entertainment" },
+        { "time": "Night", "activity": "Private correspondence, planning, occasional travel" }
+      ]
+    },
+    {
+      "archetype": "Beggar",
+      "schedule": [
+        { "time": "Morning", "activity": "Position near temple or market gate for morning traffic" },
+        { "time": "Midday", "activity": "Near food vendors" },
+        { "time": "Afternoon", "activity": "Market district or well-traveled street" },
+        { "time": "Evening", "activity": "Near tavern entrances" },
+        { "time": "Night", "activity": "Known shelter spots — specific doorways, specific corners, community of similar" }
+      ],
+      "notes": "Beggars have territories, relationships, information networks. They are not background noise."
+    },
+    {
+      "archetype": "Mercenary",
+      "schedule": [
+        { "time": "Variable", "activity": "Schedule determined by contract and company structure" },
+        { "time": "Between contracts", "activity": "Tavern, equipment maintenance, looking for work" },
+        { "time": "On contract patrol", "activity": "Rotating watch and patrol schedule per company protocol" }
+      ]
+    },
+    {
+      "archetype": "Criminal / Fence",
+      "schedule": [
+        { "time": "Morning", "activity": "Legitimate front business operations if applicable" },
+        { "time": "Afternoon", "activity": "Meeting contacts, evaluating goods" },
+        { "time": "Evening / Night", "activity": "Primary business — transactions, planning, network maintenance" }
+      ]
+    }
+  ],
+
+  "name_banks": {
+    "masculine": [
+      "Aldric", "Brenmar", "Corvan", "Davan", "Esten", "Farel", "Gorvan",
+      "Halvard", "Idren", "Jorn", "Keld", "Lorcan", "Morven", "Naeth",
+      "Osric", "Pelvar", "Quorn", "Raeld", "Soren", "Torven", "Ulmar",
+      "Vael", "Warden", "Yorn", "Aldren", "Brek", "Crav", "Durn",
+      "Esmark", "Fenward", "Gavorn", "Helm", "Isen", "Jorveld"
+    ],
+    "feminine": [
+      "Aldeth", "Brena", "Cavel", "Dara", "Esven", "Falla", "Gorra",
+      "Halveth", "Idra", "Jorna", "Kela", "Lorca", "Morra", "Naeva",
+      "Osra", "Pelva", "Rael", "Sova", "Torra", "Ulva", "Vaela",
+      "Wenna", "Yora", "Aldra", "Breneth", "Cavorn", "Daven", "Esveth"
+    ],
+    "surname_suffixes": [
+      "-moor", "-veld", "-holt", "-mark", "-feld", "-rath", "-arn",
+      "-wen", "-dare", "-croft", "-haven", "-wick", "-ford", "-bridge",
+      "-mere", "-burn", "-stead", "-worth", "-wall", "-gate"
+    ],
+    "surname_prefixes": [
+      "Ash-", "Black-", "Cold-", "Dark-", "Fen-", "Grey-", "Hard-",
+      "Iron-", "Keld-", "Marsh-", "North-", "Old-", "Red-", "Salt-",
+      "Stone-", "Thorn-", "Wald-"
+    ]
+  },
+
+  "npc_needs_simulation": {
+    "daily_needs": ["Food (2 meals minimum)", "Water", "Sleep (6+ hours)", "Shelter (weather-appropriate)"],
+    "when_needs_unmet": {
+      "food": "NPCs will spend coin on food before anything else. If no coin, they will seek charitable sources (temple, employer). If nothing, they will steal or beg.",
+      "water": "NPCs will not travel far from water sources in drought conditions.",
+      "shelter": "NPCs without fixed shelter will seek it at dusk. They have preferred spots.",
+      "coin": "NPCs will seek work if coin runs low. Their profession determines what work they seek and where."
+    }
+  }
+}

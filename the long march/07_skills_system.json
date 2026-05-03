@@ -1,0 +1,266 @@
+{
+  "skills_philosophy": {
+    "progression": "Use them to improve them, or find instruction, or study. No arbitrary gates.",
+    "access": "All skills are available to all characters. Background gives head start, not exclusive access.",
+    "scope": "Dozens to hundreds of skills. From basics like lumberjacking to one-handed swordcraft to baking to religious lore.",
+    "mastery_time": "Mastery takes years of in-game time. A farmer who picks up a sword fights like a farmer.",
+    "improvement_methods": ["Active use (primary)", "Formal instruction (accelerated)", "Study/reading (limited, requires literacy)", "Observation (very slow)"]
+  },
+
+  "skill_families": [
+    {
+      "family_id": "physical_fundamentals",
+      "family_name": "Physical Fundamentals",
+      "description": "Core physical attributes. Improve through physical labor and combat, not just fighting.",
+      "skills": [
+        { "id": "strength", "name": "Strength", "description": "Raw physical power. Carrying capacity, melee damage, physical labor output." },
+        { "id": "endurance", "name": "Endurance", "description": "Stamina. How long you can sustain effort. Critical for combat duration and long marches." },
+        { "id": "agility", "name": "Agility", "description": "Speed, coordination, balance. Affects combat movement, stealth, and fine motor work." },
+        { "id": "toughness", "name": "Toughness", "description": "Physical damage absorption and pain tolerance. Slows wound degradation." },
+        { "id": "constitution", "name": "Constitution", "description": "Disease resistance and recovery rate. How quickly wounds and illness resolve." }
+      ]
+    },
+    {
+      "family_id": "weapons",
+      "family_name": "Weapons",
+      "description": "Each weapon type is its own skill. No shortcuts between types — a master swordsman picking up a spear is starting over.",
+      "skills": [
+        { "id": "one_handed_blade", "name": "One-Handed Blade", "description": "Swords, dirks, long knives. Balance, edge control, quick strike." },
+        { "id": "two_handed_blade", "name": "Two-Handed Blade", "description": "Greatswords, zweihanders. Leverage, momentum, distance management." },
+        { "id": "hafted_axe", "name": "Hafted Weapon — Axe", "description": "War axes, hatchets. Chopping power, penetration of armor." },
+        { "id": "hafted_hammer", "name": "Hafted Weapon — Hammer/Mace", "description": "War hammers, maces, clubs. Blunt trauma, armor-defeating force." },
+        { "id": "polearm_spear", "name": "Polearm — Spear", "description": "Spears, lances, javelins. Reach, formation use, thrusting mechanics." },
+        { "id": "polearm_halberd", "name": "Polearm — Halberd/Glaive", "description": "Halberds, bills, glaives. Sweep, hook, reach combination." },
+        { "id": "shortbow", "name": "Shortbow", "description": "Compact bow. Faster to train, lower draw weight, effective at shorter range." },
+        { "id": "longbow", "name": "Longbow", "description": "Powerful war bow. Years to build the body for it. Devastating at range, exhausting to use." },
+        { "id": "crossbow", "name": "Crossbow", "description": "Mechanical bow. Lower physical requirement. Slow reload. Armor-piercing potential." },
+        { "id": "thrown_weapons", "name": "Thrown Weapons", "description": "Knives, axes, javelins thrown. Very different skill from melee use of same weapon." },
+        { "id": "unarmed", "name": "Unarmed Combat", "description": "Grappling, strikes, dirty fighting. What you do when everything else is gone." },
+        { "id": "shield_use", "name": "Shield Use", "description": "Defense, bashing, formation integrity. Often undertrained." },
+        { "id": "dagger", "name": "Dagger", "description": "Close-quarters, concealed, opportunistic. Different from knife-as-tool." },
+        { "id": "weapon_maintenance", "name": "Weapon Maintenance", "description": "Keeping weapons functional. Sharpening, repair, identification of damage." }
+      ]
+    },
+    {
+      "family_id": "armor_and_defense",
+      "family_name": "Armor and Defense",
+      "skills": [
+        { "id": "light_armor", "name": "Light Armor Use", "description": "Leather, padded. Freedom of movement with basic protection." },
+        { "id": "medium_armor", "name": "Medium Armor Use", "description": "Mail, brigandine. Balance of protection and mobility." },
+        { "id": "heavy_armor", "name": "Heavy Armor Use", "description": "Plate, full mail. Exhausting to wear without training. Extraordinary protection." },
+        { "id": "armor_maintenance", "name": "Armor Maintenance", "description": "Keeping armor functional. Oiling, repair, identifying weak points." }
+      ]
+    },
+    {
+      "family_id": "military",
+      "family_name": "Military and Tactical",
+      "skills": [
+        { "id": "formation_fighting", "name": "Formation Fighting", "description": "Holding a line, shield wall, pike block. Fighting as a unit rather than an individual." },
+        { "id": "tactics", "name": "Tactics", "description": "Reading a battlefield, positioning, exploiting terrain." },
+        { "id": "strategy", "name": "Strategy", "description": "Campaign-level thinking. Supply lines, attrition, political objectives of war." },
+        { "id": "siege_engineering", "name": "Siege Engineering", "description": "Construction and operation of siege equipment. Rare and valuable." },
+        { "id": "logistics", "name": "Logistics", "description": "Moving armies, supply management, keeping forces fed and equipped." },
+        { "id": "command", "name": "Command", "description": "Leadership under pressure. Keeping soldiers functional when things go badly." },
+        { "id": "scouting", "name": "Scouting", "description": "Reconnaissance, patrol, reading enemy movement." }
+      ]
+    },
+    {
+      "family_id": "survival_bushcraft",
+      "family_name": "Survival and Bushcraft",
+      "skills": [
+        { "id": "foraging", "name": "Foraging", "description": "Finding edible plants and fungi. Region-specific — what works in the Fens may be useless on the plateau." },
+        { "id": "fire_making", "name": "Fire-Making", "description": "Starting fire in varied conditions, maintaining it, concealing it if needed." },
+        { "id": "navigation_land", "name": "Land Navigation", "description": "Reading terrain, using landmarks, dead reckoning, basic map use." },
+        { "id": "navigation_stars", "name": "Navigation by Stars", "description": "Celestial navigation. Rare outside maritime and scholar circles." },
+        { "id": "hunting", "name": "Hunting", "description": "Tracking, ambush, kill and recovery. Region and prey specific." },
+        { "id": "trapping", "name": "Trapping", "description": "Setting and maintaining traps. Passive hunting." },
+        { "id": "shelter_building", "name": "Shelter Building", "description": "Constructing adequate shelter from available materials." },
+        { "id": "weather_reading", "name": "Weather Reading", "description": "Interpreting signs of coming weather. Potentially life-saving." },
+        { "id": "tracking", "name": "Tracking", "description": "Following animals or people by ground sign." },
+        { "id": "swimming", "name": "Swimming", "description": "Many people cannot. In certain regions this is a survival skill." },
+        { "id": "climbing", "name": "Climbing", "description": "Scaled surfaces, cliff faces, walls." },
+        { "id": "fen_navigation", "name": "Fen Navigation", "description": "Region-specific survival — navigating fen and bog terrain safely. Separate from general navigation." }
+      ]
+    },
+    {
+      "family_id": "trades",
+      "family_name": "Trades and Crafts",
+      "description": "Each trade has sub-skills. A blacksmith who specializes in blades is different from one who makes hinges and nails.",
+      "skills": [
+        { "id": "blacksmithing", "name": "Blacksmithing", "description": "General metalwork. Sub-skills: bladesmith, armorsmith, toolsmith, farrier." },
+        { "id": "carpentry", "name": "Carpentry", "description": "Wood construction and repair. Sub-skills: joinery, framing, furniture." },
+        { "id": "masonry", "name": "Masonry", "description": "Stone work. Sub-skills: dry-stone, mortared, architectural." },
+        { "id": "tanning", "name": "Tanning", "description": "Processing hides into leather. Smelly, skilled, essential work." },
+        { "id": "tailoring", "name": "Tailoring", "description": "Fabric work, clothing, repair." },
+        { "id": "coopering", "name": "Coopering", "description": "Barrel and cask making. Essential for food and liquid storage and trade." },
+        { "id": "ropemaking", "name": "Ropemaking", "description": "Cordage production. Maritime and general utility." },
+        { "id": "wheelwrighting", "name": "Wheelwrighting", "description": "Wheel construction and repair. Critical for transport." },
+        { "id": "lumberjacking", "name": "Lumberjacking", "description": "Felling, limbing, basic milling. Heavy labor." },
+        { "id": "sawmilling", "name": "Sawmilling", "description": "Processing timber into usable lumber." },
+        { "id": "pottery", "name": "Pottery", "description": "Ceramic production — cookware, storage, trade goods." },
+        { "id": "glassblowing", "name": "Glassblowing", "description": "Rare, specialized, high-value craft." },
+        { "id": "leatherworking", "name": "Leatherworking", "description": "Goods from processed leather. Sub-skills: saddler, cobbler, armor." },
+        { "id": "weaving", "name": "Weaving", "description": "Textile production on loom." },
+        { "id": "dyeing", "name": "Dyeing", "description": "Coloring textiles. Knowledge of plants and mordants. High-value product." },
+        { "id": "brewing", "name": "Brewing and Distilling", "description": "Ale, beer, spirits. Essential trade in every settlement." },
+        { "id": "candle_making", "name": "Candle and Lamp Making", "description": "Light production. Constant demand." },
+        { "id": "cartwright", "name": "Cartwrighting", "description": "Cart and wagon construction. Sub-skill of carpentry but distinct enough to warrant own skill." },
+        { "id": "shipwright", "name": "Shipwrighting", "description": "Vessel construction and repair. Maritime regions only." },
+        { "id": "mining", "name": "Mining", "description": "Ore extraction, tunneling, shoring. Dangerous without skill." },
+        { "id": "smelting", "name": "Smelting and Assaying", "description": "Processing ore to metal. Understanding metal quality and purity." }
+      ]
+    },
+    {
+      "family_id": "agricultural",
+      "family_name": "Agricultural",
+      "skills": [
+        { "id": "farming_grain", "name": "Farming — Grain", "description": "Wheat, rye, barley. Plowing, sowing, harvest, storage." },
+        { "id": "farming_root", "name": "Farming — Root Vegetables", "description": "Turnips, beets, parsnips. Different rotation and technique from grain." },
+        { "id": "farming_kitchen", "name": "Farming — Kitchen Garden", "description": "Herbs, vegetables, small-scale mixed growing." },
+        { "id": "animal_husbandry", "name": "Animal Husbandry", "description": "Cattle, pigs, poultry. Breeding, feeding, slaughter." },
+        { "id": "shepherding", "name": "Shepherding", "description": "Sheep and goat management. Wool, milk, meat. Distinct from general animal husbandry." },
+        { "id": "beekeeping", "name": "Beekeeping", "description": "Honey and wax production. Skilled and patient work." },
+        { "id": "milling", "name": "Milling", "description": "Grain processing. Water mill or windmill operation and maintenance." },
+        { "id": "orchard_keeping", "name": "Orchard Keeping", "description": "Fruit tree cultivation. Long-term investment." },
+        { "id": "horse_handling", "name": "Horse Handling", "description": "Care, training, riding. Horses are valuable and require real skill to maintain." },
+        { "id": "horse_riding", "name": "Horse Riding", "description": "Mounted movement. Combat from horseback is a separate skill." },
+        { "id": "mounted_combat", "name": "Mounted Combat", "description": "Fighting from horseback. Rare and expensive to develop." }
+      ]
+    },
+    {
+      "family_id": "social_cognitive",
+      "family_name": "Social and Cognitive",
+      "skills": [
+        { "id": "barter", "name": "Barter and Mercantile", "description": "Trade negotiation, price assessment, market reading." },
+        { "id": "persuasion", "name": "Persuasion", "description": "Genuine argument and appeal. Different from deception." },
+        { "id": "intimidation", "name": "Intimidation", "description": "Using fear as a tool. Can backfire badly." },
+        { "id": "deception", "name": "Deception", "description": "Lying convincingly. Maintaining false identities." },
+        { "id": "leadership", "name": "Leadership", "description": "Getting people to do things willingly. Different from command (which is military)." },
+        { "id": "streetwise", "name": "Streetwise", "description": "Reading urban environments, finding information, avoiding danger in cities." },
+        { "id": "etiquette_common", "name": "Common Etiquette", "description": "How to behave around ordinary people in varied regional contexts." },
+        { "id": "etiquette_noble", "name": "Noble Etiquette", "description": "Court behavior, forms of address, political navigation at the upper levels." },
+        { "id": "law", "name": "Law and Legal Knowledge", "description": "Understanding of regional legal systems. Literacy helps but is not required." },
+        { "id": "administration", "name": "Administration", "description": "Running institutions, managing records, organizing complex operations." },
+        { "id": "literacy", "name": "Literacy", "description": "Reading and writing. Rarer than modern players expect. Opens administrative, clerical, scholarly paths.", "notes": "Not a physical skill — listed here as a cognitive fundamental" },
+        { "id": "numeracy", "name": "Numeracy", "description": "Accounting, measurement, calculation. Separate from general literacy." },
+        { "id": "language_additional", "name": "Additional Language", "description": "Each additional language is a separate skill. Multiple languages available based on continent." }
+      ]
+    },
+    {
+      "family_id": "knowledge_lore",
+      "family_name": "Knowledge and Lore",
+      "skills": [
+        { "id": "history_general", "name": "History — General", "description": "Broad historical knowledge. The Five Turnings, major powers, general timeline." },
+        { "id": "history_regional", "name": "History — Regional", "description": "Specific deep knowledge of a region or power's history. Multiple instances." },
+        { "id": "religious_lore", "name": "Religious Lore", "description": "Knowledge of faith practices, hierarchies, history. Can be multiple faiths." },
+        { "id": "heraldry", "name": "Heraldry and Lineage", "description": "Recognizing noble houses, ranks, political affiliations by symbol and dress." },
+        { "id": "natural_philosophy", "name": "Natural Philosophy", "description": "Systematic observation of the natural world. Proto-science." },
+        { "id": "cartography", "name": "Cartography", "description": "Making and reading maps. Rare. Highly valuable." },
+        { "id": "architecture", "name": "Architecture", "description": "Building design and structural knowledge. Siege engineering prereq." },
+        { "id": "astronomy", "name": "Astronomy", "description": "Celestial observation, calendar systems, navigation application." },
+        { "id": "mineralogy", "name": "Mineralogy", "description": "Identifying ores, stones, gems. Mine assaying." }
+      ]
+    },
+    {
+      "family_id": "criminal",
+      "family_name": "Criminal Skills",
+      "skills": [
+        { "id": "lockpicking", "name": "Lockpicking", "description": "Bypassing mechanical locks. Requires tools." },
+        { "id": "sleight_of_hand", "name": "Sleight of Hand", "description": "Pickpocketing, palming, misdirection." },
+        { "id": "stealth", "name": "Stealth", "description": "Moving without being detected. Terrain-specific elements." },
+        { "id": "tailing", "name": "Tailing", "description": "Following someone without being noticed." },
+        { "id": "information_brokering", "name": "Information Brokering", "description": "Buying, selling, and trading information. Network-building." },
+        { "id": "forgery", "name": "Forgery", "description": "Creating false documents. Requires literacy." },
+        { "id": "disguise", "name": "Disguise", "description": "Changing apparent identity. Practical rather than theatrical." },
+        { "id": "smuggling", "name": "Smuggling", "description": "Moving contraband. Route knowledge, concealment, bribery." }
+      ]
+    },
+    {
+      "family_id": "medical",
+      "family_name": "Medical",
+      "description": "Medical skill without training is dangerous. With it, life-saving.",
+      "skills": [
+        { "id": "wound_treatment", "name": "Wound Treatment", "description": "Cleaning, binding, basic surgical closure. Prevents infection." },
+        { "id": "disease_recognition", "name": "Disease Recognition", "description": "Identifying illness, understanding contagion, quarantine judgment." },
+        { "id": "herbalism", "name": "Herbalism", "description": "Medicinal plant knowledge. Pain management, infection treatment, fever reduction." },
+        { "id": "surgery", "name": "Surgery", "description": "Removing arrows, amputations, internal wound management. Brutal and dangerous without serious skill." },
+        { "id": "midwifery", "name": "Midwifery", "description": "Childbirth assistance. Highly valued in every settlement." },
+        { "id": "bone_setting", "name": "Bone Setting", "description": "Fracture management. Improperly set bones cause permanent disability." },
+        { "id": "apothecary", "name": "Apothecary", "description": "Compound medicines, poisons knowledge, drug preparation. Literacy helps." }
+      ]
+    },
+    {
+      "family_id": "maritime",
+      "family_name": "Maritime",
+      "skills": [
+        { "id": "seamanship", "name": "Seamanship", "description": "General ship handling, sailing, rigging management." },
+        { "id": "navigation_maritime", "name": "Maritime Navigation", "description": "Chart reading, celestial navigation at sea, coastal piloting." },
+        { "id": "fishing", "name": "Fishing", "description": "Net, line, trap fishing. Coastal and river variants." },
+        { "id": "shipwright_repair", "name": "Shipwright — Repair", "description": "Maintaining vessels at sea. Emergency repair." },
+        { "id": "harbor_piloting", "name": "Harbor Piloting", "description": "Guiding ships through complex harbor approaches. Licensed profession in major ports." },
+        { "id": "diving", "name": "Diving", "description": "Underwater work — salvage, hull inspection. Physically demanding and skill-intensive." }
+      ]
+    },
+    {
+      "family_id": "food",
+      "family_name": "Food and Domestic",
+      "skills": [
+        { "id": "cooking", "name": "Cooking", "description": "Preparing food. Quality affects morale and nutrition. Can be a profession." },
+        { "id": "baking", "name": "Baking", "description": "Bread and pastry. Separate from general cooking." },
+        { "id": "butchering", "name": "Butchering", "description": "Animal processing for food. Efficiency and waste reduction." },
+        { "id": "food_preservation", "name": "Food Preservation", "description": "Salting, smoking, pickling, fermenting. Critical for winter survival." },
+        { "id": "cheesemaking", "name": "Cheesemaking", "description": "Dairy processing. High-value trade good." }
+      ]
+    },
+    {
+      "family_id": "needs_management",
+      "family_name": "Needs and Condition (Non-Skill Systems)",
+      "description": "These are condition meters, not skills. Included here for completeness.",
+      "conditions": [
+        {
+          "id": "hunger",
+          "name": "Hunger",
+          "description": "Daily need. Neglect degrades performance, then health, then death.",
+          "stages": ["Fed", "Hungry (performance penalty)", "Starving (significant penalty)", "Critical (health loss)", "Fatal"]
+        },
+        {
+          "id": "thirst",
+          "name": "Thirst",
+          "description": "Daily need. Degrades faster than hunger.",
+          "stages": ["Hydrated", "Thirsty (performance penalty)", "Dehydrated (significant penalty)", "Critical (health loss)", "Fatal"]
+        },
+        {
+          "id": "sleep",
+          "name": "Sleep",
+          "description": "Daily need. Cognitive and physical performance degrade with deprivation.",
+          "stages": ["Rested", "Tired (minor penalty)", "Fatigued (significant penalty)", "Exhausted (major penalty)", "Collapse"]
+        },
+        {
+          "id": "hygiene",
+          "name": "Hygiene",
+          "description": "Accumulates over time. Affects disease risk, social reception, wound infection rate.",
+          "stages": ["Clean", "Dirty (minor social penalty)", "Filthy (disease risk increase, social penalty)", "Severe (significant infection risk)"]
+        },
+        {
+          "id": "wounds",
+          "name": "Wound System",
+          "description": "Not hit points. Wounds are location-specific with specific penalties.",
+          "wound_locations": ["Head", "Chest", "Abdomen", "Left arm", "Right arm", "Left leg", "Right leg"],
+          "wound_types": ["Cut", "Puncture", "Blunt trauma", "Burn", "Infection"],
+          "special_rules": [
+            "Wounds heal in real time — days to weeks",
+            "Serious wounds may leave permanent minor penalties",
+            "Infections can kill slower than the original wound",
+            "A body tells its history"
+          ]
+        },
+        {
+          "id": "morale",
+          "name": "Morale and Resolve",
+          "description": "Witnessing atrocities, prolonged starvation, loss of companions accumulate into a morale stat. A broken person makes poor decisions.",
+          "notes": "Practical combat and social modifier. Not a mental illness system. Humans have limits — this reflects that."
+        }
+      ]
+    }
+  ]
+}

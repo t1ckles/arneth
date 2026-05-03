@@ -1,0 +1,178 @@
+{
+  "weather_system": {
+    "philosophy": "Weather is generated per region per day based on layered probability. Not scripted events. Weather has memory — dry weeks build drought, wet weeks build flood risk. The world's long-term weather patterns create short-term human crises.",
+    "update_frequency": "Daily standard. Hourly during active Breaking events.",
+    "player_information": "Player sees current conditions and immediate outlook — not a multi-day forecast. Skilled Weather Reading characters get a slightly better read."
+  },
+
+  "tracked_variables": [
+    {
+      "variable": "temperature",
+      "description": "Regional baseline with daily variance. Expressed as a felt experience (bitter, cold, cool, mild, warm, hot, scorching) rather than a number.",
+      "seasonal_modifier": true,
+      "time_of_day_modifier": true
+    },
+    {
+      "variable": "precipitation_probability",
+      "description": "Modified by season, prior days (wet days raise probability, dry days lower it), and regional geography.",
+      "outputs": ["none", "drizzle", "rain", "heavy rain", "downpour", "sleet", "snow", "blizzard", "hail"]
+    },
+    {
+      "variable": "wind",
+      "description": "Direction and strength. Affects sea travel speed and safety, fire spread risk, disease transmission, and the effective coldness of cold temperatures.",
+      "outputs": ["still", "light breeze", "steady wind", "strong wind", "gale", "storm wind"]
+    },
+    {
+      "variable": "cloud_cover",
+      "description": "Affects temperature (clouds insulate at night, block sun by day), night sky visibility, navigation by stars, and morale.",
+      "outputs": ["clear", "scattered clouds", "partly cloudy", "mostly cloudy", "overcast", "heavy overcast"]
+    },
+    {
+      "variable": "drought_index",
+      "description": "Cumulative. Builds over dry weeks, resets with significant rainfall. When drought index reaches critical threshold during Scaldas, Reapfall harvest yield is penalized.",
+      "thresholds": {
+        "normal": "0–20",
+        "dry": "21–40 — minor agricultural penalty, water sources shrinking",
+        "drought": "41–65 — significant penalty, some water sources fail, fire risk high",
+        "severe_drought": "66–85 — major harvest penalty, water rationing in some settlements",
+        "crisis": "86–100 — crop failure likely, political instability follows"
+      }
+    },
+    {
+      "variable": "flood_risk",
+      "description": "Cumulative. Builds with heavy rainfall especially during Spring Breaking when snowmelt adds to ground saturation.",
+      "thresholds": {
+        "normal": "0–20",
+        "elevated": "21–40 — roads muddy, river crossings difficult",
+        "flood_warning": "41–65 — low-lying areas at risk, river fords impassable",
+        "flooding": "66–85 — settlements in flood plains take damage, road network disrupted",
+        "crisis": "86–100 — significant settlement damage, bridge losses, crop field destruction"
+      }
+    },
+    {
+      "variable": "fog_density",
+      "description": "Especially relevant in the Free Fens and coastal regions. Affects travel, combat visibility, and navigation.",
+      "outputs": ["clear", "light mist", "moderate fog", "heavy fog", "dense fog — movement hazardous"]
+    },
+    {
+      "variable": "storm_severity",
+      "description": "Active only during Breaking events and severe weather. Determines specific event type rolled from regional Breaking tables.",
+      "active_during": ["Spring Breaking", "Autumn Breaking", "Severe weather events outside Breaking (lower probability)"]
+    }
+  ],
+
+  "regional_weather_personalities": [
+    {
+      "region": "Thornsveld Marches",
+      "continent": "Valdenmere",
+      "baseline_temperature": "Cold",
+      "character": "Long winters with sustained cold. Short fierce summers. Sudden violent late-season snowstorms even in Thornmelt. The spring thaw is dramatic and fast.",
+      "precipitation_tendency": "Moderate — significant snowfall in winter, decent summer rain",
+      "notable_phenomena": [
+        "Late snowstorms in Thornmelt catch travelers unprepared",
+        "River flash floods during spring thaw — the Durnwald River floods roughly 3 years in 5",
+        "Summer thunderstorms are brief and intense rather than sustained"
+      ],
+      "breaking_severity": "Moderate Spring Breaking, mild Autumn Breaking"
+    },
+    {
+      "region": "Keth Plateau",
+      "continent": "Ossrath",
+      "baseline_temperature": "Hot days, cold nights year-round",
+      "character": "Dramatic temperature swing between day and night regardless of season. Wind is almost constant — the plateau has no shelter from it. Rain is rare but violent when it comes.",
+      "precipitation_tendency": "Low overall. Seasonal rains arrive in a short intense window during Thornmelt/Sowing that determines the year's water availability.",
+      "notable_phenomena": [
+        "Dust storms build over dry weeks in Scaldas — can last days and make travel impossible",
+        "Seasonal rains after Spring Breaking expose new ruin sites",
+        "Night cold can be lethal to unprepared travelers even in summer",
+        "Wind direction predicts weather 24 hours ahead for those with Weather Reading skill"
+      ],
+      "breaking_severity": "Severe Spring Breaking (violent rains), mild Autumn Breaking"
+    },
+    {
+      "region": "Amber Coast",
+      "continent": "Solvane",
+      "baseline_temperature": "Mild",
+      "character": "The most predictable weather on Arneth. Reliable seasonal rhythm. The exception is winter storm season — violent gales off the sea in Sternveld and Deepwarden that batter the coast.",
+      "precipitation_tendency": "Moderate. Reliable summer dry season. Winter storms.",
+      "notable_phenomena": [
+        "Sea storms in Sternveld can destroy harbor infrastructure",
+        "Drought years in Scaldas affect Solvane's food export capacity — rippling to Keth within weeks",
+        "The coastal fog in Coldmere and Thornmelt makes harbor navigation dangerous"
+      ],
+      "breaking_severity": "Mild Spring Breaking, moderate Autumn Breaking"
+    },
+    {
+      "region": "Ironmark Borderlands",
+      "continent": "Cauldenmoor",
+      "baseline_temperature": "Temperate",
+      "character": "Variable and often contrary. The borderlands sit at a meteorological crossroads — northern cold and southern warmth fight over it regularly. River flooding in Thornmelt is a recurring crisis that disrupts military operations predictably.",
+      "precipitation_tendency": "High. More rain than most regions. Rivers run high.",
+      "notable_phenomena": [
+        "Spring river flooding — the crossing at Cravenmoor's Ford is impassable 2 years in 5",
+        "Summer thunderstorms are frequent and severe",
+        "Autumn Breaking tornadoes — more common here than anywhere except open plains"
+      ],
+      "breaking_severity": "Severe Spring Breaking, severe Autumn Breaking — worst in the world for tornadoes"
+    },
+    {
+      "region": "Free Fens",
+      "continent": "Drenmark",
+      "baseline_temperature": "Cool to mild",
+      "character": "Wet almost always. The question is what kind of wet. Fog, mist, rain, drizzle, occasional genuine downpour. Summer is real but brief and precious. Winter is dark and wet rather than frozen — the Fens rarely freeze hard, which makes them passable but treacherous year-round.",
+      "precipitation_tendency": "Very high. Driest month still has rain.",
+      "notable_phenomena": [
+        "Dense fog events that last 3–5 days — navigation without fen knowledge is fatal",
+        "The summer fortnight in Solaran when the fog clears and genuine sun appears — celebrated",
+        "The Moor Communion considers the atmospheric conditions during Spring Breaking storms sacred",
+        "Standing water levels fluctuate dramatically — paths that are dry in Solaran are knee-deep in Thornmelt"
+      ],
+      "breaking_severity": "Moderate Spring Breaking (more flooding than storms), mild Autumn Breaking"
+    },
+    {
+      "region": "Tidewarden Anchorage",
+      "continent": "Shattered Reach",
+      "baseline_temperature": "Mild, maritime",
+      "character": "Driven entirely by sea conditions. Clear and calm in summer, violent and unpredictable in winter. Storm season in Sternveld and Deepwarden is the most dangerous sailing period in the known world.",
+      "precipitation_tendency": "Moderate. Distinct wet season (winter) and dry season (summer).",
+      "notable_phenomena": [
+        "Storm season gales — ships lost every Sternveld and Deepwarden",
+        "The Autumn Breaking at sea is called 'the Argument' by sailors — combined sea swell and atmospheric storm",
+        "Waterspouts form in Scaldas — visible from shore, hazardous to small craft",
+        "The harbor bioluminescence is brightest after heavy rain — unknown cause"
+      ],
+      "breaking_severity": "Mild Spring Breaking, severe Autumn Breaking (at sea)"
+    }
+  ],
+
+  "weather_cascade_examples": [
+    {
+      "trigger": "Drought index reaches 60 in Scaldas",
+      "immediate": "Water sources shrinking, fire risk elevated, livestock stressed",
+      "reapfall": "Harvest yield reduced 20–35%",
+      "winter": "Food stores 20–35% below normal — price increases, potential starvation in vulnerable settlements",
+      "political": "Food price pressure creates unrest, desperate people take risks, bandits multiply"
+    },
+    {
+      "trigger": "Hailstorm during active Reapfall harvest",
+      "immediate": "Crop destruction in affected area — 40–80% loss depending on storm severity",
+      "following_weeks": "Emergency food purchasing drives up regional prices",
+      "winter": "Potential famine conditions in affected region",
+      "political": "Lord of affected territory under pressure — military recruitment may pause as men are needed at home"
+    },
+    {
+      "trigger": "Severe Spring Breaking with flooding",
+      "immediate": "Roads impassable, river crossings closed, planting delayed 2–4 weeks",
+      "sowing": "Shortened growing season — yield reduced 10–20%",
+      "military": "Campaign season start delayed — affects faction momentum",
+      "special": "In the Ironmark Borderlands, Cravenmoor's Ford flooding may delay or prevent Brekhard's planned move"
+    },
+    {
+      "trigger": "Mild winter following good harvest",
+      "food": "Stores plentiful — prices low, NPC morale improved",
+      "population": "Lower winter mortality than average",
+      "spring": "People enter spring healthier, more willing to take economic risks",
+      "political": "Stable lords become more confident, may pursue expansion"
+    }
+  ]
+}

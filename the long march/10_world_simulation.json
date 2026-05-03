@@ -1,0 +1,137 @@
+{
+  "world_simulation": {
+    "philosophy": "The world runs whether or not the player is watching. Every system described here operates continuously in the background. The player is one actor in a world full of actors.",
+
+    "economic_simulation": {
+      "core_loop": "Resources extracted → processed → traded → consumed → destroyed. No source is infinite. Scarcity is real and emergent.",
+      "tracked_variables": [
+        "Total currency in circulation by region",
+        "Food production vs consumption by region and settlement",
+        "Population count by settlement",
+        "Resource stock levels (iron ore, timber, grain, peat, fish, etc.)",
+        "Trade route activity and throughput",
+        "Seasonal production modifiers",
+        "Faction financial state",
+        "Price levels per commodity per region"
+      ],
+      "price_dynamics": {
+        "supply_affects_price": true,
+        "demand_affects_price": true,
+        "transport_cost_affects_price": true,
+        "regional_variation": true,
+        "seasonal_variation": true
+      },
+      "currency_circulation": {
+        "total_is_finite": true,
+        "can_be_destroyed": "Melted down, lost in disasters, buried and not recovered",
+        "can_be_created": "New mining of ore — slow and limited",
+        "hoarding_effects": "NPCs hoarding coin reduces local liquidity, affecting price and trade activity",
+        "war_consumption": "Armed conflict destroys steel currency (melted for weapons) and generally disrupts circulation"
+      }
+    },
+
+    "population_simulation": {
+      "population_is_finite": true,
+      "death_causes": ["Combat", "Disease", "Starvation", "Accident (mining, farming, construction)", "Old age", "Exposure"],
+      "birth_rate": "Slow replenishment. Population grows in stable prosperous conditions. Declines rapidly in war/plague/famine.",
+      "migration": "NPCs will leave dangerous or economically failed settlements for better opportunities elsewhere. This is tracked.",
+      "labor_pool_effects": "War kills farmers → food production drops → prices rise → unrest → political instability. The chain is real.",
+      "npc_age_progression": "NPCs age in real time. Old NPCs die. Children grow up. Apprentices become journeymen become masters."
+    },
+
+    "faction_autonomy": {
+      "factions_pursue_goals": "All factions have resources, ambitions, and friction with each other. They pursue their goals on their own schedule regardless of player involvement.",
+      "examples": [
+        "Brekhard the Younger is moving on Cravenmoor's Ford whether the player is involved or not",
+        "Queen Aldeth's health is declining on a real timer",
+        "The Dust Council succession crisis resolves one way or another",
+        "The Karn Clan negotiations in Thornsveld proceed or fail"
+      ],
+      "coalition_forming": "Factions can form alliances autonomously based on shared interests, common enemies, trade relationships",
+      "faction_resources": ["Territory", "Population", "Military strength", "Financial reserves", "Trade relationships", "Religious authority", "Information assets"]
+    },
+
+    "seasonal_system": {
+      "seasons": 4,
+      "season_effects": {
+        "spring": "Planting. Food reserves at their lowest. Roads muddy and slow. Energy and hope.",
+        "summer": "Growing. Most active trade period. Campaigns and military action peak. Longest days.",
+        "autumn": "Harvest. Most food available. Preservation work critical. Political settlements before winter.",
+        "winter": "Survival. Food from stores. Travel dangerous. Military action minimal. The real killer of the unprepared."
+      },
+      "winter_crisis_potential": "If autumn harvest failed or stores were depleted by war/plague/poor management, winter kills. This affects NPCs, factions, and the player equally.",
+      "disease_seasonality": "Disease spikes in late summer (contaminated water, heat) and winter (cold, malnutrition, crowding)."
+    },
+
+    "disease_system": {
+      "diseases_are_real": "Plague, fever, respiratory illness, waterborne disease — all modeled.",
+      "transmission": "Disease spreads through population via contact, contaminated water, poor hygiene, and proximity to the sick.",
+      "war_and_disease": "Armies concentrate disease. The Coughing Black traveled with the Ashen March armies. This dynamic repeats.",
+      "named_current_threat": "The unidentified illness in the Free Fens — possibly linked to the deep fen contamination near Varathi ruins.",
+      "hygiene_effects": "Player and NPC hygiene status affects disease susceptibility. A dirty character in a crowded city is a disease vector."
+    },
+
+    "enemy_behavior_system": {
+      "philosophy": "Everyone operates on schedules and does things that make sense for their archetype and profession. Enemies are not just combat encounters.",
+      "bandit_behavior": {
+        "schedules": true,
+        "motivations": "Economic desperation, political displacement, organized crime operation",
+        "territory": "Bandits hold territory. Eliminating one group creates a vacancy that may be filled.",
+        "intelligence": "Bandits have information networks. They know the road and what travels it."
+      },
+      "enemy_archetypes": [
+        {
+          "type": "Desperate Individual",
+          "motivation": "Hunger, debt, survival",
+          "behavior": "Opportunistic, risk-averse, will flee if outmatched",
+          "schedule": "Lurks near roads, markets, isolated travelers. Rests in hidden camps."
+        },
+        {
+          "type": "Organized Bandit Band",
+          "motivation": "Profit, territory control",
+          "behavior": "Coordinated, territorial, has internal hierarchy",
+          "schedule": "Patrols territory, collects 'tolls', rests in fortified camp"
+        },
+        {
+          "type": "Deserter",
+          "motivation": "Survival, fear of military justice",
+          "behavior": "Paranoid, skilled (former soldier), dangerous when cornered",
+          "schedule": "Avoiding settlements, moving frequently, stealing to survive"
+        },
+        {
+          "type": "Rival Faction Soldier",
+          "motivation": "Following orders, territory, ideology",
+          "behavior": "Disciplined within unit, follows rules of engagement (usually)",
+          "schedule": "Patrol routes, garrison duty, campaign operations"
+        },
+        {
+          "type": "Wild Animal",
+          "motivation": "Territory, hunger, self-defense",
+          "behavior": "Predictable once understood. Seasonal patterns. Does not hate you personally.",
+          "schedule": "Dawn and dusk activity peaks. Territory defined. Seasonal migration."
+        }
+      ],
+      "finite_enemy_population": "Enemies are drawn from the world's finite population pool. Killing bandits removes them permanently. New bandits come from the population pool — displaced people, desperate people, organized criminal recruitment."
+    },
+
+    "time_system": {
+      "time_passes_realtime": "The world clock runs whether the player is active or resting.",
+      "npc_schedules_run": "All NPC schedules execute in real time.",
+      "faction_events_run": "Political and economic events occur on their own timelines.",
+      "player_can_sleep": "Time-skipping through sleep is normal. World continues.",
+      "offline_question": "Whether world simulation runs while the player is completely offline is a design decision to be made later."
+    },
+
+    "legacy_system": {
+      "permadeath_philosophy": "You are not special. You died. The world adjusted.",
+      "what_persists_after_death": [
+        "Property owned — shop, farm, home — remains in world, may be inherited, sold, or claimed",
+        "Reputation — NPCs remember the character if they knew them. 'Old Aldric's forge, still running.'",
+        "Faction relationships — organizations remember. A mercenary company may mourn a fallen member or hold a grudge against their killer.",
+        "Economic changes — a successful merchant character left economic ripples. A failed lord left a power vacuum.",
+        "Named legacy — in rare cases (significant achievement), the character may be referenced in NPC dialogue, oral tradition, or documents"
+      ],
+      "world_reshaping": "The next playthrough inherits a world slightly reshaped by the previous character's absence. Small ripples, not dramatic rewrites."
+    }
+  }
+}

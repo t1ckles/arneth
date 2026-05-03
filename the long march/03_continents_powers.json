@@ -1,0 +1,109 @@
+{
+  "continents": [
+    {
+      "id": "cauldenmoor",
+      "name": "Cauldenmoor",
+      "description": "The most populous continent. Most diverse terrain, most powers, most conflict. Fertile river valleys between low forested hills, navigable waterways. The world's most contested real estate.",
+      "power_count": 14,
+      "powers": [
+        { "id": "aldenmere", "name": "Aldenmere", "type": "Old feudal kingdom, powerful military tradition", "stability": "stable" },
+        { "id": "cravenmoor", "name": "Cravenmoor", "type": "Old feudal kingdom, border region", "stability": "stressed" },
+        { "id": "kingdom_of_durn", "name": "The Kingdom of Durn", "type": "Old feudal kingdom, powerful military tradition", "stability": "stable but succession-uncertain" },
+        { "id": "free_compact_halverness", "name": "The Free Compact of Halverness", "type": "Merchant republic, city-state confederation", "stability": "stable" },
+        { "id": "solvanic_league", "name": "The Solvanic League", "type": "Merchant republic, trade-oriented", "stability": "stable" },
+        { "id": "reclaimed_furrow", "name": "The Reclaimed Furrow", "type": "Military theocracy, Ordinate successor", "stability": "stable internally, expansionist" },
+        { "id": "brennwatch", "name": "Brennwatch", "type": "Military theocracy, Hegemony-influenced", "stability": "stable" },
+        { "id": "the_ironmark", "name": "The Ironmark", "type": "Warlord consolidation, recent and unstable", "stability": "aggressive expansion, internally fragile", "current_leader": "Brekhard the Younger" },
+        { "id": "brekhards_reach", "name": "Brekhard's Reach", "type": "Ironmark expansion territory, contested", "stability": "unstable" },
+        { "id": "restored_marches", "name": "The Restored Marches", "type": "Remnant Hegemony province, gone independent", "stability": "moderate" },
+        { "id": "new_brennavar", "name": "New Brennavar", "type": "Remnant Hegemony province, gone independent", "stability": "moderate" },
+        { "id": "bloodfen_compact", "name": "The Bloodfen Compact", "type": "Tribal confederation, no-man's-land based", "stability": "fluid" },
+        { "id": "grey_riders", "name": "The Grey Riders", "type": "Tribal confederation, mobile", "stability": "fluid" },
+        { "id": "ironmark_borderlands", "name": "The Ironmark Borderlands", "type": "Contested zone between Durn and the Ironmark", "stability": "low — active pressure", "notes": "Starting region for certain character backgrounds" }
+      ]
+    },
+    {
+      "id": "valdenmere",
+      "name": "Valdenmere",
+      "description": "Cold, northern, heavily forested. Oldest surviving civilizations. Deeply conservative. Short summers, long winters. Dark conifer forest broken by granite ridgelines.",
+      "power_count": 8,
+      "powers": [
+        { "id": "thornsveld", "name": "Thornsveld", "type": "Ancient monarchy, deeply conservative", "stability": "stable but succession-uncertain", "current_leader": "King Aldric IV, 61, no legitimate heir", "notes": "Starting region anchor" },
+        { "id": "elder_kingdom_raum", "name": "The Elder Kingdom of Raum", "type": "Ancient monarchy, deeply conservative", "stability": "stable" },
+        { "id": "veld_holds", "name": "The Veld Holds", "type": "Clan confederation, semi-feudal", "stability": "stable" },
+        { "id": "karn_clans", "name": "The Karn Clans", "type": "Semi-nomadic pastoralist clan confederation", "stability": "stable internally, friction with Thornsveld", "current_notable": "Clan-chief Halvard Ironmark — hasn't raided in four years, considered reasonable" },
+        { "id": "pale_communion", "name": "The Pale Communion", "type": "Isolated theocracy, old religion", "stability": "stable, isolated" },
+        { "id": "seat_of_aldrath", "name": "The Seat of Aldrath", "type": "Isolated theocracy, old religion", "stability": "stable" },
+        { "id": "iskenmark", "name": "Iskenmark", "type": "Maritime power, northern trade routes", "stability": "stable" },
+        { "id": "saltborn_council", "name": "The Saltborn Council", "type": "Maritime council-state", "stability": "stable" }
+      ]
+    },
+    {
+      "id": "ossrath",
+      "name": "Ossrath",
+      "description": "Dry interior plateau, ancient ruins of the Varathi Collapse, contested and dangerous. High elevation, thin air cold at night, burning days. The ruins are everywhere — normalized by locals, disturbing to outsiders.",
+      "power_count": 6,
+      "powers": [
+        { "id": "salvage_authority", "name": "The Salvage Authority", "type": "Ruin-scavenger state, pragmatic and ruthless", "stability": "moderate — control fades 30 miles from settlements" },
+        { "id": "ossmark", "name": "Ossmark", "type": "Ruin-scavenger state", "stability": "moderate" },
+        { "id": "drift_lords", "name": "The Drift Lords", "type": "Desert confederation, mobile pastoralists", "stability": "stable internally, officially ignored by Authority" },
+        { "id": "keth", "name": "Keth", "type": "City-state, oasis-based, immensely wealthy", "stability": "politically tense — Dust Council succession crisis", "population": 40000, "notes": "Starting region anchor. Governed by seven-seat Merchant Oligarchy called the Dust Council." },
+        { "id": "arvane", "name": "Arvane", "type": "City-state, trade hub", "stability": "stable" },
+        { "id": "true_reckoning", "name": "The True Reckoning", "type": "Military occupier of ruins, claims Varathi succession", "stability": "unstable — contested legitimacy" }
+      ]
+    },
+    {
+      "id": "solvane",
+      "name": "Solvane",
+      "description": "Southern, coastal, warmest continent. Highest urban density. Most trade-oriented. Nearly year-round growing season. Amber-gold coastal waters, white stone cliffs, sheltered harbors. The gap between wealthy and poor is enormous and visible.",
+      "power_count": 6,
+      "powers": [
+        { "id": "solvanic_dominion", "name": "The Solvanic Dominion", "type": "Nominally hereditary monarchy, functions as managed oligarchy of noble trading houses", "stability": "stable but queen is secretly ill", "current_leader": "Queen Aldeth Calmaveth III, 47, ill — not publicly known", "heir": "Prince Pelvan, 23, untested", "notes": "Amber Coast starting region anchor" },
+        { "id": "amber_coast", "name": "The Amber Coast", "type": "Solvanic Dominion coastal administrative region", "stability": "stable surface, holding its breath", "notes": "Starting region" },
+        { "id": "reach_of_calmaveth", "name": "The Reach of Calmaveth", "type": "Colonial power expanding toward Cauldenmoor", "stability": "expansionist, moderate stability" },
+        { "id": "grain_throne", "name": "The Grain Throne", "type": "Agricultural hegemon — food as power", "stability": "stable, strategically important" },
+        { "id": "feldemoor", "name": "Feldemoor", "type": "Agricultural state", "stability": "stable" },
+        { "id": "southern_brennac_remnant", "name": "The Southern Brennac Remnant", "type": "Hegemony successor state", "stability": "moderate" }
+      ]
+    },
+    {
+      "id": "drenmark",
+      "name": "Drenmark",
+      "description": "Northwestern continent. Wet, dark forests, moor and fen. Oldest religious traditions. Largest unbroken wilderness on Arneth in the Free Fens region. Peat, bog, ancient trees. Animist faith deep-rooted.",
+      "power_count": 5,
+      "powers": [
+        { "id": "drenmari_see", "name": "The Drenmari See", "type": "Religious authority — politically weak but culturally deep", "stability": "stable, de facto governance through temple-settlements" },
+        { "id": "ashenveld", "name": "Ashenveld", "type": "Isolationist monarchy in deep forest", "stability": "stable, weak reach", "notes": "Nominally claims the Free Fens. Ignored." },
+        { "id": "thornholt", "name": "Thornholt", "type": "Isolationist forest monarchy", "stability": "stable" },
+        { "id": "free_fens", "name": "The Free Fens", "type": "De facto independent region — no formal state, governed by village councils and informal Fen Lords council", "stability": "stable internally, resistant to external authority", "notes": "Starting region anchor" },
+        { "id": "mossward", "name": "Mossward", "type": "Largest Free Fens settlement — informal capital", "stability": "stable" }
+      ]
+    },
+    {
+      "id": "shattered_reach",
+      "name": "The Shattered Reach",
+      "description": "Archipelago continent — dozens of large islands. Remnants of the Drowned Centuries. Maritime culture. The light is extraordinary. Nights glow with bioluminescent harbor water. Every language, every faith present in the port cities.",
+      "power_count": 3,
+      "powers": [
+        { "id": "reach_compact", "name": "The Reach Compact", "type": "Island confederation, nominal naval supremacy", "stability": "stable but checked by Corsair Throne", "governance": "Council of seven largest island-states" },
+        { "id": "tidewarden_league", "name": "The Tidewarden League", "type": "Maritime trade league, Church-adjacent", "stability": "stable" },
+        { "id": "corsair_throne", "name": "The Corsair Throne", "type": "Pirate sovereign — technically recognized, formally contested", "stability": "stable under current sovereign", "current_leader": "The Iron Wake (Rael Sorveth, 54, former Reach Compact naval officer)", "notes": "Controls enough sea lanes to veto Compact decisions. Pressing for formal recognition within Compact structure. Starting region anchor (Tidewarden Anchorage)." }
+      ]
+    }
+  ],
+  "no_mans_lands": {
+    "description": "Due to the sheer enormity of Arneth's six continents, many major powers do not border each other. Between them are vast uncontrolled territories — dangerous, free, and slowly filling back in.",
+    "character": "Desperate homesteaders, bandit confederations, minor lords trying to carve out something new. The most dangerous and most free places in the world.",
+    "inspiration": "The Barrowlands (Mike Shel's Iconoclasts series)",
+    "contents": [
+      "Post-Hegemony wilderness",
+      "Former war zones reverting to forest and scrub",
+      "Ancient roads going nowhere",
+      "Ruins of settlements that died in the Turnings",
+      "Drift Lord and nomadic confederation territory",
+      "Criminal and outlaw communities",
+      "Homesteader frontier settlements"
+    ]
+  },
+  "coalition_note": "42 powers across 6 continents creates enormous potential for coalitions. Many powers do not share borders — alliances form around trade interests, religious affiliation, shared enemies, and Hegemony-era inherited relationships."
+}

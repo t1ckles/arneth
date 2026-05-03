@@ -1,0 +1,54 @@
+{
+  "game_title": "The Long March",
+  "world_name": "Arneth",
+  "working_titles_considered": [
+    "The Long March",
+    "No Man's Portion",
+    "Iron Chit",
+    "The Winding Sheet",
+    "Bound in Ash",
+    "Common Soldier",
+    "The Carrion Fields",
+    "Dross",
+    "The Grinding Age",
+    "No Crown, No Glory",
+    "Grey Contracts",
+    "The Hollow Road",
+    "Ashen Ledger"
+  ],
+  "world_names_considered": [
+    "Arneth", "Valdrun", "Ossara", "Threnody", "Cauldenmere",
+    "Durrath", "Ashenmark", "Veldenmoor", "Corrath", "Solvane"
+  ],
+  "governing_philosophy": "You are a mote of dust in a turning world. The world existed before you. It will continue after you. You arrive, you struggle, you maybe scratch something meaningful out — and then you die, and the world adjusts slightly and moves on.",
+  "core_tone": {
+    "inspirations": ["Malazan Book of the Fallen", "The Black Company", "A Song of Ice and Fire (early)", "Homeworld", "EVE Frontier"],
+    "description": "Low-fantasy grimdark. No magic, no fantastical races. Gritty, grounded, institutional cynicism. The player character is nobody. The world does not care if they live or die.",
+    "era_feel": "Low medieval — roughly equivalent to the era of Edward Longshanks or Richard the Lionheart's Crusades",
+    "player_character_role": "Not the chosen one. Not the ultimate hero. A person trying to get by."
+  },
+  "calendar": {
+    "name": "The First Reckoning",
+    "current_year": 13003,
+    "year_zero_event": "The Silence After Varath — survivor-scholars established a new calendar after the Varathi Collapse to psychologically separate from what came before",
+    "pre_reckoning": "Measured in rough Ages by later historians. Poorly understood, mythologized, politically contested."
+  },
+  "world_simulation_principles": [
+    "The world runs whether or not the player is watching",
+    "All resources are finite and in circulation",
+    "Population is a finite pool — deaths matter economically",
+    "Faction momentum is autonomous — powers pursue goals on their own schedule",
+    "Seasonal and environmental pressure emerges from simulation state, not scripted events",
+    "Permadeath is correct — you are not special",
+    "Legacy matters in small ways — the world retains the shape of your absence"
+  ],
+  "winning_condition": "There is no single win condition. Your goal is your win. Survival, wealth, power, legacy, revenge — the player defines success.",
+  "permadeath_legacy": {
+    "description": "Death feels mundane, not dramatic. But traces persist.",
+    "examples": [
+      "A respected blacksmith leaves behind a shop, an apprentice, a reputation",
+      "A minor lord who died in a siege leaves a power vacuum that reshapes the next playthrough",
+      "A mercenary who died heroically may be remembered in their company's oral tradition — a name on a list the sergeant reads aloud on a certain day"
+    ]
+  }
+}

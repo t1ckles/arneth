@@ -1,0 +1,374 @@
+{
+  "night_sky": {
+    "philosophy": "The sky of Arneth is a cultural document. Different civilizations have read it differently for 13,000 years. The constellations have no mechanical effect — they are flavor, history, and ambient world-building. The asteroid belt and the Scald galaxy are exceptions: they are visually dominant and have real-world consequences.",
+    "visibility_note": "Night sky fully visible during Deep Night and Early Night periods. Dawn Glow and Dusk Glow show the brightest objects — the asteroid belt, the Scald galaxy, and the Warden — before and after the stars fade."
+  },
+
+  "the_scald_galaxy": {
+    "name": "The Scald",
+    "type": "Galaxy — visible to the naked eye as a diffuse red luminescence",
+    "appearance": "A red smear of light across a section of sky — not a point, not a streak, but a presence. Deep crimson at its core fading through amber to a dim red haze at its edges. On clear nights it casts faint red-tinted shadow. On hazy nights it glows like an ember behind smoke.",
+    "visual_reference": "A deep red nebula-like galaxy, similar to looking at a crimson star-forming region — vast, diffuse, unmistakably red.",
+    "seasonal_visibility": {
+      "peak": "Solaran through Scaldas (summer) — highest in the sky, most vivid",
+      "partial": "Greenmantle and Reapfall — lower in sky, still clearly visible",
+      "low": "Sowing and Goldenhold — near the horizon, partially obscured",
+      "absent": "Ashenveil through Coldmere (deep winter) — below the horizon"
+    },
+    "cultural_interpretations": [
+      {
+        "culture": "Common Reckoning / First Scholars",
+        "name": "The Scald",
+        "interpretation": "A distant fire. The First Scholars have three competing theories: a vast burning cloud, a collection of stars too distant to resolve, or a remnant of whatever destroyed Varath — reflected light of an ancient catastrophe. None confirmed."
+      },
+      {
+        "culture": "Varathi Return Cult",
+        "name": "The Varathi Light",
+        "interpretation": "The light of Varath itself — proof that the civilization still exists somewhere beyond the visible world. Considered their most sacred astronomical object. Its summer appearance is their most active period."
+      },
+      {
+        "culture": "Flame Traditions",
+        "name": "The Eternal Ember",
+        "interpretation": "The fire that will never go out — the promise that even after the Turnings, something always survives."
+      },
+      {
+        "culture": "Depth Faiths / Sailors",
+        "name": "The Red Water",
+        "interpretation": "A sea of fire above the sky sea. Some sailors consider it an ill omen when it's directly overhead. Others consider it a landmark."
+      },
+      {
+        "culture": "Karn Clans",
+        "name": "The Wound That Won't Close",
+        "interpretation": "The sky was cut long ago and has been bleeding since. Neither good nor bad — just old and permanent."
+      },
+      {
+        "culture": "Keth Plateau / Ossrath",
+        "name": "The Varathi Light",
+        "interpretation": "Shared with the Varathi Return — the plateau's proximity to the ruins makes this interpretation dominant even among non-cult members."
+      }
+    ],
+    "mechanical_note": "No direct mechanical effect. However: the Varathi Return cult becomes slightly more active during peak Scald visibility. Certain NPC dialogues reference it. It is the most discussed astronomical object in Arneth."
+  },
+
+  "the_asteroid_belt": {
+    "name": "The Girdle",
+    "common_names_by_culture": {
+      "common_reckoning": "The Girdle",
+      "sailors": "The Bright Road",
+      "karn_clans": "The Stone River",
+      "ossrath_scholars": "The Outer Reckoning",
+      "scorched_covenant": "The Forge of Heaven",
+      "moor_communion": "The Ancestors' Path",
+      "corsair_throne": "The Upper Current"
+    },
+    "appearance": "A dramatic glittering arc that dominates the night sky. Impossible to ignore. On clear nights it casts faint shadow — a pale diffuse light across the landscape below it. Individual large objects within the belt are visible to the naked eye as points of light that move perceptibly over weeks. The belt is brightest in the northeast-to-southwest arc, densest-appearing at its center.",
+    "visibility": "Year-round. Always present. The most constant feature of Arneth's night sky — more reliable than any star.",
+    "cultural_weight": "Every culture has a name for it and a mythology around it. It has been part of the sky for as long as anyone has been recording the sky. Children learn its name before they learn to read.",
+
+    "meteorite_system": {
+      "frequency": {
+        "small_falls": "Several per year across Arneth — fist-sized to cart-sized. Usually land in wilderness. Occasionally land near settlements.",
+        "medium_falls": "Once every few years — large enough to leave a crater, noticeable event, heard across a wide radius.",
+        "large_falls": "Rare. Once per decade or longer. Leaves a significant crater. Regional event. Heard hundreds of miles away. Ground shakes."
+      },
+      "detection": {
+        "incoming_visual": "A bright streak across the sky, visible from hundreds of miles. Brighter than the Scald. Sometimes visible in daylight.",
+        "sound": "A sustained deep rumble followed by impact. Distinct from thunder — lower, longer.",
+        "weather_reading_skill": "Characters with high Weather Reading or Astronomy skill can sometimes identify a streak as meteorite vs. meteor before impact.",
+        "aftermath": "Impact craters obvious in wilderness. Fires sometimes started at impact sites."
+      },
+      "the_material": {
+        "common_name": "Skyfall iron",
+        "scholarly_name": "Varathi scholars call it Firmament Stone — the First Scholars dispute this name",
+        "karn_name": "Heavenbone",
+        "sailors_name": "Deep Ore",
+        "appearance": "Dark grey to black exterior from atmospheric heating. Interior reveals a distinctive crystalline silver-grey metal with subtle banding patterns not seen in any terrestrial ore.",
+        "properties": {
+          "hardness": "Significantly harder than the best Arneth-mined iron or steel. A blade made from it holds an edge substantially longer.",
+          "purity": "Extraordinarily pure — no inclusions, no slag, no variation in quality throughout a piece.",
+          "workability": "Requires significantly higher forge temperatures than conventional iron. A blacksmith without Smelting skill above 250 (Journeyman-high) will ruin it attempting to work it.",
+          "yield": "A fist-sized meteorite yields roughly enough workable material for one knife blade after processing losses.",
+          "currency_potential": "Some pieces are used as currency directly — a known piece of Skyfall iron is worth many steel discs simply as material."
+        },
+        "what_it_makes": [
+          "Blades that hold an edge 3x longer than the best conventional steel",
+          "Tools that resist wear significantly better than iron",
+          "Arrowheads and crossbow bolts that penetrate armor more effectively",
+          "Decorative objects of extraordinary value for noble households",
+          "Theoretical currency — a disc of confirmed Skyfall iron is worth more than its weight in silver"
+        ],
+        "scholarly_interest": "The First Scholars are deeply interested in Skyfall iron. They maintain a catalog of known falls and have attempted to map patterns. They have noted that the material is compositionally unlike any Arneth ore. The Varathi Return cult believes it is literally material from Varath falling back to the world."
+      },
+
+      "contest_and_conflict": {
+        "who_cares": [
+          "Blacksmiths and weapon-makers — for the material itself",
+          "Merchants and trading houses — for resale value",
+          "Lords and military commanders — for weapon advantage",
+          "The Salvage Authority — they claim jurisdiction over all material falls in Ossrath",
+          "The First Scholars — for study",
+          "The Varathi Return cult — for religious significance",
+          "Anyone desperate for coin — even small fragments sell well"
+        ],
+        "typical_contest": "A medium fall in a no-man's-land between powers will attract independent salvagers within hours of the streak being seen. A lord's force within riding distance will be dispatched immediately. The Hollow Road will have heard and sent people. Whoever gets there first has a claim that others will dispute by force if the prize is large enough.",
+        "legal_status": "Contested everywhere. In Keth, the Salvage Authority claims all Ossrath falls. In Thornsveld, the Crown claims all falls in the Marches. In the no-man's-lands, it belongs to whoever can hold it. In the Free Fens, the Fen Lords have never formally decided, which means it belongs to whoever finds it until someone bigger objects.",
+        "player_opportunity": "A medium or large fall is a generated event that creates a temporary high-risk high-reward situation. Multiple factions move toward the same point. First arrival advantage. Political and violent conflict likely. The material is worth enough to change a character's financial situation significantly."
+      },
+
+      "large_fall_as_regional_event": {
+        "description": "A large fall — once per decade or rarer — is a world-simulation event with cascading effects.",
+        "immediate": "Visible streak seen across hundreds of miles. Impact heard across wide radius. Ground tremor felt nearby. Fire risk at impact site.",
+        "days_1_to_7": "Multiple factions converge on impact site. First arrivals begin extraction. Violence likely.",
+        "weeks_1_to_4": "Political dispute over ownership escalates. A large fall contains enough material to equip dozens of elite soldiers. Lords argue, buy, threaten, and fight over it.",
+        "long_term": "A large fall introduces a meaningful quantity of Skyfall iron into the regional economy. It changes weapon quality distributions. It may tip a military balance. It will be talked about for years.",
+        "example_crater_size": "A large fall leaves a crater 30–60 feet across. Visible from distance. Becomes a landmark."
+      }
+    },
+
+    "belt_visual_detail": {
+      "movement": "The belt is not static — individual large objects within it are visibly in motion to a patient observer over weeks. Sailors use the belt's motion to track time during overcast periods when stars are hidden.",
+      "color": "Predominantly white and pale gold glitter. The densest section has a faint blue-white core. Occasional reddish points where larger objects catch the light of the Scald.",
+      "seasonal_orientation": "The belt maintains its arc across the sky but its orientation relative to the horizon shifts seasonally. In Solaran it arcs nearly overhead. In Ashenveil it lies low to the horizon.",
+      "during_breaking": "Breaking-season cloud cover can hide the belt for days at a time. Sailors dislike this intensely. Its reappearance after a Breaking storm is noted as a positive sign across most cultures."
+    }
+  },
+
+  "constellations": {
+    "catalog_name": "The Common Reckoning Constellation Catalog",
+    "established_by": "The First Scholars, approximately Year 12,200 (roughly 800 years ago)",
+    "total_constellations": 17,
+    "note": "All 17 have regional variant names. The Common Reckoning names are used by educated people and sailors across most of Arneth. Regional names appear in NPC dialogue based on location.",
+
+    "constellations": [
+      {
+        "id": "the_warden",
+        "name": "The Warden",
+        "shape": "A standing figure with a long staff",
+        "visibility": "Year-round (circumpolar in northern latitudes)",
+        "character": "The constant anchor of the night sky. Never sets north of the 40th parallel. Navigation reference.",
+        "cultural_notes": "The Tidewarden Church claims it. Navigation fundamental — finding the Warden is the first thing maritime students learn.",
+        "regional_names": {
+          "karn_clans": "The Herdmaster",
+          "keth_ossrath": "The First Scribe",
+          "shattered_reach": "The Pilot",
+          "free_fens": "The Station-Keeper"
+        },
+        "mechanic_note": "Navigation skill checks at night receive a bonus when the Warden is visible."
+      },
+      {
+        "id": "the_furrow",
+        "name": "The Furrow",
+        "shape": "Three parallel lines — a plowed field",
+        "visibility": "Spring and Summer",
+        "character": "Agricultural timing reference. The Reclaimed Path considers Sowing season to begin when the Furrow rises at dusk.",
+        "cultural_notes": "Most important constellation for farming communities. Its appearance marks the beginning of the agricultural year.",
+        "regional_names": {
+          "karn_clans": "The Three Roads",
+          "keth_ossrath": "The Three Lines",
+          "shattered_reach": "The Oar Strokes"
+        }
+      },
+      {
+        "id": "the_drowned_man",
+        "name": "The Drowned Man",
+        "shape": "A figure face-down, arms spread",
+        "visibility": "Autumn and Winter",
+        "character": "Depth faith symbol. Sailors consider seeing it clearly a good omen — the drowned are at peace and the sea is satisfied.",
+        "regional_names": {
+          "karn_clans": "The Fallen Hunter",
+          "keth_ossrath": "The Spread Eagle",
+          "free_fens": "The Floating Dead"
+        }
+      },
+      {
+        "id": "the_ember",
+        "name": "The Ember",
+        "shape": "A small tight cluster — a glowing coal",
+        "visibility": "Winter (brightest in Deepwarden)",
+        "character": "The Flame traditions' primary constellation. Burns brightest in the darkest months. Considered a promise of survival.",
+        "regional_names": {
+          "karn_clans": "The Spark",
+          "keth_ossrath": "The Cluster",
+          "shattered_reach": "The Hearth"
+        }
+      },
+      {
+        "id": "the_salt_road",
+        "name": "The Salt Road",
+        "shape": "A long curved line of stars",
+        "visibility": "Summer",
+        "character": "The old thalassocratic trade route mapped in the sky. Open-water orientation for sailors.",
+        "regional_names": {
+          "karn_clans": "The Long Grass",
+          "keth_ossrath": "The Old Road",
+          "shattered_reach": "The Trade Wind"
+        }
+      },
+      {
+        "id": "the_harvest_wagon",
+        "name": "The Harvest Wagon",
+        "shape": "Four stars for wheels, a wide body",
+        "visibility": "Late Summer and Autumn",
+        "character": "Agricultural communities track Reapfall timing by when the Harvest Wagon reaches its zenith. When it tips — the harvest is done, for good or ill.",
+        "regional_names": {
+          "karn_clans": "The Heavy Cart",
+          "keth_ossrath": "The Caravan",
+          "shattered_reach": "The Loaded Hull"
+        }
+      },
+      {
+        "id": "the_broken_crown",
+        "name": "The Broken Crown",
+        "shape": "A semicircle of bright stars with one obvious gap",
+        "visibility": "Year-round (mid-sky)",
+        "character": "Multiple political interpretations. Currently used as a symbol by those who consider current dynasties illegitimate Hegemony successors. The gap is the point of all the arguments.",
+        "regional_names": {
+          "karn_clans": "The Unfinished Circle",
+          "keth_ossrath": "The Incomplete",
+          "shattered_reach": "The Broken Ring",
+          "ironmark": "The Open Throne (used as informal faction symbol)"
+        }
+      },
+      {
+        "id": "the_long_march",
+        "name": "The Long March",
+        "shape": "A line of stars in rough procession — uneven spacing, like tired soldiers",
+        "visibility": "Winter (brightest in Sternveld and Deepwarden)",
+        "character": "Associated with soldiers, wanderers, and the dispossessed. Visible during the hardest months. The game's namesake constellation.",
+        "cultural_notes": "The line is never quite straight. Soldiers say it's because nobody marches in a straight line after the first week.",
+        "regional_names": {
+          "karn_clans": "The Returning Dead",
+          "keth_ossrath": "The Ashen Column",
+          "shattered_reach": "The Lost Fleet",
+          "common_soldiers": "The Foot"
+        }
+      },
+      {
+        "id": "the_ironhand",
+        "name": "The Ironhand",
+        "shape": "A clenched fist",
+        "visibility": "Autumn",
+        "character": "Associated with labor, smithcraft, and stubbornness. The Ironmark has adopted it as an informal military symbol.",
+        "regional_names": {
+          "karn_clans": "The Grip",
+          "keth_ossrath": "The Closed Hand",
+          "shattered_reach": "The Anchor Hold"
+        }
+      },
+      {
+        "id": "the_fen_heron",
+        "name": "The Fen Heron",
+        "shape": "A tall, thin, angular standing figure",
+        "visibility": "Spring",
+        "character": "Drenmark regional constellation. The Moor Communion considers its spring rising the true beginning of the year — older than the First Scholars' calendar.",
+        "regional_names": {
+          "karn_clans": "The Standing Bird",
+          "keth_ossrath": "The Waiting Crane",
+          "shattered_reach": "The Storm's Eye"
+        }
+      },
+      {
+        "id": "the_reckoner",
+        "name": "The Reckoner",
+        "shape": "A seated figure, head bowed over a book",
+        "visibility": "Year-round (southern sky)",
+        "character": "The First Scholars' constellation. Said to point toward Keth if you follow its sight line. Academic institutions use it as an emblem.",
+        "regional_names": {
+          "karn_clans": "The Head-Down Man",
+          "shattered_reach": "The Chart-Reader",
+          "free_fens": "The Remembrancer"
+        }
+      },
+      {
+        "id": "the_drift",
+        "name": "The Drift",
+        "shape": "A loose scattered group with no clear form",
+        "visibility": "Year-round",
+        "character": "The Drift Lords of Ossrath consider this their constellation — no fixed form, always moving, impossible to pin down. Scholars find it frustrating to define.",
+        "regional_names": {
+          "karn_clans": "The Scattered Flock",
+          "shattered_reach": "The Debris",
+          "common_people": "The Wanderers"
+        }
+      },
+      {
+        "id": "the_anchor",
+        "name": "The Anchor",
+        "shape": "An anchor",
+        "visibility": "Autumn and Winter",
+        "character": "Harbor pilots use it for coastal navigation. The Tidewarden Church considers it a secondary symbol — the Warden holds position, the Anchor holds place.",
+        "regional_names": {
+          "karn_clans": "The Stone Weight",
+          "free_fens": "The Root"
+        }
+      },
+      {
+        "id": "the_pale_horse",
+        "name": "The Pale Horse",
+        "shape": "A long-legged galloping figure",
+        "visibility": "Spring and Summer",
+        "character": "Associated with messengers, speed, and bad news arriving quickly. Couriers consider it their constellation. Appearing on the horizon is said to mean news is coming.",
+        "regional_names": {
+          "karn_clans": "The Running Horse",
+          "keth_ossrath": "The Messenger",
+          "shattered_reach": "The Fast Ship"
+        }
+      },
+      {
+        "id": "the_varathi_eye",
+        "name": "The Varathi Eye",
+        "shape": "A perfect circle of dim stars",
+        "visibility": "Six weeks only — late Duskarn through early Harrowfrost",
+        "character": "Visible only briefly each year. Considered ominous by most cultures. The Varathi Return cult considers it their sign — a watching eye.",
+        "cultural_notes": "Its appearance generates NPC omen-talk. The Varathi Return cult becomes slightly more active during its window. The First Scholars track it precisely each year.",
+        "regional_names": {
+          "karn_clans": "The Old Wound",
+          "keth_ossrath": "The True Circle",
+          "shattered_reach": "The Drowned Ring",
+          "common_people": "The Cold Eye"
+        }
+      },
+      {
+        "id": "the_mending",
+        "name": "The Mending",
+        "shape": "Two figures close together, hands connected",
+        "visibility": "Spring",
+        "character": "Associated with healers, midwives, and recovery. Rises during Thornmelt — the beginning of recovery after winter. The Moor Communion considers it sacred.",
+        "regional_names": {
+          "karn_clans": "The Joined Hands",
+          "keth_ossrath": "The Partnership",
+          "shattered_reach": "The Splice"
+        }
+      },
+      {
+        "id": "the_scald_constellation",
+        "name": "The Scald (constellation distinct from the galaxy)",
+        "shape": "NOTE — The Scald refers to both the galaxy AND a bright star cluster near it. The cluster is what was originally named; the galaxy behind it was named later by association.",
+        "visibility": "Summer",
+        "character": "The brightest stars in the summer sky. Their association with the red galaxy behind them makes the whole region of sky feel significant.",
+        "regional_names": {
+          "karn_clans": "The Burning Eye",
+          "keth_ossrath": "The Varathi Stars",
+          "shattered_reach": "The Navigator's Fire"
+        }
+      }
+    ],
+
+    "meteor_showers": [
+      {
+        "name": "The Autumn Shower",
+        "timing": "Mid-Goldenhold",
+        "description": "A reliable annual shower — dozens of streaks per hour at peak. Considered auspicious. Associated with the belt shedding material into Arneth's path.",
+        "cultural_notes": "Festivals in agricultural communities. The First Scholars record counts each year — deviations from the average are noted as potentially significant.",
+        "meteorite_fall_probability": "Slightly elevated — small falls more common in the weeks surrounding the shower"
+      },
+      {
+        "name": "The Winter Sparks",
+        "timing": "Mid-Deepwarden",
+        "description": "A less dramatic shower than the Autumn — fewer streaks, but in the deep dark of winter they seem brighter. Considered an omen of the season ahead.",
+        "cultural_notes": "Ominous in most faiths. The Flame traditions consider it a reminder that fire persists. Common people read the intensity as a forecast — a heavy shower means a hard remaining winter.",
+        "meteorite_fall_probability": "Slightly elevated"
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "aging_system": {
+    "philosophy": "Aging is never a sudden cliff. Changes are gradual, announced by small signals before they become mechanical penalties. The numbers shift slowly underneath the narrative. Knowledge and social skills actively improve with age — only physical skills ceiling and decline.",
+    "average_lifespan_years": 67,
+    "long_life_threshold": 80,
+    "rare_life_threshold": 90,
+    "exceptional_life_note": "Surviving to 90 in Arneth means something. The Archive of Keth wants to talk to them. Small communities treat them as living history.",
+    "days_per_year": 650,
+    "note_on_pace": "A player aging their character from 22 to 30 lives through 5,200 in-game days — enough for the world simulation to have done significant things. The character ages into a changed world."
+  },
+
+  "age_bands": [
+    {
+      "band": "16–28",
+      "label": "Youth",
+      "physical_ceiling_of_500": 500,
+      "physical_growth": "Peak growth. Skills climb fast. Body resilient. Injuries heal quickly and cleanly.",
+      "cognitive_social": "Low credibility. Dismissed by older NPCs unless demonstrably competent. Must prove themselves repeatedly.",
+      "passive_skill_gains": "Physical skills accelerate 1.2x through active use",
+      "passive_skill_losses": "None",
+      "npc_disposition_modifier": "Minor NPCs often underestimate. May be patronizing. Can be exploited or ignored.",
+      "flavor": "The body is ahead of the reputation. Everything is possible and nothing is proven."
+    },
+    {
+      "band": "29–40",
+      "label": "Prime",
+      "physical_ceiling_of_500": 475,
+      "physical_growth": "Physical peak. High ceiling. Injuries heal well. Recovery fast.",
+      "cognitive_social": "Credibility building. Starting to be taken seriously without prior proof.",
+      "passive_skill_gains": "Balanced — physical and cognitive both advancing well",
+      "passive_skill_losses": "None",
+      "npc_disposition_modifier": "Neutral baseline. Treated as a peer by most.",
+      "flavor": "Best overall window. Peak physical meets growing social weight. The most capable decade."
+    },
+    {
+      "band": "41–52",
+      "label": "Middle Years",
+      "physical_ceiling_of_500": 425,
+      "physical_growth": "Subtle plateau. Morning stiffness is real. Recovery slightly longer. Not yet limiting.",
+      "cognitive_social": "Solid authority. Minor NPCs defer. Taken seriously without proof in most contexts.",
+      "passive_skill_gains": "Knowledge and social skills gain a passive +1 point per month from accumulated context",
+      "passive_skill_losses": "Physical skills above 400 begin very slow decay without active maintenance",
+      "npc_disposition_modifier": "Slight positive modifier in professional and civic contexts.",
+      "flavor": "The productive middle. Experience begins compensating for physical plateau. The most successful characters in the world are usually here."
+    },
+    {
+      "band": "53–62",
+      "label": "Experience",
+      "physical_ceiling_of_500": 350,
+      "physical_growth": "Noticeable physical change. Technique becomes essential. A younger opponent with equal skill wins on endurance.",
+      "cognitive_social": "High authority. Reputation precedes entry into a room.",
+      "passive_skill_gains": "Knowledge and social skills gain +2 points per month passively",
+      "passive_skill_losses": "Physical skills above 300 decay without consistent active use. Rate: 1 point per week idle.",
+      "npc_disposition_modifier": "Meaningful positive modifier. Even hostile NPCs grant grudging respect to age and evident competence.",
+      "compensation_rule": "High Tactics or deep weapon knowledge creates qualitative advantages against younger opponents — makes fights less predictable, not necessarily winnable",
+      "flavor": "Experience fights back but loses to raw youth in direct contest. The gap shows in long fights, hard travel, cold mornings."
+    },
+    {
+      "band": "63–72",
+      "label": "Elder",
+      "physical_ceiling_of_500": 275,
+      "physical_growth": "Real limitation. Physical ceiling dropping perceptibly. Illness risk rising.",
+      "cognitive_social": "Deep authority. People listen. In the right contexts, a word carries more weight than a sword.",
+      "passive_skill_gains": "Knowledge and social skills gain +3 points per month passively",
+      "passive_skill_losses": "Physical skills decay 2 points per week without active use. Ceiling actively lowers 1 point per month.",
+      "illness_risk_modifier": "+20% base disease probability",
+      "injury_recovery_modifier": "Injuries take 50% longer to heal. Serious wounds have a permanent penalty chance.",
+      "npc_disposition_modifier": "Strong positive modifier in civilian and administrative contexts. Military NPCs are neutral — they see the physical limitation.",
+      "flavor": "Surviving to 70 means something in this world. NPCs notice. It opens certain doors and closes others."
+    },
+    {
+      "band": "73–80",
+      "label": "Old",
+      "physical_ceiling_of_500": 200,
+      "physical_growth": "Significant limitation. Physical capacity reduced substantially.",
+      "cognitive_social": "Extraordinary social weight if earned. Unearned age is just fragility.",
+      "passive_skill_gains": "Knowledge and social only. +3 points per month.",
+      "passive_skill_losses": "Physical skills decay 3 points per week without active use. Ceiling lowers 2 points per month.",
+      "illness_risk_modifier": "+40% base disease probability",
+      "injury_recovery_modifier": "Injuries take twice as long. Serious injuries may be permanently disabling.",
+      "npc_disposition_modifier": "Significant positive in the right contexts. In others, pity or exploitation.",
+      "flavor": "Rare. Treated differently by NPCs. The world has seen most of these people die already."
+    },
+    {
+      "band": "81–90",
+      "label": "Ancient",
+      "physical_ceiling_of_500": 125,
+      "physical_growth": "Very limited. Physical engagement is hazardous.",
+      "cognitive_social": "Near-legendary in small communities. Living history in larger ones.",
+      "passive_skill_gains": "Knowledge and social only. +2 points per month (declining energy).",
+      "passive_skill_losses": "Physical: 5 points per week. Ceiling: 3 points per month.",
+      "illness_risk_modifier": "+60% base disease probability. Winter is genuinely dangerous.",
+      "npc_disposition_modifier": "Unique reactions — some NPCs are reverent, some are predatory (old people with resources are targets), some are merely curious.",
+      "special": "Characters at this age may have personal memory of events from 60+ years ago — living sources of history unavailable in any book.",
+      "flavor": "Very rare. Mentioned before you arrive. People have heard of you."
+    },
+    {
+      "band": "90+",
+      "label": "Legend",
+      "physical_ceiling_of_500": 75,
+      "physical_growth": "Remarkable survival. Fragile.",
+      "cognitive_social": "A living piece of history. The Archive of Keth sends people to record their recollections.",
+      "passive_skill_gains": "Negligible.",
+      "passive_skill_losses": "Physical: 8 points per week. Cognitive: slight decline begins — memory inconsistencies.",
+      "illness_risk_modifier": "+80% base disease probability. A bad winter is existential.",
+      "npc_disposition_modifier": "Extraordinary. Almost universally treated with deference or fascination.",
+      "flavor": "Exceptional. The world did not expect them to survive this long and is not quite sure what to do with them."
+    }
+  ],
+
+  "graceful_aging_signals": {
+    "description": "Before mechanical penalties kick in, the character receives narrative signals. These are flavor text events that appear before the numbers change.",
+    "examples": [
+      { "age": 42, "signal": "The morning stiffness lasts a bit longer than it used to. Nothing serious." },
+      { "age": 45, "signal": "A young opponent in a sparring match was slightly faster than expected." },
+      { "age": 50, "signal": "You find yourself gauging a fight more carefully than you once did. The instinct to find another way is stronger." },
+      { "age": 55, "signal": "Cold mornings are a different experience than they were. The joints remember old injuries." },
+      { "age": 60, "signal": "A younger soldier offered you a hand on a steep section of road. You weren't sure whether to be grateful or insulted." },
+      { "age": 65, "signal": "Someone referred to you as 'the old one' without any particular disrespect. They meant it as a compliment." }
+    ]
+  },
+
+  "causes_of_death": [
+    { "cause": "Disease", "notes": "Primary killer of middle-aged characters. Peaks in winter and Breaking events.", "most_vulnerable": "41–60" },
+    { "cause": "Infected wounds", "notes": "Even minor injuries kill if untreated. No age preference.", "most_vulnerable": "all ages equally" },
+    { "cause": "Combat", "notes": "Most common in 16–40 band. Older characters are less likely to be in combat.", "most_vulnerable": "16–40" },
+    { "cause": "Starvation", "notes": "Winter mortality in bad years. Hits elderly and very young first.", "most_vulnerable": "66+ and under 10" },
+    { "cause": "Exposure", "notes": "Travel in winter or The Breaking without preparation.", "most_vulnerable": "66+" },
+    { "cause": "Childbirth", "notes": "Significant mortality risk. Modeled in population simulation.", "most_vulnerable": "women 16–40" },
+    { "cause": "Occupational hazard", "notes": "Miners, smiths, soldiers, sailors all have elevated mortality. Durnwald Mine collapse is an example.", "most_vulnerable": "all ages in hazardous work" }
+  ],
+
+  "knowledge_social_aging_bonus": {
+    "active_from_age": 41,
+    "active_to_age": 72,
+    "skills_affected": [
+      "history_general", "history_regional", "religious_lore", "law",
+      "administration", "persuasion", "barter", "etiquette_noble",
+      "etiquette_common", "strategy", "tactics", "information_brokering"
+    ],
+    "description": "Accumulated context and pattern recognition. An old merchant's clerk who hasn't touched a ledger in years still understands commerce better than a young one who has.",
+    "rate": "Varies by age band — see age band entries for monthly passive gain rates"
+  },
+
+  "skill_decay_floors": {
+    "rule": "A skill never decays below half its peak recorded level, rounded down.",
+    "example": "A character who reached Expert (380 on 500 scale) in swordsmanship, then stopped fighting for a decade, performs at roughly Journeyman/Skilled boundary — around 190. The knowledge is there. The edge is gone. Rebuilding is faster than original development.",
+    "below_journeyman": "Skills below 150 do not decay — basic competencies persist.",
+    "rebuilding_rate": "Re-training a decayed skill returns to peak at 2x normal progression rate — the body remembers."
+  }
+}
