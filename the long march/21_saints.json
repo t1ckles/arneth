@@ -1,0 +1,164 @@
+{
+  "file_index": "21",
+  "title": "Saints of Arneth — Authenticated Records and Political Records",
+  "world": "Arneth",
+
+  "saint_framework": {
+    "genuine_sainthood": {
+      "definition": "Not granted by institutional declaration. The evidence grants it. Institutions eventually catch up — or don't. A genuine saint is a human being (or, in one documented case, something that presented as human) who demonstrated qualities that exceeded natural explanation: specific efficacy against demonic influence, anomalous healing, demonstrable perception of spiritual wrongness before physical manifestation, or a quality of presence that produced measurable effects in others.",
+      "what_genuine_saints_can_do": [
+        "Places they lived or died have demonstrable resistance to demonic influence — not immunity, resistance. The strength varies.",
+        "Their relics (bones, objects they used consistently) are sought because of the above effect — not magical in a game-mechanic sense, but the effect is real and documented.",
+        "Some demonstrated ability to perceive spiritual wrongness before physical manifestation — which made them useful and, in several documented cases, got them killed by people who didn't want the wrongness perceived.",
+        "Their documented methods, where recorded, have proven reliable across independent practitioners."
+      ],
+      "burial_site_properties": {
+        "description": "A genuine saint's resting place is resistant to corruption of any kind — not just demonic. Political manipulation, institutional decay, the specific rot that affects organizations and communities over time — all of these find genuine saint burial sites harder to establish themselves around. The effect is not perfect and it is not permanent if the site is actively desecrated. But it is real.",
+        "mechanism": "Unknown. The First Scholars have four competing theories. None are fully supported by evidence. All four agree the effect is real.",
+        "practical_implication": "Communities built around genuine saint burial sites tend to maintain institutional integrity longer than equivalent communities built elsewhere. This has been politically exploited — powerful institutions seek to acquire saint burial sites for reasons that have nothing to do with theology."
+      },
+      "authentication_difficulty": "Political saints' relics have been manufactured and sold for centuries. Bones are bones. Objects can be forged. The First Scholars maintain the only serious scholarly authentication catalog and it is not flattering to any institution."
+    },
+    "political_sainthood": {
+      "definition": "The institutional product. A wealthy donor who funded a cathedral. A lord's mother whose canonization the bishop needed the lord to be pleased about. A martyr whose martyrdom was politically convenient regardless of their actual virtue.",
+      "prevalence": "Extremely common. The Reclaimed Path has 19 recognized saints — scholars argue at most 4 are genuine. The Undying Ember has 11 — Brother Soren Aldrath privately believes 2 are genuine. The Keeperhood has 23 — 2 are almost certainly genuine, 1 is contested, the rest are political.",
+      "the_manufacture_problem": "Fake relics are everywhere. A femur bone with the right provenance documents can be sold as any saint's relic. The documents can be forged. The institutional authorities who authenticate them have institutional interests in the authentication.",
+      "the_first_scholars_catalog": "The most honest document on saint authenticity in the known world. It is not popular with institutions. Access to the full catalog is restricted to Archive scholars. Summaries are available. The summaries are less honest than the full document."
+    },
+    "the_anomalous_case": {
+      "description": "The standard definition of sainthood requires the subject to be human. One documented case — Meven of the Compassionate Wound — challenges this requirement. The evidence that Meven was not human is strong enough that the First Scholars' full catalog lists Meven separately from both genuine and political saint categories, in a third category labeled simply 'Anomalous — investigation ongoing.' The investigation has been ongoing for 400 years."
+    }
+  },
+
+  "genuine_saints": [
+    {
+      "id": "saint_aldren_marches",
+      "name": "Saint Aldren of the Marches",
+      "faith": "Undying Ember",
+      "period": "Approximately Year 12,600 — tail end of the Fifth Turning / Ashen March",
+      "authentication_status": "Genuine — First Scholars confidence: high",
+      "burial_site": "Eastern ridgeline, Thornsveld Marches, Valdenmere — exact location uncertain. Historical records describe 'the high ground above the old workings,' which current cartography places in the area of the Durnwald Mine ridgeline.",
+      "documented_efficacy": "Aldren was a Threshold Keeper from the outer Warden States who traveled north during the Ashen March's collapse period. In the Thornsveld Marches region, he documented and contained a demonic site that had activated during the political chaos of the Ashen March — when organized response had collapsed, the site had been active for roughly two decades. His methods were recorded in detail by a First Scholars observer traveling with a Marches survey party. The containment held for over 400 years.",
+      "current_relevance": "The containment is degrading. Brother Soren Aldrath in Durnward has been quietly researching Aldren for three years. He has found the First Scholars observer's account in a copied manuscript in his temple library. He has not yet found the burial site location. He has not yet connected the degrading containment to the disc found by Aldren Saltmeadow in his east field — the disc, and the markings on the second object still hidden under a stone, are related to Aldren's containment method.",
+      "the_disc_connection": "The disc Saltmeadow found is not currency. It is a containment marker — one of several Aldren placed at the boundary of the sealed site. The gemstone woven through the steel is not an impurity; it is a specific material composite that Aldren's documented methods describe as 'the binding substance.' The Second Varathi fragment that the First Scholars have been unable to translate for 800 years describes the same material composite in a ritual context.",
+      "soven_connection": "Soven (Pale Company Warden, currently in Durnward) is in the Marches because of Aldren. The Pale Company's internal records — fragments, not complete — reference Aldren as a figure who was almost certainly a Company Warden before the Company had a name. His containment methods are consistent with Pale Company practice. His burial site may contain the most complete surviving record of early Pale Company methodology.",
+      "burial_site_properties": "Anomalously high resistance to corruption of all kinds. The Durnwald Mine foreman Osric Deld described, without religious reference, a specific quality in the section of the mine that was never troubled by equipment failure, worker accidents, or the water seepage issues that affected the rest of the mine — the section directly below the old containment site. The collapsed section was the section furthest from it."
+    },
+
+    {
+      "id": "saint_aldric_first_warden",
+      "name": "Saint Aldric the First Warden",
+      "faith": "Keeperhood (Warden States)",
+      "period": "Approximately Year 4,000 — during the Third Turning's aftermath",
+      "authentication_status": "Genuine — First Scholars confidence: very high. The most thoroughly documented saint in the scholarly record.",
+      "burial_site": "Inner Zone, Encircling Pact — specific location known to Threshold Keepers, not publicly recorded. The most anomalously resistant location on Arneth.",
+      "documented_efficacy": "Aldric was a Threshold Keeper during a period when the containment of the Pale nearly failed entirely. The Third Turning's cascading collapse had left the Warden States' institutional structure in near-ruin. Aldric reorganized the Threshold Keepers from a depleted hereditary caste into an effective response organization, conducted a major containment reinforcement of the Pale's most active breach points, and documented the methodology in what became the foundational text of Keeper practice. He died during the final containment action of a breach event that the historical record suggests would have been catastrophic without his intervention.",
+      "current_relevance": "His burial site is the anchoring point of the Inner Zone's current containment — which is degrading. The Threshold Keepers have not publicly acknowledged that the degradation is centered near Aldric's burial site. The Archive of the Breach knows. The Pale Company's internal records reference this with specific concern.",
+      "burial_site_properties": "The single strongest anomalous resistance of any documented location. Even Daemon-level influence has documented difficulty establishing itself within several miles of the site. This effect is weakening — slowly, but measurably."
+    },
+
+    {
+      "id": "saint_halvard_deep",
+      "name": "Saint Halvard of the Deep",
+      "faith": "Tidewarden Church",
+      "period": "Approximately Year 12,100",
+      "authentication_status": "Genuine — First Scholars confidence: high. The most interesting authentication case in the catalog because the evidence is overwhelming and the subject would have found the canonization annoying.",
+      "burial_site": "The Tidewarden Anchorage, Shattered Reach — marked, publicly known, actively maintained by the Church",
+      "documented_efficacy": "A harbor pilot in the Tidewarden Anchorage who identified seven individuals in a port community compromised by succubus influence, identified them accurately, named the compromising entity, and organized community response that resolved the situation over several months. He performed no religious acts during this process. He claimed no divine assistance. He told the Church that credited him that they were welcome to the name but he'd just paid attention.",
+      "his_method": "Documented in detail by the Tidewarden Church — somewhat against his wishes. He watched what people did rather than what they said. He noted changes in behavior over time. He paid specific attention to decisions that served no apparent interest — the compromised person's or anyone else's. He identified the pattern before it became a crisis. The Church's current pastoral training for incubus/succubus influence response is derived from his documented method.",
+      "the_canonization_irony": "He was canonized 40 years after his death, entirely by the Church whose role he had consistently minimized. The authentication is genuine — his efficacy is documented by independent sources including First Scholars observers. The irony is that the Church canonized him partly because his method was so transferable and they wanted formal authority over its use.",
+      "burial_site_properties": "Moderate anomalous resistance. Notably, the resistance appears specifically stronger against influence-type demonic entities than against other categories. The First Scholars note this as significant but unexplained.",
+      "the_pale_company_assessment": "Saint Halvard of the Deep is the individual in historical record whose documented quality of perception most closely resembles what the Pale Company selects for in candidates. The First Scholars have noted this. The Pale Company has not commented."
+    },
+
+    {
+      "id": "saint_gorra_still_water",
+      "name": "Saint Gorra of the Still Water",
+      "faith": "Moor Communion",
+      "period": "Approximately Year 12,400",
+      "authentication_status": "Genuine — First Scholars confidence: moderate-high. Documentation is primarily oral, which the Scholars treat with appropriate skepticism but cannot dismiss.",
+      "burial_site": "Deep Free Fens, Drenmark — approximate location known through Moor Communion oral tradition. Not mapped. Not accessible to outsiders.",
+      "documented_efficacy": "According to Moor Communion oral tradition (corroborated by two fragmentary written sources of uncertain provenance), Gorra was a Moor Communion Station-Keeper who identified and sealed a demonic site in the deep northwest fen — a site that had been active for at least 200 years and had been consuming the fen ecosystem slowly around it. The sealing required her to enter the site directly. She died there. The sealing held.",
+      "current_relevance": "The contamination currently developing in the northwest fen — unusual plant die-off in a 2-mile circle, water that smells wrong, three sick people at the affected Station — is centered near where oral tradition places Gorra's burial site. The sealing is degrading. The Moor Communion's current investigation of the contamination has not yet connected it to Gorra's site explicitly, but the oldest Station-Keeper in the Fens, who is 84 and has been mapping the contamination against her memory of Communion oral tradition, has a suspicion she has not yet voiced.",
+      "burial_site_properties": "The surrounding deep fen has been notably free of demonic site formation for 600 years — in a region where the conditions for such sites should be present. This is the anomaly the First Scholars have documented without explanation. The contamination is the first break in that pattern."
+    },
+
+    {
+      "id": "scholar_saint_varath",
+      "name": "Scholar-Saint Varath",
+      "faith": "First Scholars (Reckoning faith)",
+      "period": "Approximately Year 800 — just after the First Reckoning calendar was established",
+      "authentication_status": "Contested — First Scholars confidence: disputed internally. The name connection to Varath/the Varathi Collapse is a source of ongoing scholarly argument about whether this is genuine naming or retroactive mythology.",
+      "burial_site": "Unknown — no reliable location. The First Scholars' internal records suggest three possible locations, none confirmed.",
+      "documented_efficacy": "Varath was a First Scholars figure who claimed — and documented in texts that were suppressed for 900 years — that the Varathi Collapse involved direct Daemon-level demonic activity. Not as a supernatural explanation but as an empirical one: something was used, something that was not fully understood, and the loss of control of that something was the mechanism of the Collapse. Her texts describe specific Daemon entities she identified in fragmented Varathi records. A copy of her primary text is in the Archive of Keth.",
+      "the_suppression_history": "Her texts were suppressed three times over 900 years — twice by Reckoning faith institutions who found the implications uncomfortable, once by a political authority whose connection to Varathi successor claims made her conclusions threatening. The third copy survived in a miscategorized archive section and was discovered 200 years ago.",
+      "the_varathi_return_connection": "The Varathi Return cult wants the Archive of Keth copy of Varath's primary text. They believe it contains specific information about the Daemon entities involved in the Collapse — entities they believe can be contacted, bargained with, or used. This belief is based on a fragment of the text they obtained through means the Archive has been trying to identify for sixty years.",
+      "burial_site_properties": "Unknown. If genuine, the burial site would be significant. If her burial site is in the eastern Ossrath region — near the Keth Plateau — the First Scholars' excavation activities in the area take on an additional layer of significance that has not been publicly acknowledged."
+    }
+  ],
+
+  "anomalous_saint": {
+    "id": "meven_compassionate_wound",
+    "name": "Meven of the Open Hand",
+    "faith": "Order of the Compassionate Wound",
+    "period": "Approximately Year 11,800 — during the Warden States' Buffer Zone overflow period",
+    "authentication_status": "First Scholars catalog: ANOMALOUS — investigation ongoing (400 years). Not listed as genuine. Not listed as political. Listed separately.",
+    "burial_site": "Within the Warden States' territory — exact location known to the Order of the Compassionate Wound, not publicly recorded. The most strongly anomalous saint-resistance site after Saint Aldric's burial site. Location is contested between the Order, the Keeperhood, and the Encircling Pact's political structure.",
+    "documented_efficacy": "Meven arrived in the Buffer Zone of the Warden States during a period of containment weakness and demonic overflow. Over roughly forty years: organized community care for plague and demonic-influence victims, identified and documented incubus/succubus compromised individuals with extraordinary accuracy, developed the practical recovery methods that the Order of the Compassionate Wound still uses, and participated in at least three documented demonic site sealings. All of this is confirmed by independent sources including First Scholars observers.",
+    "the_anomalies": [
+      "First Scholars observers' physical descriptions of Meven contain inconsistencies across sources that cannot be explained by the natural variation of eyewitness accounts — specifically, descriptions of height, coloration, and facial structure that vary in ways suggesting the observers were not always looking at the same kind of thing.",
+      "Meven is never documented eating in any source. This is not necessarily significant in isolation. Combined with the other anomalies, it is noted.",
+      "Three First Scholars fragments from different observers describe a specific quality of Meven's presence — the same quality used in historical Daemon encounter documentation. The fragments were in different archive sections and were not cross-referenced until 200 years ago.",
+      "The techniques Meven documented for incubus/succubus identification involve perceiving demonic influence from within close proximity without being affected — a capability that no human practitioner has fully replicated, though many have achieved partial success.",
+      "Meven's death — documented as peaceful, natural, in the presence of several Order members — is described in a way that the First Scholars' most careful reader of the primary source describes as 'the account of something ending rather than someone dying.'"
+    ],
+    "what_the_order_knows": "The Order of the Compassionate Wound has known for 400 years that Meven was not human. The evidence they suppressed three times would, if released, confirm the First Scholars' anomalous categorization. The Order's current internal division: some leaders believe the secret must be kept because releasing it destroys an institution that does genuine good; some believe it must be released because a foundation of compassion built on deception is structurally wrong; some believe the truth is liberating — proof that the divide between Daemon and other is not absolute — and want to use it.",
+    "what_this_means": {
+      "for_daemon_theology": "If Meven was a Daemon who spent forty years doing genuine good, Daemon nature is not fixed. Standard doctrine across all faiths is wrong. The implications for how demonic entities are approached — particularly by the Pale Company and the Ember Wardens — are significant.",
+      "for_the_order": "The Order's most efficacious recovery techniques trace to a Daemon. Whether that changes the techniques is a practical question the Order's most pragmatic members answer with: the techniques work, the source does not change the efficacy.",
+      "for_the_pale_company": "The Pale Company has known about Meven for at least 200 years. They have not disclosed because the Order does genuine good and the Pale Company is not in the business of destroying things that work. They are watching the current internal division carefully. One senior Warden has proposed that the time for disclosure may be approaching — not because the secret is wrong to keep but because the containment of the Pale is degrading and the full truth about Daemon nature may be operationally necessary."
+    },
+    "burial_site_properties": "Extraordinary anomalous resistance. The site is the second strongest on Arneth after Saint Aldric's burial site. Unlike Aldric's, the resistance does not appear to be weakening. The Varathi Return cult's interest is specifically in understanding why a Daemon's burial site has saint-level properties — they believe this is evidence that Daemon essence can be stored, transferred, or used.",
+    "the_pale_company_signal": "The way Wardens signal each other in the field — the specific way of doing something ordinary that no outsider would recognize — was developed in direct response to Meven's documented identification of compromised individuals. The method Meven used to distinguish genuine from corrupted has been encoded, without attribution, into the Company's core practice."
+  },
+
+  "political_saints_sample": {
+    "note": "Selected examples from major institutions. The full political saint catalog, if compiled, would contain hundreds of entries across all faiths.",
+    "examples": [
+      {
+        "name": "Saint Pelvar the Generous",
+        "faith": "Reclaimed Path",
+        "period": "Year 11,200",
+        "canonization_reason": "Funded the construction of the Halverness cathedral. Died shortly after. His family donated an additional significant sum to the canonization process.",
+        "first_scholars_assessment": "No documented efficacy. Relics commercially distributed within 20 years of canonization. The burial site has normal corruption resistance — which is to say, none."
+      },
+      {
+        "name": "Saint Aldren the Patient",
+        "faith": "Undying Ember",
+        "period": "Year 12,800",
+        "canonization_reason": "Was the mother of a lord whose military support the Ember's northern chapter required. Described in the canonization record as 'possessed of extraordinary patience in the face of suffering.' This is the entirety of the documented basis.",
+        "first_scholars_assessment": "No documented efficacy. Brother Soren Aldrath knows this saint's record and has written a private note in his personal journal that has not been shared with anyone."
+      },
+      {
+        "name": "Saint Gorvan of the Tide",
+        "faith": "Tidewarden Church",
+        "period": "Year 12,500",
+        "canonization_reason": "A harbor master who died heroically during a storm, saving twelve ships. The heroism is genuine and documented. The sainthood is politically convenient because his family controlled the harbor rights that the Church wanted to acquire.",
+        "first_scholars_assessment": "Heroic human being. No documented efficacy of the saint-qualifying kind. The Church's acquisition of the harbor rights was completed within two years of the canonization."
+      }
+    ]
+  },
+
+  "the_soilborn_saints": {
+    "note": "The Arnethi Covenant / Soilborn have an unusual relationship with sainthood because their theology does not formally recognize the category. What they have instead are the Remembered — people whose lives demonstrated extraordinary commitment to the protection of Arneth as Heaven, and whose resting places are treated with specific reverence.",
+    "the_remembered": {
+      "description": "Not saints in the institutional sense. The Soilborn do not have an institution capable of canonization. The Remembered are simply people whose stories persisted because their lives were extraordinary.",
+      "burial_site_effects": "Several Remembered burial sites show mild anomalous resistance. Whether this is the genuine saint effect or the community care that Soilborn communities give to these sites is not determinable from the outside.",
+      "notable_example": {
+        "name": "The Groundskeeper of Feldemoor",
+        "period": "Unknown — pre-Covenant, possibly Year 10,000-11,000",
+        "description": "A figure whose name was not preserved but whose methods of community organization against a demonic site are recorded in the oldest Soilborn texts. The account describes a person who organized a community response to a demonic site without weapons, without militant religious authority, and without anything that resembles conventional anti-demonic practice — by making the community's attachment to their land so total and so present that the site lost its footing. Whether this is theology, practical psychology, or something else is the question the Pale Company has been asking about this account for a long time."
+      }
+    }
+  }
+}
