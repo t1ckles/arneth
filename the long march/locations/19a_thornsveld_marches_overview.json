@@ -1,0 +1,290 @@
+{
+  "region_id": "thornsveld_marches",
+  "name": "The Thornsveld Marches",
+  "continent": "Valdenmere",
+  "file_index": "19a",
+
+  "overview": {
+    "population_total": 3200,
+    "primary_settlement": "Durnward",
+    "secondary_settlements": ["Ashford", "Keld's Crossing"],
+    "outlying": ["Farmstead clusters — four named on regional maps, unnamed in common speech"],
+    "dominant_religion": "The Undying Ember",
+    "dominant_faction": "Thornsveld Crown Administration",
+    "current_year_condition": "Superficially stable. Four overlapping pressure systems building beneath the surface. The kind of stability that breaks suddenly rather than gradually.",
+    "danger_level": "Moderate — escalates quickly with involvement in any active tension thread"
+  },
+
+  "settlements": [
+    {
+      "id": "durnward",
+      "name": "Durnward",
+      "population": 2400,
+      "type": "River town — regional center",
+      "description": "Built on both banks of the Durnwald River with an old stone bridge as its spine. The Marchwarden's hall sits on the higher eastern bank, looking down across the water at the Undying Ember temple on the western bank. The market runs along both bridge approaches. Not a city — a substantial town that feels like the biggest thing for three days' ride in any direction, which it is. The bridge is the town's social and commercial center. Everything important either crosses it or watches it.",
+      "notable_locations": [
+        "The Marchwarden's Hall — eastern bank, elevated, stone construction",
+        "The Temple of the Undying Ember — western bank, faces the Hall across the river",
+        "The Durnwald Bridge — old stone, wide enough for two carts abreast",
+        "The Market Row — both bridge approaches, busiest on Marketday",
+        "The Marchwarden's Rest — the primary inn, western bank near the market",
+        "The Garrison — eastern bank, adjacent to the Hall",
+        "The Bent Loom Guild warehouse — eastern bank, river access for goods"
+      ],
+      "resource_nodes": {
+        "water": {
+          "sources": ["Durnwald River (primary)", "Two public wells (eastern and western bank)"],
+          "finite": true,
+          "notes": "River is reliable year-round except during severe Thornmelt floods. Wells refill from groundwater — slow in dry years. Water troughs at the livery refill from rain catchment and manual hauling."
+        },
+        "food": {
+          "sources": ["Market (imported from surrounding farms)", "Oswin Crale's bakehouse at The Marchwarden's Rest", "The mill on the eastern bank"],
+          "finite": true,
+          "notes": "Town does not grow its own food. Entirely dependent on surrounding farmland and trade caravans. Winter stores tracked by the Marchwarden's steward."
+        },
+        "wood": {
+          "sources": ["Logging operations near Ashford (3 days east)", "Local woodlot (small, nearly exhausted)"],
+          "finite": true,
+          "notes": "Firewood is a real winter resource. The woodpile behind The Marchwarden's Rest is a meaningful asset."
+        },
+        "iron": {
+          "sources": ["Durnwald Mine (currently inactive — collapse 8 months ago)"],
+          "finite": true,
+          "notes": "Regional iron supply is stressed. Smiths are paying more. Military equipment maintenance is suffering. The mine's closure is an economic pressure felt daily."
+        }
+      }
+    },
+    {
+      "id": "ashford",
+      "name": "Ashford",
+      "population": 400,
+      "type": "Mining and logging settlement — currently depressed",
+      "description": "A day's ride east of Durnward along a road that gets worse the further you go. Built to service the mines and the eastern ridgeline logging operations. Since the collapse, roughly a third of working-age men are either dead or gone. Several buildings stand empty. The inn runs at a fraction of its old custom. The sound the town doesn't have anymore — the shift-change bells from the mine — is more present than the sounds it does.",
+      "notable_locations": [
+        "The Ashford Inn (no formal name — locals call it Fenwick's after a previous keeper)",
+        "The mine road — east out of Ashford, ends at the collapsed entrance",
+        "Edric Saltfield's office — he is rarely in it",
+        "The logging foreman's yard",
+        "A small Reclaimed Path wayshrine — no resident priest"
+      ],
+      "resource_nodes": {
+        "water": {
+          "sources": ["Ashford Creek (reliable spring through autumn, low in Scaldas)", "One public well"],
+          "finite": true,
+          "notes": "Creek runs low in drought years. Well is the backup. Settlement has water anxiety after a dry Scaldas three years ago."
+        },
+        "timber": {
+          "sources": ["Eastern ridgeline logging operations (active)"],
+          "finite": true,
+          "notes": "Logging is the only functioning extractive industry since the mine closed. The foreman is pushing the operation harder than is sustainable."
+        }
+      }
+    },
+    {
+      "id": "kelds_crossing",
+      "name": "Keld's Crossing",
+      "population": 180,
+      "type": "Border village — mixed Karn and Thornsveld",
+      "description": "Two days north of Durnward along a road that becomes a track becomes a suggestion. Sits at a river ford that is one of the few reliable crossings into the high ground and Karn territory. Roughly a third of residents have Karn ancestry going back one to three generations. Technically under Thornsveld administration. Practically does what it wants. The garrison sergeant here has three soldiers and the weight of a situation he doesn't have orders for.",
+      "notable_locations": [
+        "The ford itself — marked with old cairns on both banks",
+        "Vaela Keth-Morn's house — on the northern edge of the village, faces the ford",
+        "The garrison post — four men, one building, a flagpole",
+        "The village elder's hall — a large farmhouse pressed into civic use"
+      ],
+      "resource_nodes": {
+        "water": {
+          "sources": ["The ford river (clean, reliable)", "Rain catchment"],
+          "finite": true
+        },
+        "trade_goods": {
+          "sources": ["Karn traders crossing the ford (periodic)", "Durnward caravans (infrequent)"],
+          "notes": "The village's economic function is the crossing. It lives on passage fees and trader custom."
+        }
+      }
+    },
+    {
+      "id": "farmstead_clusters",
+      "name": "Outlying Farmsteads",
+      "population": 220,
+      "type": "Scattered agricultural settlements",
+      "description": "Four loose clusters of farmsteads between the main settlements. Named on the Marchwarden's maps as Dawnfield, Greywood, The Notch, and Saltmeadow. In common speech they're identified by the family that's been there longest.",
+      "notable_npcs_note": "Five specifically named NPCs in the outlying areas — see NPC file."
+    }
+  ],
+
+  "active_tensions": [
+    {
+      "id": "succession",
+      "name": "The Succession",
+      "summary": "King Aldric IV is dying without a legitimate heir. Three nephews are positioning. Their agents are already in the Marches.",
+      "factions_involved": ["Corvan's faction", "Pelvar's faction (Bent Loom Guild)", "Jorn's faction"],
+      "current_state": "Cold maneuvering. No open conflict. Garrison commander Torven Weld has not been asked to declare loyalty yet. When he is, everything changes.",
+      "player_involvement_paths": [
+        "Hired by any faction's agent for information gathering or muscle",
+        "Caught between factions through NPC relationships",
+        "Neutral observer whose neutrality becomes valuable to all sides"
+      ]
+    },
+    {
+      "id": "mine_disaster",
+      "name": "The Durnwald Mine",
+      "summary": "41 dead. Families unpaid. Lord Vorne (Corvan's family connection) owns the mine. Edric Saltfield is his local agent and is stalling. Jorn is quietly funding the families. Two men in Ashford are deciding what to do about it.",
+      "key_figures": ["Morra Dawnfield", "Edric Saltfield", "Osric Deld", "Keld Farrow", "Aldren Moss", "Brenvar Keld"],
+      "current_state": "A rider from Jorn's faction arrived in Ashford four days ago. Aldren Moss and Brenvar Keld have not yet replied. Keld Farrow has not yet written his second page. Osric Deld is on his third week of drinking at the Ashford inn.",
+      "collapse_truth": "Natural failure made inevitable by corruption. Saltfield cancelled the timber order to save cost. Osric Deld's written objections are in the files Farrow found. Nobody with power wants this documented.",
+      "player_involvement_paths": [
+        "Working for the mine families — Morra Dawnfield is the contact",
+        "Working for Saltfield — he will pay for information about what Farrow has found",
+        "Finding and talking to Osric Deld — he knows everything and is waiting for someone to ask",
+        "The second page — Keld Farrow needs courage or cover to write it"
+      ]
+    },
+    {
+      "id": "karn_negotiations",
+      "name": "The Karn Negotiations",
+      "summary": "Lady Esven Cravenmoor is conducting unauthorized peace negotiations with Karn Clan-Chief Halvard Ironmark through intermediary Vaela Keth-Morn. A fostered son nobody authorized sits in a Karn camp as an informal gesture of faith.",
+      "key_figures": ["Lady Esven Cravenmoor", "Vaela Keth-Morn", "Halvard Ironmark (off-map)", "Brother Soren Aldrath (suspects)"],
+      "current_state": "Negotiations are at a delicate midpoint. A specific territorial arrangement is being discussed that would give the Karn formal grazing rights in exchange for a patrol cooperation agreement. Karn outriders have been seen further south than usual — either a negotiating gesture or a pressure tactic, and Vaela isn't sure which.",
+      "vaelas_secret": "Her son Eddan, 12, is fostered with a Karn clan family as an informal gesture of good faith. Her idea. Unauthorized. The Marchwarden does not know.",
+      "player_involvement_paths": [
+        "Hired as a courier or escort for Vaela's route between Durnward and Keld's Crossing",
+        "Discovering the negotiations and deciding who to tell",
+        "Approaching the Karn outriders — dangerous, potentially revelatory"
+      ]
+    },
+    {
+      "id": "the_disc",
+      "name": "The Disc",
+      "summary": "A farmer found a partial steel disc with gemstone woven through it like an impurity — gem and steel grown together, not set. Told Brother Soren. Soren has it in his desk. A letter to a First Scholars contact has been sent. No reply yet.",
+      "key_figures": ["Aldren Saltmeadow (the farmer)", "Brother Soren Aldrath"],
+      "the_object": "A partial disc of steel with a deep blue-green gemstone woven through it like an impurity — the two materials grown together in a way no smith on Arneth knows how to replicate. Looks almost like currency. Almost like a Steel Disc denomination. Older and wrong in ways that are hard to articulate. Cold to the touch regardless of ambient temperature.",
+      "current_state": "In Soren's desk drawer. He has told nobody except his First Scholars contact by letter. The farmer Aldren Saltmeadow regrets telling him and isn't sure why.",
+      "player_involvement_paths": [
+        "Finding it through Soren — he will not show it easily",
+        "Finding it through the farmer — he is at the Durnward market every Marketday",
+        "The First Scholars reply arriving while the player is present"
+      ]
+    }
+  ],
+
+  "ambient_spawn_hooks": {
+    "philosophy": "Characters spawn mid-situation. No quest marker. No instruction. Something is happening that they can engage with or walk past. The hook matches the background.",
+    "hooks": [
+      {
+        "background": "levy_soldier",
+        "location": "The Garrison common room, eastern Durnward",
+        "hook": "Two soldiers at the next table are quietly arguing. One says Commander Weld will back Corvan when the time comes — he's a military man, he'll back the military nephew. The other says Weld hasn't said a word either way and that means something. Neither of them notice you listening.",
+        "immediate_opportunity": "Torven Weld is in his office. The garrison notice board has a posting for a auxiliary patrol rider — three days, east road toward Ashford, two iron chits per day."
+      },
+      {
+        "background": "dispossessed_farmhand",
+        "location": "The western bridge approach, late afternoon",
+        "hook": "A woman is trying to get a handcart up the bridge incline alone. The cart is loaded with grain sacks. One wheel keeps catching on the cobble gap at the top of the approach. She is not asking for help. She is also not making progress.",
+        "immediate_opportunity": "The woman is a mine family widow. If you help her, she mentions Morra Dawnfield's name. The Marchwarden's Rest is visible from the bridge."
+      },
+      {
+        "background": "blacksmiths_apprentice",
+        "location": "The market row, Marketday morning",
+        "hook": "The Durnward blacksmith — Aldeth Vorn, no relation to Aldric Vorn — is at her market stall and she is charging more than she was last season. A customer is arguing about it. She is explaining, patiently, that iron costs more because the mine is closed and she has to buy from caravans now.",
+        "immediate_opportunity": "She needs an apprentice-level hand. Her own apprentice left for the city two months ago. The sign is not posted — she hasn't gotten around to it — but she'll say yes if asked."
+      },
+      {
+        "background": "merchants_clerk",
+        "location": "The Bent Loom Guild warehouse, eastern Durnward",
+        "hook": "Halvard Keld is interviewing for a clerk. You are in the waiting area with two other candidates. One is very young and visibly nervous. One is reading a document with the careful attention of someone looking for specific information rather than general content.",
+        "immediate_opportunity": "The interview is genuine — Keld needs a clerk. What he doesn't advertise is that the successful candidate will have access to correspondence that three different factions would pay to know about."
+      },
+      {
+        "background": "temple_servant",
+        "location": "The Temple of the Undying Ember, western bank",
+        "hook": "Brother Soren is in the middle of a pastoral visit that has gone longer than expected. The elderly Sister Aldeth is managing three simultaneous requests in the temple forecourt — a farmer asking about a burial rite, a young woman asking about something she won't say loudly, a soldier waiting with the specific patience of someone following orders. The Sister notices you standing there and her expression says: good, another pair of hands.",
+        "immediate_opportunity": "The temple always needs help. Room and board in exchange for work is a standing offer Soren doesn't advertise because he doesn't want to attract people who can't be useful."
+      },
+      {
+        "background": "petty_criminal",
+        "location": "The Marchwarden's Rest common room, evening",
+        "hook": "A man at the bar is drinking more carefully than the amount in his cup justifies. He has been here two hours and his cup has barely moved. He is watching the door. Maren Crale has noticed him too — you can tell by the way she is not looking at him.",
+        "immediate_opportunity": "The man is one of two Hollow Road contacts who use the inn as a waystation. He is waiting for a pickup that is two days late. He will not speak first but will respond if approached correctly."
+      },
+      {
+        "background": "rural_midwife",
+        "location": "The Marchwarden's Rest, morning",
+        "hook": "Oswin Crale is behind the counter looking at a list that is clearly making him unhappy. Win is bringing in firewood. A woman came in an hour ago asking about the apothecary's hours and was told the apothecary has been closed three days — illness. Nobody in the inn seems to know what to do about this.",
+        "immediate_opportunity": "There are two people in Durnward who need a midwife or herbalist right now. The apothecary's absence is felt. Making yourself known as having medical skill will generate work within hours."
+      },
+      {
+        "background": "hedge_farmer",
+        "location": "The western bank market, early morning",
+        "hook": "The seed merchant is sold out of winter rye. He was sold out last Marketday too. The man behind you in the queue mutters that someone is buying in bulk and it isn't for planting.",
+        "immediate_opportunity": "The farmstead clusters outside Durnward need seasonal labor. The Dawnfield cluster — Morra Dawnfield's family farm — has a gap since she started spending her time in Durnward organizing the mine families."
+      },
+      {
+        "background": "carpenter",
+        "location": "The Marchwarden's Hall approach, eastern bank",
+        "hook": "A section of the hall's external staircase has been cordoned off with rope. A notice is chalked on a board beside it: DO NOT USE — UNSAFE. The notice has been there long enough that rain has blurred the letters.",
+        "immediate_opportunity": "The Marchwarden's steward Aldren Croft posted the notice. The repair has been deferred three times for budget reasons. A carpenter who presents themselves at the Hall office will find a willing client and a job that puts them inside the Marchwarden's household from day one."
+      },
+      {
+        "background": "shepherd",
+        "location": "The northern road out of Durnward, dawn",
+        "hook": "You passed a shepherd on the road an hour south of town. He was coming in, moving fast, and his flock was not with him. He didn't stop to talk. He had the look of someone who had decided something on the walk and wasn't ready to say it aloud yet.",
+        "immediate_opportunity": "The shepherd — Torven Greywood — has seen Karn outriders further south than they should be. He doesn't know what to do with that information. He'll be at the Marchwarden's Rest by midday, still deciding."
+      },
+      {
+        "background": "sailor",
+        "location": "The Durnwald Bridge, midday",
+        "hook": "You are as far from the sea as you have been in years. The river below the bridge is brown and fast with recent rain. A barge is trying to navigate the current below the bridge with a crew that is visibly arguing about approach angle.",
+        "immediate_opportunity": "The barge runs the Durnwald River between Durnward and a larger town two days downstream. The owner needs someone who understands water and current. It is not the sea. It will do."
+      },
+      {
+        "background": "deserter",
+        "location": "The eastern road into Durnward, dusk",
+        "hook": "There is a garrison checkpoint at the eastern road entry. Two soldiers. Routine, bored, checking passes. You do not have a pass. You have a face that might be on a list somewhere.",
+        "immediate_opportunity": "The western road has no checkpoint. Getting into Durnward means either the checkpoint, the river ford half a mile south, or waiting for a crowd large enough to enter with. The Hollow Road waystation is in the western bank — if you know what to look for."
+      },
+      {
+        "background": "impoverished_minor_noble",
+        "location": "The Marchwarden's Hall waiting room, morning",
+        "hook": "You have presented your family name to the hall's door warden and been shown to a waiting room. Two other people are waiting. One is a merchant with a trade dispute. One is watching you with the specific attention of someone who recognizes the name and is calculating what it means that you're here alone, on foot, in clothes that were once good.",
+        "immediate_opportunity": "The person watching you is Aldric Vorn — Corvan's quiet representative. He will introduce himself before you're called in. His interest in your family name is the beginning of something."
+      },
+      {
+        "background": "hedge_scholar",
+        "location": "The Temple of the Undying Ember library, morning",
+        "hook": "Brother Soren has a small library. You asked to use it and were permitted — literacy in the Marches is rare enough that Soren is cautiously pleased. You have been reading for an hour when you notice that the third shelf from the top has a gap where something was recently removed. The dust outline suggests a box, roughly hand-sized.",
+        "immediate_opportunity": "Soren will come in to check on you within the hour. He will notice that you noticed the gap. His response to that — whether he addresses it or pretends not to see you looking — will tell you something."
+      },
+      {
+        "background": "fen_born",
+        "location": "The Marchwarden's Rest common room, night",
+        "hook": "You are as far from the Fens as you've been. The room smells wrong — too dry, too smoky, not enough water in the air. Three men at the far table are from the north — you can tell by the way they're dressed and the way they're not talking about the thing they're all thinking about, which is the mine.",
+        "immediate_opportunity": "Win Crale brings you a meal without being asked — he noticed you come in wet and he feeds people who look like they need it before they've paid. This is how you learn the inn's actual situation within the first conversation."
+      },
+      {
+        "background": "hollow_road_runner",
+        "location": "The Marchwarden's Rest back entrance, dusk",
+        "hook": "You know the mark on the doorpost. You know what it means. You knock the right way and Maren Crale opens the door and looks at you with the expression of someone who was told to expect a different face.",
+        "immediate_opportunity": "The person you were sent to replace is three days late. Maren doesn't know why. The pickup is in two days. She needs someone who can do the job and she doesn't have the luxury of vetting you properly — you both know this."
+      },
+      {
+        "background": "man_at_arms",
+        "location": "The Garrison eastern bank, morning",
+        "hook": "Commander Torven Weld is reviewing his auxiliary roster on the steps outside his office. He looks up when you approach, takes in your bearing, your sword, and the state of your kit, and says nothing for a moment. Then: 'You've served.' Not a question.",
+        "immediate_opportunity": "Weld needs competent people more than he needs clean records right now. He will not ask directly about your past. He will offer three days' trial work — eastern road patrol to Ashford and back. What he actually wants to know is whether you can be trusted, and the patrol is how he finds out."
+      },
+      {
+        "background": "camp_follower",
+        "location": "The Durnwald Bridge market, Marketday",
+        "hook": "The market is busy. You know markets. You know which stall is moving the most goods, which trader is having a bad day, which face belongs to someone buying more than they can afford. A woman with a mine family's hollow look is arguing with a grain merchant about price. She is losing the argument.",
+        "immediate_opportunity": "Morra Dawnfield. You know what a losing negotiation looks like and you know how to turn one. If you help her — even just by standing next to her with a particular expression — the merchant folds. She will remember it."
+      },
+      {
+        "background": "tanners_apprentice",
+        "location": "The market, Marketday morning",
+        "hook": "The hide stall is selling inferior stock at standard prices. You know this immediately. The merchant knows you know — he can tell by the way you looked at his product. He is now watching you to see if you say so.",
+        "immediate_opportunity": "There is no dedicated tannery in Durnward. The town sources from Ashford, which has been producing less since the mine collapse disrupted the local economy. A skilled tanner with their own tools is a gap in the market."
+      }
+    ]
+  }
+}

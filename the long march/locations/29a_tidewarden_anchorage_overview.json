@@ -1,0 +1,243 @@
+{
+  "region_id": "tidewarden_anchorage",
+  "name": "Tidewarden Anchorage",
+  "continent": "The Shattered Reach",
+  "file_index": "29a",
+
+  "overview": {
+    "population_total": 31000,
+    "primary_settlement": "The Anchorage (no formal name — it is simply the Anchorage)",
+    "primary_population": 28000,
+    "secondary_settlements": [
+      "Outer Harbor settlement (~1,800 — the working docks, repair yards, provisioning)",
+      "The Shelf (~800 — the steep eastern island's lower tier, fishing and small craft)",
+      "Pilotage (~400 — the pilot station island, northernmost of the three)"
+    ],
+    "dominant_religion": "Tidewarden Church (cathedral complex) plus every faith on Arneth in smaller presence",
+    "dominant_faction": "Reach Compact (formal) / Corsair Throne (practical sea authority)",
+    "current_year_condition": "The world in miniature, operating at its normal extraordinary pitch with a specific additional layer of tension that has been building for three weeks. A ship is in the outer harbor with a mismatched manifest and a crew that will not come ashore. The Iron Wake is in the Anchorage in person for the first time in eight months. The Varathi Return cult has established a new operation specifically to receive the ship and is making errors a harbor environment makes visible. The Compact has a twenty-year embedding that nobody has identified. The Pale Company Warden has been cataloguing mistakes for three weeks and has the most complete operational picture of anyone watching. The Salt Silence has already identified both the cult operation and the embedding and is sitting on both because sitting is more useful than acting.",
+    "danger_level": "Low in the formal Anchorage — well-policed, multiple institutional authorities with overlapping jurisdiction that produces net stability. Moderate in the Outer Harbor and the Shelf after dark. The ship in the outer harbor is in a category of its own."
+  },
+
+  "geography": {
+    "the_harbor": {
+      "description": "A natural harbor formed by three large islands in a rough triangle, creating a sheltered deep-water bay roughly forty miles across. The deepest natural harbor in the Shattered Reach. Ships that cannot enter any other port in the archipelago can anchor here. At any given time, forty to eighty vessels are in the harbor at various stages of transit, repair, or waiting.",
+      "the_bioluminescence": "The harbor glows at night. A specific organism in the Anchorage's cold deep water produces pale blue-white light that intensifies when disturbed — by oars, by fish, by the movement of the tide across the harbor floor. Ships entering after dark move through light they did not bring. Locals do not remark on it. Visitors always do.",
+      "the_sky": "Far enough south and clear enough of land-effect weather that the night sky here is extraordinary. The asteroid belt visible with unusual clarity from sea level. The Scald galaxy in summer dominates the southern horizon in a way that makes it visible even to people who have never looked up before.",
+      "the_outer_harbor": "The anchorage area beyond the formal harbor's inner breakwaters. Where ships wait for berth assignment, for cargo inspection, for pilot appointment. Where the ship with the mismatched manifest has been for three weeks."
+    },
+    "the_three_islands": {
+      "main_island": {
+        "name": "Halvard's Rock (formal) / The Rock (common)",
+        "character": "The largest of the three. The Anchorage's main settlement climbs the steep western face in tiers — buildings stacked on buildings, narrow stairs cut into stone, everything oriented toward the harbor. The Tidewarden Cathedral complex occupies the highest tier, visible from forty miles at sea. Saint Halvard's burial site is on the harbor walk at the base of the eastern face — a simple stone marker that has been worn smooth by generations of hands."
+      },
+      "eastern_island": {
+        "name": "The Shelf",
+        "character": "Lower and flatter than the main island. The working harbor's practical functions — fish processing, small craft repair, net-mending, the specific industries that support fishing communities rather than trade communities. Connected to the main island by a stone causeway passable on foot at low tide and by ferry at all times."
+      },
+      "northern_island": {
+        "name": "Pilotage",
+        "character": "The smallest of the three. The Reach Compact's official pilot station. Every vessel entering or leaving the harbor is required to take on an Anchorage pilot for the approach or departure. The pilots are licensed, experienced, and — through the pilot station's vantage point — aware of every vessel movement in the harbor."
+      }
+    },
+    "saint_halvards_burial_site": {
+      "location": "Harbor walk, eastern face of the main island, at the waterline",
+      "description": "A stone marker worn smooth by generations. No inscription legible — whatever was carved has been touched away over a century. The site is maintained by the Tidewarden Church as a pilgrimage point. The anomalous resistance here is the second strongest of any documented saint site after Saint Aldric's burial in the Warden States' Inner Zone.",
+      "current_behavior": "The burial site's anomalous resistance has been responding to the disc on the ship in the outer harbor for three weeks. The response is not dramatic — not visible light, not audible sound. A quality of the air around the marker has changed slightly. The High Warden of the cathedral has been going at night because at night, when the harbor is quieter and the bioluminescence is visible and the specific quality of the site is less diluted by foot traffic, she can feel it clearly. She does not know what she is feeling. She knows something is different.",
+      "the_disc_connection": "The steel-and-gemstone disc on the ship in the outer harbor is a containment marker of the same type as the Thornsveld disc. The burial site's resistance is responding to its proximity — Saint Halvard's anomalous qualities appear to be specifically reactive to this type of object. The response would be stronger if the disc were brought to the site. What would happen then is not documented anywhere. Orveth in the Free Fens, if she knew, would know. The Pale Company Warden in the Anchorage has a hypothesis they have not tested."
+    }
+  },
+
+  "political_structure": {
+    "reach_compact": {
+      "description": "The governing council of the seven largest island-states in the Shattered Reach. Formal authority over the Anchorage and its harbor. Manages trade licensing, customs, the pilot station, dispute resolution between powers operating in the harbor.",
+      "current_council_composition": "Seven seats. Five currently stable. One — Oswin Halvwater's — compromised by a twenty-year embedding that nobody has identified. One — Wenda Saltcrest's — actively building a case against the compromised seat without knowing whose seat it is.",
+      "compact_corsair_negotiation": "The Corsair Throne has been pressing for formal Compact recognition for twelve years. The negotiation is real and ongoing. Neither side fully wants it resolved — the current ambiguity gives both sides leverage they would lose in a formal arrangement. The Iron Wake is using the recognition negotiation as cover for her actual reason for being present."
+    },
+    "corsair_throne": {
+      "description": "The practical sea authority in the Shattered Reach. What the Compact controls administratively, the Corsair Throne controls operationally — which routes are safe, which ships are left alone, which harbors function without interference. The non-aggression arrangement, which flows through specific payment mechanisms in ports across Arneth, is the mechanism by which the Corsair Throne's authority is felt everywhere without being formally acknowledged anywhere.",
+      "iron_wake": {
+        "description": "Rael Sorveth. 54. Has been the Corsair Throne's sovereign for twelve years. Before that: a Reach Compact naval officer who was present at the suppression of a pirate fleet, defected during the operation for reasons she has never publicly stated, and built the current Corsair Throne from the remnants of what was suppressed.",
+        "why_she_is_here": "A Salt Silence contact provided intelligence about the ship — specifically, that multiple sophisticated organizations were interested in its cargo simultaneously. A woman who has survived twelve years as a pirate sovereign understands that objects multiple sophisticated organizations want simultaneously are worth being physically present to assess. She has been watching the ship and watching who watches it for six days.",
+        "her_read_of_the_situation": "Has identified the Varathi Return cult's operation — their night boat approaches are visible from the Iron Wake's current anchorage position. Has not identified the Pale Company Warden's interest. Has identified that the Compact council member who filed the clerical error is not simply an incompetent administrator — the pattern of Oswin Halvwater's administrative decisions over the past six months is visible to someone who knows what they are looking for. Has not yet determined what Halvwater is.",
+        "the_sable_renwick_unanswered_messages": "Has received Sable's assessment reports from the Amber Coast. Has not replied. Knows more about the Pelvan situation than Sable does. Is managing several threads simultaneously and has determined that sharing what she knows with Sable right now changes Sable's operational position in ways that may not serve the Iron Wake's current interests. This calculation may be wrong. She is aware it may be wrong."
+      }
+    },
+    "tidewarden_church": {
+      "description": "One of the Church's three primary cathedral complexes is here. The Anchorage is the Tidewarden Church's spiritual center in a way the other two are not — Saint Halvard was here, is buried here, and the Church's maritime theology was largely developed here.",
+      "financial_interests": "The Tidewarden Church owns significant harbor infrastructure — three warehouse complexes, two dry docks, the pilgrimage facilities around Saint Halvard's burial site. The Church's financial interests require the Corsair Throne's non-aggression and the Compact's administrative stability simultaneously.",
+      "high_warden": "See major NPCs."
+    }
+  },
+
+  "the_ship": {
+    "formal_designation": "Coastal trader — Ossrath registration, name filed as the Pale Current",
+    "location": "Outer harbor. Three weeks.",
+    "manifest_discrepancy": "Filed cargo: survey documentation and cartographic materials from an Ossrath interior expedition. Actual cargo: survey documentation (genuine, present, accurate), one steel-and-gemstone disc of the same type as the Thornsveld containment marker, one piece of sailcloth with a chalk scratching of approximately forty percent of the Keth New Work inscription.",
+    "the_disc": {
+      "description": "A second containment marker recovered by Varathi Return cult operatives from the closed New Work site during their unauthorized four-hour entry three weeks after the Keth Salvage Authority closure. Identical type to the Thornsveld Marches disc — steel with gemstone grown through it, not set, grown, the two materials developed together. Cold to the touch regardless of ambient temperature.",
+      "the_saint_halvard_response": "The burial site's anomalous resistance has been responding to the disc's presence in the outer harbor for three weeks. Distance effect — weaker than it would be in proximity. If the disc is brought to the burial site, the response intensifies. What the full response produces has not been documented."
+    },
+    "the_chalk_scratching": {
+      "description": "Made on sailcloth using ship chalk during the four-hour unauthorized entry into the New Work sealed chamber. The person who made it had approximately ninety minutes to copy what was on the walls before the group departed. The sailcloth has been in a ship's hold for three weeks. Smearing, humidity, and the specific degradation of chalk on fabric have reduced the legible content to approximately forty percent of what was copied.",
+      "what_remains_legible": "Fragments. The cult's Anchorage receiving operation has been analyzing for three weeks without progress. The script is the same partially-translatable pre-Varathi script as the full Keth inscription. What is legible includes: three location references that do not match any known geographic notation, a sequence the cult's scholar believes is a calendar notation but cannot confirm, and one phrase that appears in the Keth inscription's most alarming translatable passages — legible here in isolation, without the context the surrounding text would provide.",
+      "degradation_timeline": "At the current rate of degradation, the scratching will be fully illegible in approximately four to six weeks. The cult does not have a way to preserve it that they have identified yet."
+    },
+    "the_crew": {
+      "captain": {
+        "name": "Dava Salthorn",
+        "age": 48,
+        "background": "Drift Lord origin — from one of the plateau clans, went to sea at nineteen, has been running coastal and inter-continental cargo routes for twenty-five years. Was hired for the Ossrath coastal run specifically by a Varathi Return cult intermediary who told her it was survey documentation and paid double the standard rate. She accepted double the standard rate and asked no questions. This is a decision she has been reconsidering for three weeks.",
+        "current_situation": "Wants to be paid the remainder of her fee and leave. Has been told the Anchorage receiving contact will come to the ship when ready. Three weeks of 'when ready' has produced in her a specific quality of professional anger that is controlled because she needs to be paid before she can express it.",
+        "the_two_crew": "Two of her crew — hired at the same time by the same intermediary, not her regular crew — have been below decks for most of the harbor stay. They are not ill in any conventional sense. They are experiencing the acute directional awareness from handling the disc and the chalk scratching during the Keth chamber entry. The awareness manifests on a ship as an orientation compulsion — they keep turning toward a specific heading. Three weeks at sea before the Anchorage arrival involved Dava repeatedly correcting course as her two crew members found reasons to adjust the helm. She does not know what is wrong with them. She knows something is wrong with them.",
+        "what_she_will_do": "If a player comes aboard with a legitimate reason — pilot business, harbor inspection, cargo verification — she will be professionally cooperative and personally difficult. If a player demonstrates they understand what is happening to her two crew members, she will be considerably more forthcoming about everything."
+      },
+      "the_two_affected_crew": {
+        "names": "Kern Drath and Sela Voss — Keth plateau naming register, both from Ossrath, both cult members",
+        "note": "Kern Drath also appears as the Ironmark forward scout in the Borderlands — different person, Drath is a common Ossrath plateau surname",
+        "situation": "Four hours in the Keth New Work sealed chamber, handling the disc and copying the inscription. The acute directional awareness they are experiencing is stronger than any version described in other regions because of the duration and proximity of their exposure. The heading they keep orienting toward is not toward Keth, not toward the Thornsveld Marches, not toward the Free Fens — it is toward a location in the open ocean south of the Shattered Reach that does not correspond to any charted landmark. Cael Wyrnmark, if they heard this described, would recognize the heading as pointing toward a specific deep-water geographic feature — a submarine ridge that appears on old Varathi-era charts but not on current ones."
+      }
+    }
+  },
+
+  "active_tensions": [
+    {
+      "id": "the_ship_situation",
+      "name": "The Ship and What It Carries",
+      "summary": "The ship has been in the outer harbor for three weeks. It carries a second steel-and-gemstone containment disc and a degrading chalk scratching of forty percent of the Keth inscription. Multiple organizations are watching it. The cult's receiving operation is making cataloguable mistakes. The Iron Wake is watching who watches it. The Pale Company Warden has the most complete picture. Saint Halvard's burial site has been responding to the disc for three weeks.",
+      "the_four_parties_watching": [
+        "Varathi Return cult — new operation, wants the disc and the scratching, making mistakes",
+        "The Iron Wake — wants to understand what multiple organizations want simultaneously",
+        "The Pale Company Warden — has been cataloguing cult mistakes, has a hypothesis about the burial site response",
+        "The Salt Silence central figure — has already identified everything and is waiting"
+      ],
+      "the_fifth_party": "A player who has encountered the cold-to-touch quality in other regions will recognize the disc's significance immediately. A player who has been in Keth will recognize the inscription fragments. A player who has been in the Thornsveld Marches will recognize the disc type. A player who has been to all three regions is the only entity on Arneth who can fully assemble the picture.",
+      "player_involvement_paths": [
+        "Pilot business — the harbor pilot requirement means a player with maritime skills has legitimate reason to approach the ship",
+        "Harbor inspection — Compact authority allows boarding for manifest verification",
+        "The burial site response — the High Warden's nocturnal visits are observable, the response is feelable",
+        "The cult's operational mistakes — visible to anyone paying attention in the harbor",
+        "Dava Salthorn — the captain who wants to be paid and go home and knows something is wrong with her crew"
+      ]
+    },
+    {
+      "id": "oswin_halvwater_embedding",
+      "name": "Twenty Years in the Wall",
+      "summary": "Oswin Halvwater has been on the Compact council for seventeen years as a Varathi Return cult asset. Filed the clerical error notation that covered the ship's manifest discrepancy. Does not know about the disc. Wenda Saltcrest has been building a pattern for three months and is close to having something presentable but does not know who to take it to.",
+      "what_the_salt_silence_knows": "Has identified both the embedding and Saltcrest's investigation. Is sitting on both because sitting is more useful. Has been deciding for three weeks whether the disc situation changes the calculation.",
+      "player_involvement_paths": [
+        "Wenda Saltcrest — accessible through Compact channels, actively looking for someone she can trust",
+        "The Halverness Factors thread — appears in Anchorage records in a way that connects to the Keth and Amber Coast versions of the same thread",
+        "The Salt Silence central figure — the most complete picture available, but not freely given"
+      ]
+    },
+    {
+      "id": "iron_wake_presence",
+      "name": "Why the Iron Wake Is Here",
+      "summary": "Rael Sorveth is present in person for the first time in eight months. The Compact recognition negotiation is cover. She is here because of the ship. She is watching. She has not moved yet.",
+      "the_compact_recognition_meetings": "Real meetings with a real agenda. The negotiation makes progress in each session and would eventually produce a result if left to run. The Iron Wake attends with genuine professional engagement. The engagement is not why she is here.",
+      "the_unanswered_sable_messages": "Sable Renwick on the Amber Coast has sent three assessment reports. The Iron Wake has not replied. A player who has been on the Amber Coast and who reaches the Iron Wake in the Anchorage is the bridge between these two threads.",
+      "player_involvement_paths": [
+        "The Compact recognition meetings — a player with sufficient standing can attend as an observer",
+        "The Iron Wake's vessel — she is not at the Compact's formal accommodation, she is aboard her own ship in the harbor",
+        "The Sable Renwick bridge — a player who carries specific Amber Coast intelligence to the Iron Wake changes the dynamic significantly"
+      ]
+    },
+    {
+      "id": "wenda_saltcrest_investigation",
+      "name": "The Pattern Wenda Is Building",
+      "summary": "Compact council member Wenda Saltcrest has three months of administrative pattern analysis on Oswin Halvwater and is close to something presentable. Does not know who to trust on the council. Has been looking for someone outside the Compact structure to verify her analysis.",
+      "what_she_has": "Seventeen specific administrative decisions by Halvwater over six months that individually appear reasonable and collectively form a pattern of facilitation — smoothing the path for specific cargo movements, specific personnel entries, specific information requests that the Compact would normally scrutinize. The clerical error notation is the most recent and the most obvious.",
+      "what_she_needs": "Someone with no Compact affiliation who can read administrative records and verify the pattern is what she thinks it is. And then someone who can help her determine what to do with it.",
+      "player_involvement_paths": [
+        "Direct approach — she has been looking for an outside analyst for three weeks",
+        "Through the Salt Silence — they will eventually point her toward the right resource",
+        "Through the Pale Company Warden — who has their own reasons to want the embedding surfaced"
+      ]
+    }
+  ],
+
+  "ambient_spawn_hooks": {
+    "philosophy": "The Anchorage overwhelms first. The information density, the language mix, the sheer quantity of people and ships and commerce happening simultaneously — a character arrives and the world is loud and full and moving. The hooks land a character in the harbor's specific texture before the deeper tensions surface. This is the most cosmopolitan environment in the game. Characters from rural regions will feel it immediately. Characters from urban regions will feel it differently — not unfamiliar, but scaled up.",
+    "hooks": [
+      {
+        "background": "sailor",
+        "location": "Outer harbor approach, dawn",
+        "hook": "The harbor pilot who comes aboard for the approach is efficient, precise, knows the harbor in the way that only comes from years of repetition. While they are working the approach they ask, without looking up from the water: 'How long are you staying?' It is a pilot's question — berth planning. The way they ask it is slightly different from a pilot's question.",
+        "immediate_opportunity": "The pilot is the Pale Company Warden. The question is the first contact. What the player answers determines whether it becomes the second."
+      },
+      {
+        "background": "merchants_clerk",
+        "location": "The Compact's customs office, morning",
+        "hook": "The customs office handles three hundred manifests a week. You are waiting to file paperwork for a cargo run when the clerk ahead of you — processing a stack of older notations — pauses on one, reads it twice, sets it aside with a specific quality of deliberateness, and continues. The notation she set aside is dated three weeks ago. The cargo description is survey documentation. The filer notation is Halvwater, O. — Compact council.",
+        "immediate_opportunity": "The customs clerk who set the notation aside is one of Wenda Saltcrest's informal contacts. She has been flagging these specific notations for three weeks. A player who notices what she did and asks her about it will be directed, carefully, to Wenda Saltcrest."
+      },
+      {
+        "background": "petty_criminal",
+        "location": "The harbor walk, evening",
+        "hook": "Three people in the past hour have walked past the same section of the harbor walk at irregular intervals and looked at the same point on the water — the outer harbor, the ship that has been there three weeks. They do not know each other. They are not together. Each has the specific quality of someone looking at something they have instructions to look at. You have been watching people for long enough to know the difference between looking and watching.",
+        "immediate_opportunity": "The three watchers are: one cult operative (making the cataloguable mistake of returning to the same observation point), one of the Iron Wake's crew (more disciplined, returns less frequently), and one person you cannot immediately categorize. The uncategorizable one is the Salt Silence central figure, who is also watching the watchers, which means they are now watching you watch all three of them."
+      },
+      {
+        "background": "hollow_road_runner",
+        "location": "A specific chandlery in the lower tier, morning",
+        "hook": "The mark is correct. The timing is correct. The contact inside is a middle-aged man named Sorn Halwick who has been running the Anchorage waypoint for eleven years and who assesses you in four seconds before returning to his work. The packet waiting for you is sealed and addressed in a hand you recognize as coming from the Free Fens network. You did not expect Free Fens correspondence in the Anchorage.",
+        "immediate_opportunity": "The packet is from Sova Fenwick — the Free Fens Hollow Road contact who moved someone out of the northwest fen three weeks ago and has been trying to confirm their safe arrival. The confirmation never reached her because the message runner got lost. Sorn Halwick has been holding this packet for two weeks. The person Sova moved arrived at the Anchorage, not the western Fens staging point — they redirected themselves here. They are in the Anchorage now. Where and in what condition is unknown."
+      },
+      {
+        "background": "temple_servant",
+        "location": "Tidewarden Cathedral, morning",
+        "hook": "The cathedral morning service has the specific quality of the only service you have attended where the congregation represents every faith on Arneth in some form — the Tidewarden worshippers, the people who are here because the cathedral is the most impressive building they have seen and they wanted to be inside it, the Salt Silence contact in the third row who attends every service and has never taken communion. The High Warden conducts the service with complete professional competence and the specific quality of someone who has been sleeping badly for three weeks.",
+        "immediate_opportunity": "The High Warden after the service. She is accessible, briefly, before her morning administration. A player who approaches with genuine religious engagement rather than institutional business will receive her attention. She has been wanting to talk to someone who might have a framework for what she has been feeling at the burial site."
+      },
+      {
+        "background": "disgraced_man_at_arms",
+        "location": "The Compact's public hiring board, morning",
+        "hook": "The Anchorage has more legitimate security work available than anywhere else in the game — convoy escort, warehouse guard, personal protection for merchants passing through. The board also has one posting that is not quite like the others: handwritten, no organizational header, asking for 'a person with military experience, specific discretion, and no current Compact affiliation.' The contact location is a room number at a specific inn.",
+        "immediate_opportunity": "Wenda Saltcrest's informal hiring. She has been looking for outside help with her investigation for three weeks and has resorted to the public board because her usual channels all have Compact connections she cannot trust. The room number is hers."
+      },
+      {
+        "background": "hedge_scholar",
+        "location": "The Tidewarden Cathedral library, morning",
+        "hook": "The cathedral library is the best in the Shattered Reach. Access is straightforward for credentialed scholars. The librarian — a precise woman named Idda Halvaine, no relation to any previous Halvaine, it is a common Church surname — directs you to the historical navigation section when you ask about pre-Reckoning maritime records. In the third volume you open there is a hand-drawn chart. The chart shows the Shattered Reach as it currently appears and, in a different ink that is visibly older, a set of depth soundings and a geographic notation for a submarine ridge south of the archipelago that does not appear on any current chart. The notation is in a script you have seen before — or close to it.",
+        "immediate_opportunity": "The old chart's submarine ridge notation is in the same pre-Varathi script as the Keth inscription. The ridge is the heading the two affected crew members on the outer harbor ship keep orienting toward. A player with First Scholars knowledge above 150 or who has been to Keth will recognize the script."
+      },
+      {
+        "background": "camp_follower",
+        "location": "The Outer Harbor inn — The Tide's End",
+        "hook": "The Tide's End serves the Outer Harbor — rougher than anything in the main Anchorage, cheaper, the specific clientele of people who work the water rather than trade on it. Three of the four tables are occupied by crews who have been in the harbor too long and are showing it. At the fourth table, alone, is a woman who is not showing anything because she is controlling it very carefully. She has a navigator's chart open on the table and is doing nothing with it.",
+        "immediate_opportunity": "Dava Salthorn. The chart is the Ossrath coastal route she came in on. She is looking at it because she has been looking at it every evening for three weeks, reviewing every decision she made on the voyage that brought her to this specific situation. A camp follower who has spent years reading people in controlled distress will recognize what she is doing. She is waiting for someone to ask her what is wrong."
+      },
+      {
+        "background": "levy_soldier",
+        "location": "The Compact's garrison hall, morning",
+        "hook": "The Compact has a small permanent garrison — forty soldiers, primarily for customs enforcement and harbor security rather than military operations. They are hiring temporary augmentation because the Iron Wake's presence has increased the harbor's political sensitivity and the garrison commander wants more bodies visible. Standard rate. The work is patrol and presence, not combat.",
+        "immediate_opportunity": "The garrison patrol routes pass the outer harbor. A player on garrison duty will observe the ship directly, will observe the cult's night approaches if assigned to evening patrol, and will encounter the Pale Company Warden in their pilot capacity during morning ship movements."
+      },
+      {
+        "background": "sailor",
+        "location": "The pilot station on Pilotage island, afternoon",
+        "hook": "You came to the pilot station looking for transit work — pilot boats need crew, the work is steady, the knowledge of the harbor you accumulate is worth more than the wage. The senior pilot who interviews you is unhurried and asks questions that are thorough in a way that goes beyond transit work qualifications. At the end of the interview he says: 'You can start tomorrow.' Then: 'The ship in the outer harbor — the one that has been there three weeks. Have you looked at it?' You have. He nods. 'Look at it again in the morning. Tell me what you see that's different from yesterday.'",
+        "immediate_opportunity": "The pilot is the Pale Company Warden. This is the first contact. The instruction to look at the ship is an assessment — he wants to know what you notice."
+      },
+      {
+        "background": "innkeepers_child",
+        "location": "The Silver Tide inn, Cathedral Quarter, evening",
+        "hook": "The Silver Tide is the best inn in the Anchorage and you are working the common room. The woman in the corner booth has been here for six days and has not taken a meal in the common room on any of them — she sends for food to be brought to her room and eats it there. Tonight she is in the common room and she is watching the room with the specific quality of attention of someone who has decided to be visible tonight for a reason. Three other people in the room have noticed this. You have noticed that three other people have noticed. She looks at you looking at them looking at her and she almost smiles.",
+        "immediate_opportunity": "The Iron Wake. She has come to the common room tonight because she wants to be seen being present — a calculated move in the larger game she is playing around the ship situation. An innkeeper's child who has been reading common rooms since childhood and who demonstrates they see the full structure of what she is doing will receive a brief conversation that would not be available through any other approach."
+      },
+      {
+        "background": "petty_criminal",
+        "location": "The lower tier market, morning",
+        "hook": "The Anchorage's lower tier market is the most information-dense single location on Arneth. You could spend a week here and not hear the same piece of information twice. What you hear in your first hour: that the ship in the outer harbor has been there too long, that the Corsair Throne's sovereign is in the Anchorage personally which has not happened in eight months, that someone has been asking harbor pilots about the outer harbor ship's night movements in a way that suggests they are not a harbor pilot, and that the Tidewarden High Warden was seen at Saint Halvard's burial site at the third hour of the night last Wardday. Any one of these would be interesting. All four in one hour means something is happening.",
+        "immediate_opportunity": "The market information as orientation. A player who processes all four pieces and recognizes they are connected has done in one hour what the Compact's administrative apparatus has not done in three weeks."
+      },
+      {
+        "background": "deserter",
+        "location": "The Shelf, eastern island, arrival by small boat",
+        "hook": "You came in on a fishing boat from the outer islands, avoiding the formal harbor entry. The Shelf is where you land — the rough working harbor where a fishing boat arriving at the wrong time with the wrong papers is not remarkable enough to note. A man on the dock who watched you land says nothing to you directly. Two hours later, in the only food stall on the Shelf that is open at this hour, he sits down across from you and says: 'You came in from the east. Did you pass the ship in the outer harbor?' You did. 'The Compact has been looking for three deserters from the Reach garrison for two weeks. You look like you might be interested in work that does not involve the Compact knowing you are here.'",
+        "immediate_opportunity": "The man is one of the Iron Wake's crew — the same crew member who has been making the disciplined surveillance passes of the outer harbor. She is recruiting outside the Compact's visibility. The work she is offering pays well and involves the outer harbor ship. What exactly it involves depends on what the Iron Wake decides to do about the ship, which she has not yet decided."
+      }
+    ]
+  }
+}

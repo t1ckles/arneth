@@ -1,0 +1,198 @@
+{
+  "region_id": "free_fens",
+  "name": "The Free Fens",
+  "continent": "Drenmark",
+  "file_index": "28a",
+
+  "overview": {
+    "population_total": 14000,
+    "primary_settlement": "Mossward",
+    "primary_population": 1900,
+    "secondary_settlements": [
+      "Fenhollow (600 — second largest Fens town, eastern edge)",
+      "Coldmere Station (400 — Drenmari See major station, central Fens)",
+      "Northwest Station (80 — the affected station, six weeks of contamination)",
+      "Approximately 28 smaller village clusters throughout the Fens (~11,020)"
+    ],
+    "dominant_religion": "The Moor Communion",
+    "dominant_faction": "The Fen Lords (informal rotating council) / The Drenmari See (moral authority)",
+    "current_year_condition": "A region that has been left alone long enough to become itself entirely. The Fens produces nothing that outside powers need urgently and provides geographic barriers that make administration expensive. The result is a culture that has been building on its own foundations for two thousand years. Currently: the northwest contamination is the most serious crisis in living memory, the Fen Lords are divided on the See's authority to respond, an 84-year-old Station-Keeper is deciding whether to ask something of someone she loves, and a First Scholars representative is recording oral tradition with increasing unease as what she is recording converges with what she is watching happen.",
+    "danger_level": "Unusual character. Human dangers relatively low — the Fens does not produce organized violence. Environmental dangers are higher than anywhere else. Navigation error in the northwest fen is fatal. The contamination zone in the northwest is in a category of its own and that category is getting worse."
+  },
+
+  "geography": {
+    "terrain": {
+      "description": "Several hundred miles of fen, bog, dark forest, and moor with scattered settlements rising from higher ground like islands. The water table is near the surface everywhere. Roads are boardwalks — raised timber pathways, maintained by the communities they serve, decaying quickly when unmaintained. Buildings are on stilts or raised earthen platforms. The forest is genuinely old in a way that forests on other continents are not.",
+      "the_old_trees": "Trees that were saplings when the First Reckoning calendar was established are still standing. They grow close and tall. The canopy shuts out most light. At midday in the deep fen it looks like dusk. At actual dusk it is dark.",
+      "sound": "Carries strangely. Sometimes you hear things from further away than should be possible. Sometimes sounds disappear completely. Travelers who have been in the Fens for the first time describe both effects as unsettling. Fen-born people do not notice either.",
+      "smell": "Peat and standing water. In the settlements: smoke and wet wool. In the contamination zone: the peat smell with something underneath it that is wrong in a way that is hard to articulate. Not rot, not sulfur, not anything with a name — just wrong.",
+      "navigation": "Knowing what you are doing here is everything. Paths that are dry in Solaran are knee-deep in Thornmelt. Ground that looks solid may not be. Characters without Fen Navigation skill above 100 are at genuine risk of fatal navigation error in any section of the Fens beyond the main boardwalk routes. Characters without Fen Navigation above 200 should not attempt the northwest fen."
+    },
+    "the_northwest_fen": {
+      "description": "The deepest and most isolated section of the Free Fens. Three days from Mossward on the main boardwalk, then off any maintained path. The area that animals have always avoided and that fen-born people have always known to treat with specific respect. The contamination is here. Gorra's sealed site is here — or was. The contamination is moving.",
+      "the_contamination": {
+        "visible_signs": [
+          "Plant die-off in an approximate two-mile radius — the specific fen species dying back in a pattern that is not consistent with natural die-off",
+          "Water that smells wrong — the wrong-smell is stronger closer to the center",
+          "Animal absence — not just the normal avoidance, a complete absence of anything living in the innermost half-mile",
+          "The ground subsidence — specific sections of the bog surface are sinking slightly, as if something below is shifting",
+          "Sound change — the northwest fen is silent in a way the rest of the Fens is not. No birds. No insects. The specific silence of a place that has been emptied."
+        ],
+        "calder_moss_observation": "The contamination is not spreading concentrically. It is moving northwest. Slowly — perhaps fifty yards per week. But measurably. The center of the contamination is not where the See believes it is. It is further northwest than the See's official map shows. Calder has been documenting this for three weeks and has not shared it because the northwest destination of the movement is a place the animals have always avoided and that their grandmother told them never to approach.",
+        "what_is_moving": "Gorra's burial site is the anchor of the original sealing. As the sealing degrades, the anchor weakens. The demonic presence inside is not mobile in a conventional sense — it is expanding its influence in the direction of least resistance. The northwest fen's deep bog, oldest peat, and accumulated wrongness from centuries of intentional avoidance makes it the path of least resistance. The thing inside is not navigating. It is flowing.",
+        "timeline": "The sealing has been degrading for approximately two years, with acceleration in the past six months. At the current rate of spread, the site reaches the deep northwest fen — the location Calder's grandmother identified — in approximately four to six months. What happens when it reaches that location is not in any text Edda Vrane has access to. Orveth knows. She has not said."
+      }
+    },
+    "mossward_platform": {
+      "description": "Mossward sits on a raised platform of accumulated occupation that has been inhabited for approximately two thousand years. The platform itself is a historical record — each generation built on what the previous generation left, and the peat has preserved it all. What is below Mossward's current surface includes: the foundations of the previous settlement, which includes the foundations of the settlement before that, and so on down to the original platform that was constructed when the first permanent community established itself here in Year approximately 200.",
+      "peat_emergence": {
+        "description": "Things come up from the peat at Mossward. Not constantly — perhaps three or four significant emergences per generation, with smaller objects appearing more frequently. The Moor Communion has a specific practice for this because it happens regularly enough to require one.",
+        "the_practice": "Identification, acknowledgment, proper treatment, and return to the peat. The identification step requires a Station-Keeper to examine whatever emerged and determine its nature and approximate age. The acknowledgment involves a specific spoken rite. Treatment depends on nature — most objects are inert historical artifacts, some require specific handling, very rarely something requires the full sealing rite. Return to the peat means placing the object in a specific location in the deep bog south of Mossward that the Communion calls the Return.",
+        "the_current_object": {
+          "description": "Three weeks ago, from the construction site of a new boardwalk extension on the settlement's northern edge: a container. Sealed. Made of a material that is not wood, not metal, not anything the Station-Keeper at Mossward's main Station has identified. Approximately the size of a large book. Heavy for its size. Cold to the touch regardless of ambient temperature.",
+          "what_is_known": "It has been in the peat for an estimated 1,800 to 2,000 years. It is sealed. It has not been opened. The cold-to-touch quality is the same quality reported for the steel disc artifacts in the Thornsveld Marches — this is not coincidental and it is not a connection anyone in the Fens has made.",
+          "where_it_is": "Locked room in the Mossward main Station. The Station-Keeper Brynn Holst has been deciding what to do with it for three weeks. Has conducted the identification rite. Has not completed the acknowledgment because she does not know how to acknowledge something she cannot identify.",
+          "the_connection": "This object is older than the steel disc artifacts from the Thornsveld Marches. It predates the First Reckoning calendar. It is not the same type of object — the disc was a containment marker, this is a container. It is from the same source in the sense that both were made by whoever made the inscription in the Keth Plateau's sealed chamber — the pre-Varathi civilization that the First Scholars have been trying to understand for three thousand years. A player who has encountered the cold-to-touch quality in the Thornsveld Marches and encounters it again here will recognize the connection."
+        }
+      }
+    }
+  },
+
+  "governance": {
+    "the_fen_lords": {
+      "description": "An informal rotating council of the most powerful village heads. Meets twice yearly at Mossward. No permanent chair. Decisions by consensus, which in practice means decisions by sustained pressure. The council has been stable for two hundred years because its function is limited — the Fens does not require centralized governance for its normal operations. The northwest contamination is not a normal operation.",
+      "the_current_division": {
+        "pro_response_faction": "The villages near the northwest contamination want the See to take direct action. Send investigators, commit resources, address the crisis at the See's institutional level. Led by Elder Wren Holmswick of Fenhollow, who lost a nephew to the contamination's early spread.",
+        "pro_caution_faction": "The villages further from the contamination are skeptical of the urgency and uncomfortable with the See accumulating crisis-response authority. The informal political balance of the Fens depends on nobody accumulating too much authority. Led by Elder Caed Daltmere of the eastern villages, who is not wrong about the institutional risk and is wrong about the urgency.",
+        "the_stakes": "If the See is authorized to respond to the northwest contamination as a full institutional crisis, they will need to make decisions that currently belong to village councils. Who goes to the northwest. Who treats the sick. Who determines when the contamination is resolved. All of these are currently distributed decisions. Centralizing them in a crisis sets a precedent the cautious faction does not want set.",
+        "what_neither_faction_knows": "Calder Moss has information that would change the calculation for both factions. The See's investigators have not reached the northwest fen. The contamination is worse than either faction's most pessimistic estimate."
+      }
+    },
+    "the_drenmari_see": {
+      "description": "The network of Stations is the Fens' practical governance. Each Station is a waypoint, shelter, community center, and de facto court. The See's authority is moral and logistical — it has no military arm, no coercive power. What it has is the trust of the community and the accumulated practical knowledge of two thousand years of fen-keeping.",
+      "current_position": "Has been monitoring the northwest contamination for six weeks from the northwest Station. Has sent two investigators who have not returned yet — they are at the northwest Station tending to the sick and collecting information. Has not yet committed to a full institutional crisis response because the Fen Lords' authorization is not complete. Is waiting for the Fen Lords to resolve their division. The waiting is costing them the window."
+    }
+  },
+
+  "active_tensions": [
+    {
+      "id": "northwest_contamination",
+      "name": "Saint Gorra's Site — The Sealing Fails",
+      "summary": "Gorra's 600-year-old sealed demonic site is degrading. The contamination is spreading and moving northwest. Orveth knows what resealing requires and has not said. Calder Moss knows the contamination is moving and has not said. Edda Vrane is recording oral tradition and does not understand what she is recording. The See is waiting for Fen Lords authorization it cannot get in time.",
+      "gorra_site": {
+        "nature": "A fiend-level demonic presence sealed by Gorra approximately 600 years ago. The sealing was total — Gorra did not create a permeable boundary she maintained, she closed it entirely. The anchor of the sealing is Gorra's burial — her body is the sealing mechanism. As the sealing degrades, the anchor weakens and the presence expands its influence in the direction of least resistance.",
+        "what_emerges": "Initial: environmental contamination expanding outward. After boundary breach: the presence emerges into the physical world in the contamination zone. It is not immediately mobile or strategic — 600 years of dormancy produces disorientation. The first days after emergence are the window for resealing. After the window: it establishes itself in the site and becomes a fiend-level problem in the worst possible terrain.",
+        "the_window": "Approximately three to five days after the sealing fully breaks before the presence establishes itself. This is not a long window in a region where travel is slow and the location is three days from Mossward."
+      },
+      "what_resealing_requires": {
+        "the_tradition": "Gorra went inside the active site, performed the closing sequence from within, and did not come out. The seeing of the wrongness completely, without flinching, was the sealing. She died of what it cost her constitution. Not violence — the act of full perception of something like this has a cost.",
+        "orveths_variant": "Two people who can see each other clearly enough that neither's perception can be distorted by the wrongness. If the seeing is shared — if each person's clarity is anchored by the other's presence — the cost may be survivable. Orveth does not know if this is true. She has constructed it from the tradition's gaps and her eighty-four years of experience with what the Communion teaches about perception and wrongness.",
+        "who_orveth_is_thinking_of": "Calder Moss. Their clarity is the clearest she has seen in thirty years of watching young Fens practitioners. She is deciding whether she has the right to ask.",
+        "the_other_candidate": "A player with a sufficiently advanced Pale Company reputation counter — or with demonstrated capacity for undistorted perception in the face of wrongness — is the second person Orveth is waiting to identify. She does not know what the player is. She knows, through the Moor Communion's practiced recognition, that something about their quality of attention is different from most people who come through her door."
+      },
+      "player_involvement_paths": [
+        "Finding Calder Moss in the northwest fen and learning what they have withheld from the See",
+        "Reaching Orveth and earning the conversation about the tradition and the variant",
+        "The race against the window — if the sealing breaks before the resealing attempt, the situation becomes categorically different",
+        "Edda Vrane's recording — the oral tradition she is transcribing is the best available account of what the site is and what was done to seal it"
+      ]
+    },
+    {
+      "id": "fen_lords_division",
+      "name": "The Authority Question",
+      "summary": "The northwest contamination has produced a crack in Fen Lords unity. The near villages want the See to act. The far villages are protecting the Fens' distributed governance structure. Both positions are defensible. Neither can be resolved quickly. The contamination is not waiting.",
+      "player_involvement_paths": [
+        "Information that changes the calculation — specifically, Calder Moss's observation about the contamination's direction",
+        "The sick households at the northwest Station — direct evidence of the contamination's current severity",
+        "Elder Wren Holmswick's nephew — a specific human face on the near faction's urgency"
+      ]
+    },
+    {
+      "id": "the_peat_object",
+      "name": "What Came Up from the Peat",
+      "summary": "An unidentified sealed container emerged from the Mossward construction site three weeks ago. Cold to the touch regardless of ambient temperature. The Station-Keeper cannot complete the identification rite because she cannot identify it. It has been in the peat for approximately two thousand years.",
+      "the_connection": "The cold-to-touch quality connects this to the Thornsveld disc and the Keth inscription artifacts. A cross-regional player can make this connection. The container's contents are unknown. What is inside it is something placed there two thousand years ago by whoever built the system of which the Thornsveld containment markers and the Keth inscription are also parts.",
+      "player_involvement_paths": [
+        "Brynn Holst at the Mossward Station — the object is in her locked room",
+        "Cross-regional knowledge — the cold-to-touch quality is the thread",
+        "Opening the container — which Brynn Holst has not done and will not do without understanding what it is"
+      ]
+    },
+    {
+      "id": "edda_vrane_scholarship",
+      "name": "The First Scholars Representative",
+      "summary": "Edda Vrane came to record Orveth's oral tradition. She has been here six weeks and is recording with increasing unease as the account converges with the visible contamination. She does not have the framework to understand what she is watching. She has been trained to record, not to act. She is approaching the point where recording is insufficient.",
+      "player_involvement_paths": [
+        "Edda Vrane at the northwest Station — accessible to any player who reaches it",
+        "Her transcription — the most complete written account of the Gorra tradition currently being produced in real time",
+        "Her lack of framework — a player who can explain what she is witnessing changes her role from witness to participant"
+      ]
+    }
+  ],
+
+  "ambient_spawn_hooks": {
+    "philosophy": "The Free Fens is the quietest starting region in terms of political noise and the most environmentally demanding. Spawn hooks here are environmental rather than social — the Fens introduces itself through what it is rather than through what is happening in it. The darkness at midday. The sound that carries wrong. The specific quality of ground that does not behave like ground should. Characters arrive into a place that is very old and very itself and has no particular interest in accommodating outside assumptions.",
+    "hooks": [
+      {
+        "background": "fen_born",
+        "location": "The main boardwalk south of Mossward, arrival",
+        "hook": "You have been away. The Fens smells right again after however long it did not. The boardwalk needs repair in two sections you remember being sound when you left. Something has changed in the northwest and you can feel it the way you feel weather — not specific, not nameable, a quality of the air in that direction that was not there before.",
+        "immediate_opportunity": "The northwest contamination is perceivable to a fen-born character before any NPC explains it. The feeling sends you northwest. Calder Moss is northwest. Everything that matters to the contamination thread is northwest."
+      },
+      {
+        "background": "rural_midwife",
+        "location": "Mossward's main Station, arrival",
+        "hook": "The Station-Keeper Brynn Holst has been watching the door since morning. When you come through it she assesses you in the specific way of someone who has been waiting for a particular kind of person without knowing exactly what kind. She says: 'We have sick people at the northwest Station. The See's investigators have been there three weeks. They need someone with more knowledge than they have.'",
+        "immediate_opportunity": "The northwest Station's sick households — three households, currently seven people showing contamination-exposure symptoms that no standard Moor Communion treatment is fully addressing. A healer with Disease Recognition above 150 will identify these symptoms as demonic-exposure sickness rather than natural illness, which changes the treatment approach and the urgency."
+      },
+      {
+        "background": "hollow_road_runner",
+        "location": "A specific section of the western boardwalk, recognized approach",
+        "hook": "The Fens route mark is on the fourth post from the split-oak. You know this. You take the left fork after the marker and follow the water-sound. The contact is at the end of the left fork in a shelter built against a tree root large enough to shelter six people. She is already there and already watching the path you came from.",
+        "immediate_opportunity": "The Fens Hollow Road contact — a woman named Sova Fenwick who has been running this route for seven years and who has information about the northwest contamination from a different angle: three weeks ago she was asked to move a specific person out of the northwest quickly. She did. The person she moved has not been heard from since. She is beginning to wonder whether the person she moved is connected to the contamination situation."
+      },
+      {
+        "background": "hedge_scholar",
+        "location": "Mossward's main Station library, arrival",
+        "hook": "The Mossward Station has a library. It is the only library in the Free Fens and it is not large — forty-seven volumes, three hundred years of Station records, and a collection of oral tradition transcriptions that the Moor Communion has been producing since a See reform four hundred years ago. The Station-Keeper gives you access without significant vetting because literacy in the Fens is rare enough that genuine scholars are welcome. You have been reading for two hours when you find a specific entry in the oldest Station record: 'The northwest water has begun to smell wrong again. As it did before Gorra's time. We note this and pray it does not proceed as it did then.'",
+        "immediate_opportunity": "The Station record's entry is dated approximately two hundred and fifty years after Gorra's sealing — meaning it occurred once before and resolved without crisis. The record does not say how it resolved. The entry is the hook for a conversation with Brynn Holst about what the record means and whether there is more that was not written down."
+      },
+      {
+        "background": "shepherd",
+        "location": "The eastern edge of the Fens, arrival with a small flock",
+        "hook": "You came to the Fens because someone said there was summer grazing on the high moor east of Mossward. There is. You have been here two weeks and the grazing is good. Three days ago your oldest sheep — the one that always knows before the others — stopped facing northwest at dawn. All animals face the rising light at dawn. She faces northwest. She has been facing northwest for three days.",
+        "immediate_opportunity": "Animal behavior as early warning. The oldest sheep is responding to the contamination at a distance that no human has documented it reaching. A character with Animal Husbandry above 150 will take this seriously. Calder Moss, encountered later, will take it very seriously — this is further than the contamination's documented spread and changes the timeline."
+      },
+      {
+        "background": "temple_servant",
+        "location": "Mossward's main Station, arrival",
+        "hook": "You came to the Fens because the faith you found for yourself — not the one you were born to — has Moor Communion elements that you have been trying to understand without a practitioner to learn from. The Station-Keeper Brynn Holst listens to you explain this with the specific patience of someone who has heard many people explain their relationship to faith and has not yet heard this particular configuration. She says: 'Stay a week. There is something I would like you to see and someone I would like you to meet. The meeting cannot be arranged quickly.'",
+        "immediate_opportunity": "Brynn Holst is arranging an introduction to the northwest Station and to Orveth. The something she wants you to see is the peat container — the unidentified object she cannot complete the identification rite for. She thinks someone with knowledge of multiple faith systems might have a framework she lacks."
+      },
+      {
+        "background": "fen_born",
+        "location": "Northwest fen, three days from Mossward",
+        "hook": "You came northwest because the feeling sent you here. The boardwalk ends two hours back. You have been moving on ground you know. The ground is changing — sections that should be stable are not. The plant die-off is visible from the ridge you are standing on: a rough circle two miles across where the fen-specific plants are dead or dying. Inside the dead circle, nothing moves. Not wind, not water surface, not any living thing. The silence is wrong in a way that the Fens' normal wrong silence is not.",
+        "immediate_opportunity": "Direct entry into the contamination zone. Calder Moss is somewhere in the dead circle — they come here every three days to take readings. They will find you before you find them."
+      },
+      {
+        "background": "camp_follower",
+        "location": "Mossward market, Marketday",
+        "hook": "The market is smaller than any market you have worked around armies near. But the information density is similar — a tight community in a specific place, everyone knowing something about everyone else, and a specific cluster of people at the northeastern edge of the market who are talking with the particular intensity of people managing fear they are not fully expressing. You can read this configuration in your sleep.",
+        "immediate_opportunity": "The cluster is village representatives who came to Mossward to press their case to the See about the northwest contamination. They are afraid and are expressing it as urgency about the institutional response rather than as fear, which is how communities express fear. A camp follower who has spent years reading army communities will recognize the translation."
+      },
+      {
+        "background": "petty_criminal",
+        "location": "Mossward's only tavern — The Wet Floor (named for the persistent damp that no amount of repair has addressed)",
+        "hook": "The Wet Floor has one quality you did not expect from a fen market town tavern: expensive taste in information. Three people in the common room are conducting three separate quiet conversations with the specific spatial awareness of people who know they are in a public space and are speaking accordingly. One of them glances at you, holds it a second too long, and looks away. You have been assessed and filed.",
+        "immediate_opportunity": "The three conversations are: a Hollow Road-adjacent discussion about the northwest route being compromised, a Fen Lords discussion about the See's authority question, and a conversation between Edda Vrane and a local elder about oral tradition. The person who assessed you is Sova Fenwick, the Hollow Road contact. She does not approach. She has filed you as someone worth watching."
+      },
+      {
+        "background": "hedge_farmer",
+        "location": "The high moor east of Mossward, three days after arrival",
+        "hook": "You have been clearing a section of high moor for a possible kitchen garden — preliminary work, seeing if the ground is workable. The ground is not workable in the usual sense but it is workable in a specific Fens sense that requires different techniques. An old man who has been watching you work from the far side of the field for two hours walks over and says nothing, looks at what you have done, and makes one adjustment to your drainage trench with the heel of his boot. The trench immediately begins to work. He nods at it and walks away.",
+        "immediate_opportunity": "The old man is Orveth's neighbor, a fen-farmer of seventy years named Drev Coldwater who does not speak much but knows more about working fen ground than anyone else in the Fens and will teach someone who demonstrates they are actually trying to learn rather than simply farming. His relationship with Orveth is long and his opinion of visitors to the northwest is specific and can be accessed by a player who earns his respect."
+      }
+    ]
+  }
+}

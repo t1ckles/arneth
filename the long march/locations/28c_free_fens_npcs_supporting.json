@@ -1,0 +1,211 @@
+{
+  "region_id": "free_fens",
+  "file_index": "28c",
+  "npc_file": "free_fens_supporting_cast",
+  "total_npcs_this_file": 44,
+
+  "naming_note": "Drenmark/Fens register throughout. Soft consonants, Celtic-adjacent sounds, names that have been worn smooth. Cross-checked against all previous NPCs. No name used more than twice across the entire document set.",
+
+  "mossward_station_staff": [
+    {
+      "id": "mossward_junior_station_keeper",
+      "name": "Idwal Fenhollow",
+      "role": "Junior Station-Keeper — Mossward",
+      "age": 27,
+      "physical": "Three years into the Station-Keeper training. Has the physical development of the work but not yet the settled quality of someone who has been doing it long enough for it to become nature.",
+      "disposition": "Earnest, learning, specifically good at the practical maintenance tasks that Station-keeping requires.",
+      "secret": "Has been assigned to document the peat emergences from the construction site for Brynn Holst. Has documented four minor objects and the sealed container. Has not seen the container up close — it is in the locked room. Has heard it described by Brynn and has had one dream since that he has not mentioned to anyone: a sound like stone grinding against stone from deep underground.",
+      "player_interaction": "The grinding stone dream — present in the Borderlands as a Bleeding Ground pre-activation signal and now appearing here in someone adjacent to the peat container. A player who encounters both will recognize the cross-regional consistency of this specific manifestation."
+    },
+    {
+      "id": "mossward_healer",
+      "name": "Gwen Ashfen",
+      "role": "Healer — Mossward Station, primary medical practitioner for the town",
+      "age": 44,
+      "physical": "The competent unhurriedness of someone who has been the only healer in a remote community long enough to know that panic costs more than it gains.",
+      "disposition": "Practical about what she knows and what she does not know.",
+      "secret": "Has received two people in the past month from the northwest — not the sick households at the northwest Station, but travelers passing through who showed early contamination-exposure symptoms she did not recognize. Treated them as best she could for unknown illness. One recovered. One did not. Has not told Brynn Holst about the second one because the second one died and she does not know how to present a death she cannot explain.",
+      "player_interaction": "For medical background players, the most immediately accessible medical colleague. Her unacknowledged death case is a thread — a player who earns her trust will hear about it."
+    },
+    {
+      "id": "mossward_record_keeper",
+      "name": "Brychan Mosshollow",
+      "role": "Record keeper — Mossward Station library",
+      "age": 62,
+      "physical": "Has been maintaining the Station library for twenty years. The specific quality of someone who knows where every document in their care is and what it contains.",
+      "disposition": "Meticulous. Has strong opinions about how documents should be stored and accessed that are not always shared by the people accessing them.",
+      "secret": "The Station record with the entry 'the northwest water has begun to smell wrong again — as it did before Gorra's time' was found by Brychan eight months ago during a routine catalogue update. He flagged it to Brynn Holst. The entry is the hedge scholar spawn hook's discovery. Brychan knows the entry is there and has been waiting to see if anyone else finds it.",
+      "player_interaction": "The library access point. His catalogue knowledge means he can direct specific inquiries to the right records. A player who asks about northwest contamination history will be directed to the entry immediately."
+    }
+  ],
+
+  "mossward_community": [
+    {
+      "id": "mossward_peat_cutter",
+      "name": "Owain Daltfen",
+      "role": "Peat cutter — primary Mossward industry worker",
+      "age": 38,
+      "physical": "Peat cutting is specific physical work and it shows.",
+      "disposition": "The practical cheerfulness of someone who does hard physical work and has decided to find it satisfying rather than miserable.",
+      "secret": "Was working the northern construction site when the sealed container came up from the peat. Was the first person to touch it. Set it down immediately because of the cold. Has not had a full night's sleep since. The dreams are not the grinding stone — they are something different, something he cannot describe except as a quality of attention, as if the container is aware of where he is.",
+      "player_interaction": "The first person to have touched the container. His specific sleep disruption — the awareness quality — is different from the grinding stone dream and may indicate the container's contents have their own signature distinct from the Bleeding Ground pre-activation signal."
+    },
+    {
+      "id": "mossward_market_trader",
+      "name": "Caera Fenwick",
+      "note": "No relation to Sova Fenwick",
+      "role": "Market trader — Mossward, primary goods distribution",
+      "age": 46,
+      "physical": "Runs the most complete general goods operation at Mossward market. Has the specific knowledge of someone who knows exactly what comes in and out of the community.",
+      "disposition": "Commercial, community-oriented, specifically aware of supply chain disruptions.",
+      "secret": "The northwest fen's medicinal plant supply has been declining for eight months — the plants that grow only there and that command high external prices have been producing less as the contamination spreads through their growing zone. Has been quietly rationing what remains. Will not be able to fulfill three current external orders if the supply continues to decline. The orders are from medical practitioners in Drenmark's settled communities who depend on the Fens-specific plants.",
+      "player_interaction": "The medicinal plant supply thread — connects the contamination's economic consequences to external communities who will eventually notice. A player with herbalism knowledge will recognize which plants are declining and why."
+    },
+    {
+      "id": "mossward_elder_fenlord",
+      "name": "Haddan Mossward",
+      "note": "His family has been in Mossward so long their surname is the settlement name. He finds this neither remarkable nor inconvenient.",
+      "role": "Mossward village head — attends Fen Lords meetings",
+      "age": 66,
+      "physical": "The oldest serving Fen Lord currently in the rotation. Carries this with the specific unhurriedness of someone whose authority needs no demonstration.",
+      "disposition": "Patient about the authority dispute in the way of someone who has been through three previous Fen Lords crises and knows they resolve. Beginning to suspect this one is different.",
+      "secret": "Has been approached by Caed Daltmere about the Ashenveld communication. Daltmere told him more than Daltmere intended to tell him. Haddan has been sitting with this for two weeks, deciding whether it changes how he should vote on the authority question. Has concluded that it probably does but has not yet determined in which direction.",
+      "player_interaction": "The most balanced perspective on the Fen Lords division. Will share the Ashenveld communication situation if a player has demonstrated they understand the Fens' political structure and asks the right question."
+    },
+    {
+      "id": "mossward_wet_floor_keeper",
+      "name": "Rhonda Bogward",
+      "role": "Tavern keeper — The Wet Floor, Mossward",
+      "age": 52,
+      "physical": "Has been running the only tavern in the Fens' largest settlement for eighteen years. Has the specific quality of someone who has heard everything and has learned to treat information as furniture — it is there, it is part of the room, you do not need to act on all of it.",
+      "disposition": "Dry. Not unfriendly. Has the humor of someone who named their establishment after a persistent maintenance failure and found this description more honest than anything aspirational.",
+      "secret": "The Wet Floor's persistent damp comes from below the floorboards — from the peat layer underneath the platform. Three months ago the damp began smelling slightly wrong. Not the contamination smell from the northwest. Something different and older. She has stuffed the gap with fresh fen-moss and is changing it weekly and has not told anyone because she has been hoping it would stop.",
+      "player_interaction": "The tavern spawn hook location. Her floor damp is a minor independent peat-related anomaly that connects to the broader picture of the Mossward platform's deep time — something below the town is shifting slightly as the contamination in the northwest affects the fen's water table."
+    },
+    {
+      "id": "mossward_boardwalk_maintainer",
+      "name": "Taldan Coldfen",
+      "role": "Boardwalk maintenance — Mossward and surrounds",
+      "age": 41,
+      "physical": "Has been maintaining the Mossward boardwalk network for twelve years. Knows every section, every plank, every joint that is showing wear.",
+      "disposition": "Methodical, practical, has the specific relationship with infrastructure that comes from being responsible for it.",
+      "secret": "The two sections of the main boardwalk south of Mossward that need repair — noticed by the fen_born spawn hook character — were damaged by subsidence. Not weather, not use. The ground beneath them shifted slightly. This is the same ground-shifting that Drev Coldwater has been recording with his notched sticks from the northwest farmstead. The two independent observations of the same phenomenon have not been connected.",
+      "player_interaction": "Minor thread for connecting fen-wide subsidence observations. A player with Fen Navigation or Natural Philosophy above 150 who speaks to both Taldan and Drev Coldwater will recognize they are describing the same phenomenon from different ends of the Fens."
+    }
+  ],
+
+  "northwest_station_figures": [
+    {
+      "id": "see_investigator_1",
+      "name": "Caeld Fenmore",
+      "role": "Drenmari See investigator — stationed at northwest Station for three weeks",
+      "age": 34,
+      "physical": "Has been at the northwest Station for three weeks and it shows. The contamination zone does not produce the grinding stone dream — it produces a more diffuse version of the directional awareness, the feeling of wrongness without a specific direction. Has been experiencing this for three weeks and has been sleeping badly.",
+      "disposition": "Professionally competent and personally stressed in ways he is not acknowledging to his colleague.",
+      "secret": "Has been having the directional awareness — experienced as a persistent pull toward the northwest — for two weeks. Has not told his colleague or the Station-Keeper because the awareness does not have a direct clinical presentation and he does not know how to file it as an official observation.",
+      "player_interaction": "His unreported directional awareness is another data point in the cross-regional phenomenon picture. A player who has experienced it elsewhere will recognize his symptoms in the specific way he describes his sleep disruption."
+    },
+    {
+      "id": "see_investigator_2",
+      "name": "Wenda Holmswick",
+      "note": "No relation to Elder Wren Holmswick — Holmswick is a common Fens surname",
+      "role": "Drenmari See investigator — stationed at northwest Station",
+      "age": 29,
+      "physical": "The younger of the two investigators. Three years of See training and this assignment.",
+      "disposition": "More willing to say what she does not understand. Has been writing detailed observation reports that the See's central authority has been receiving and has been finding alarming without yet knowing what to do about them.",
+      "secret": "Has found Drev Coldwater's farmstead while extending the observation radius southeast. Has seen the notched sticks but did not understand their significance. Has taken careful drawings of them. The drawings are in her report pack. Orveth has not seen the drawings. Edda Vrane does not know they exist.",
+      "player_interaction": "Her drawings of the notched sticks are the most complete visual record of Drev Coldwater's eighteen-month documentation. A player who connects her drawings to Drev Coldwater and can explain what the notch system means will find she has eighteen months of data in a visual form that can be read."
+    },
+    {
+      "id": "northwest_sick_household_elder",
+      "name": "Vynda Ashholm",
+      "role": "Head — one of the three sick households at the northwest Station",
+      "age": 48,
+      "physical": "Has been sick for three weeks. Not severely — the contamination exposure at this distance is not fatal, just degrading. The specific quality of someone who is accustomed to being physically capable and is currently not.",
+      "disposition": "Frustrated, not beaten. Has been farming this section of the northwest fen for twenty years and has strong opinions about leaving it.",
+      "secret": "Has noticed that the sickness is not the same for everyone in her household. Her husband's symptoms are more severe than hers despite less direct exposure. Her daughter's symptoms are different in a specific way — not more severe, but producing the directional awareness as an acute sensation rather than a background pressure. The daughter has not described this to anyone because she is twelve and does not have language for it.",
+      "the_daughter": {
+        "name": "Edda Ashholm (coincidental name overlap with Edda Vrane — both common Drenmark female names)",
+        "age": 12,
+        "the_directional_awareness": "Experiences it acutely — a strong pull toward the northwest, toward the specific location Calder Moss has been avoiding. Has been following the pull in short increments when her mother is not watching. Has gone closer to the deep northwest location than any adult in the current crisis. Has not told anyone what she found there except that the animals avoid it and it is quiet in a way that is not the same as the contamination zone's quiet."
+      },
+      "player_interaction": "The twelve-year-old who has been approaching the deep northwest location is the most direct information source about what is at the contamination's destination. Getting this information requires the specific patience and approach that works with children — taking them seriously, not alarming their parent."
+    }
+  ],
+
+  "outlying_fen_communities": [
+    {
+      "id": "deep_fen_hermit",
+      "name": "Gwynn",
+      "note": "Single name — not a Communion elder tradition, simply a person who does not use a family name. Has been in the deep fen for an unknown period.",
+      "role": "Deep fen resident — has been in the northwest fen longer than any other living person",
+      "age": "Unknown. Appears to be in the 60s. May be older.",
+      "physical": "Has been in the northwest fen long enough that the fen has become visible in them. Not metaphorically — literally, in the specific physical adaptations of someone who has spent decades in a specific environment. Moves through bog terrain with an ease that Calder Moss, who is very good, watches with specific attention.",
+      "disposition": "Knows what is in the deep northwest. Has known for however long they have been here. Has been waiting for someone to ask the right question.",
+      "secret": "The deep northwest location — the one Calder's grandmother said never to approach, the one the animals avoid — is not simply a dangerous place. It is a place that was deliberately constructed to be avoided. The Moor Communion's oldest oral tradition, which Orveth carries but which Gwynn also carries in a different version, describes it as a holding place — something placed there before the Fens was Fens, contained not by sealing but by the specific quality of the deep peat's age and density. The Gorra sealing was placed between the current contamination site and the deep northwest location deliberately — as a buffer. As the buffer degrades, what is in the holding place becomes accessible to what is in the contamination site. This is what Orveth knows and has not said.",
+      "player_interaction": "Finding Gwynn requires being in the deep northwest fen — not the contamination zone, the area beyond it. This requires Calder Moss as a guide or Fen Navigation above 300 and specific knowledge of where to look. Gwynn will speak to someone who has the right quality of presence. Will answer questions about the deep northwest that no other NPC can answer fully."
+    },
+    {
+      "id": "ashenveld_census_connection",
+      "name": "Peredur Mossholm",
+      "role": "Ashenveld administrative contact — Caed Daltmere's communication channel",
+      "age": 44,
+      "physical": "Presents as a travelling trader from the eastern Fens edge. Is not primarily a trader.",
+      "disposition": "Professional, manages the Ashenveld communication with the specific care of someone whose actual role must not be apparent.",
+      "secret": "Has been commissioned by Ashenveld's administrative leadership to maintain communication with cooperative Fen Lords about the governance situation — specifically to encourage the maintenance of distributed governance that makes Ashenveld's eventual claim on the Fens more feasible. Has also been tasked, in the past three months, with monitoring the northwest contamination situation and reporting to Ashenveld on its severity. His most recent report significantly understated the contamination's current state because he has not been to the northwest himself and has been relying on Caed Daltmere's assessment.",
+      "player_interaction": "The Ashenveld thread. A player who identifies him and understands his communication channel can either expose it to the Fen Lords or use it as leverage with Caed Daltmere. His contamination report understatement is potentially significant — if Ashenveld is acting on understate information, their response to the crisis when it escalates will be slower than the situation requires."
+    },
+    {
+      "id": "hollow_road_fens_guide_2",
+      "name": "Ewan Bogcroft",
+      "role": "Hollow Road guide — western Fens routes",
+      "age": 31,
+      "physical": "Has been guiding people through the western Fens routes for four years. Knows the western routes thoroughly and the northwest routes not at all.",
+      "disposition": "Practical, professional, specifically careful about not knowing things that are not his routes.",
+      "secret": "Was the staging point contact who received the person Sova Fenwick moved out of the northwest three weeks ago. The person arrived ill and continued west despite his advice to rest. Has sent Sova the confirmation she has not received — the confirmation went through a message-runner who got lost in the Thornmelt flooding and is still missing. He does not know his confirmation did not arrive.",
+      "player_interaction": "The missing confirmation thread. A player working with Sova Fenwick who finds Ewan Coldfen learns that the confirmation was sent — which means it was lost en route, which means there is a message-runner lost in the Fens, which is its own problem."
+    },
+    {
+      "id": "northwest_fen_old_family",
+      "name": "Tessa Fenhollow",
+      "note": "No relation to Fenhollow the town — Fenhollow is both a place name and a family name in this region",
+      "role": "Elder of one of the three northwest fen farming families — has been in the northwest fen for three generations",
+      "age": 71,
+      "physical": "Three generations of her family have farmed the northwest fen. She is the last of the third generation. Her daughter and her daughter's family are in the sick household cluster.",
+      "disposition": "The specific quality of someone who was born in a place, expects to die in a place, and is watching the place change in a way that is not compatible with either expectation.",
+      "secret": "Her grandmother — the previous generation's matriarch — told her the specific location of Gorra's burial site. Not from oral tradition, from family memory: her grandmother's grandmother was present when Gorra's body was found and brought to the burial site. The family has maintained a small private observance at the site's location for four generations. The burial site is slightly northwest of where the See's official map places it. The contamination map, if corrected, would show that the center of the contamination is directly on the burial site. The site is not where the See thinks it is.",
+      "player_interaction": "Has information that corrects the See's map. Will share this with a player who approaches with specific respect for the family's long residence and specific knowledge of Moor Communion practice. Her knowledge confirms Calder Moss's movement observations from a completely different evidence source."
+    }
+  ],
+
+  "mossward_market_traders": [
+    {
+      "id": "peat_merchant",
+      "name": "Druan Coldhollow",
+      "role": "Peat merchant — primary export trade from the Fens",
+      "age": 49,
+      "physical": "Has been trading peat for twenty-five years. The specific build of someone who has spent twenty-five years around peat cutting operations.",
+      "disposition": "Commercial, specific about quality and quantity, has been watching the northwest peat cutting decline with commercial concern.",
+      "secret": "Has a buyer in Drenmark's settled communities who specifically requests northwest-sourced peat — claims it burns differently, which it does, slightly. The buyer's requests have been unfillable for six months as the northwest cutting areas become too close to the contamination zone. Has been substituting central Fens peat without telling the buyer. Knows this is not sustainable.",
+      "player_interaction": "Minor commercial thread connecting to the contamination's economic consequences. The northwest peat's different-burn quality is something a Natural Philosophy player might find significant — the deep northwest peat's unusual properties are not unrelated to what has been placed there."
+    },
+    {
+      "id": "external_trade_representative",
+      "name": "Idda Fenmere",
+      "role": "External trade representative — visits Mossward twice yearly to purchase medicinal plants",
+      "age": 38,
+      "physical": "From a Drenmark settled community. Stands out in Mossward in the specific way of someone who is not from the Fens but has been coming long enough to have learned basic navigation.",
+      "disposition": "Commercial relationship primary, genuine appreciation for the Fens secondary. Has developed the specific respect of someone who has been welcomed somewhere they did not initially belong.",
+      "secret": "Has noticed that the medicinal plant supplies are declining. Has been told by Caera Fenwick that it is a difficult season. Has been coming long enough to know that is not the full explanation. Is planning to ask directly on this visit and has been composing the question for three days.",
+      "player_interaction": "Her pending question to Caera Fenwick is a thread — a player who is present when she asks will witness the conversation where the economic consequences of the contamination become visible to the outside world."
+    }
+  ],
+
+  "corrections_note": {
+    "borderlands_corrections": [
+      { "original": "Pell Greyvane (Weldgate administrator)", "replacement": "Mael Greyvane", "reason": "Pell used twice in Borderlands files — Pell Drant (Brennwatch's aide) and Pell Greyvane. Two instances in same region is one too many." },
+      { "original": "Cavan Storne (Grey Contracts veteran)", "replacement": "Daven Storne", "reason": "Cavan used twice in Borderlands — Cavan Dalt (blacksmith) and Cavan Storne. Two instances in same region is one too many." }
+    ],
+    "all_corrections_tracked_in": "File 26 — name_banks_expanded.json, corrections_pending section"
+  }
+}

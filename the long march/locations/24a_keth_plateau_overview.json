@@ -1,0 +1,270 @@
+{
+  "region_id": "keth_plateau",
+  "name": "The Keth Plateau",
+  "continent": "Ossrath",
+  "file_index": "24a",
+
+  "overview": {
+    "population_total": 41500,
+    "primary_settlement": "Keth",
+    "primary_population": 40000,
+    "outpost_settlements": ["Dusthalt", "Oldmark", "The New Work (closed)"],
+    "dominant_religion": "First Scholars (Reckoning faith)",
+    "dominant_faction": "The Dust Council (seven-house merchant oligarchy)",
+    "current_year_condition": "A city that has been the most stable major settlement on Ossrath for three hundred years is currently sitting on top of something it does not understand, governed by a council in succession crisis, watched by two shadow organizations that are aware of each other, and visited by a Drift Lord elder carrying knowledge older than the calendar. The surface is functional. Nothing beneath the surface is.",
+    "danger_level": "Low inside Keth walls — well-policed, functioning institutions. Moderate on the plateau roads. High at The New Work and in the deep plateau. Extreme in the sealed chamber."
+  },
+
+  "the_plateau": {
+    "elevation": "Approximately 1,400 feet",
+    "climate": "Hot days, cold nights year-round. Dramatic temperature swing. Wind almost constant — the plateau has no shelter from it. Rare but violent seasonal rain during the Spring Breaking.",
+    "ruins": "Everywhere and normalized. Children play in them. Scholars come from other continents and find this deeply distressing. The ruins are quarried for stone, built upon, used as landmarks.",
+    "the_light": "The sky is enormous. The horizon always visible. Distances deceptive — what looks like a two-hour walk is often half a day. At night, the asteroid belt dominates overhead with extraordinary clarity at this altitude. The Scald galaxy is brighter here than anywhere else on Arneth — locals call it the Watcher.",
+    "the_unconscious_effect": {
+      "description": "People who spend extended time near either the steel disc artifacts (connected to the Thornsveld Marches discovery) or the inscription chamber at The New Work experience a persistent low-level awareness of direction — as if something is pulling attention toward a specific point that isn't there when you look directly at it.",
+      "affected_population": "Not universal. Some people never notice it. Some notice and dismiss it. A specific few — people with sensitivity to spiritual wrongness, or with the quality of perception the Pale Company selects for — experience it clearly and find it sharpening rather than fading with proximity.",
+      "in_keth_specifically": "The First Reader Morra Veld has spent thirty years working in the Archive's lowest level, directly above the source. Her colleagues have always found her intuition remarkable and slightly uncanny. She has never named what she notices. The effect is strongest in the Archive's third sublevel — the oldest part of the building, built directly on pre-Reckoning foundations.",
+      "the_connection": "The disc from the Thornsveld Marches and the inscription at The New Work are related artifacts from the same source. Nobody on Arneth knows this. The communication gap between nations is real. A player who experiences both effects — in the Marches and in Keth — and recognizes them as the same phenomenon has discovered something no NPC has assembled.",
+      "player_discovery_mechanic": "The effect is described experientially, not labeled. 'A quality of direction, like compass north but not north.' A player who has encountered the disc in the Marches and then spends time in the Archive's lower levels will receive the same descriptive language. The connection is theirs to make."
+    }
+  },
+
+  "settlements": [
+    {
+      "id": "keth_city",
+      "name": "Keth",
+      "population": 40000,
+      "type": "Major city — trade crossroads, water monopoly, scholarly center",
+      "walls": "Yes — substantial stone walls, well-maintained, four gates. Eastern Gate faces the plateau road to Dusthalt. Northern Gate faces the plateau interior and is rarely opened. Western Gate faces the continent interior trade routes. Southern Gate faces the Drift Lord trading approaches.",
+      "description": "Built on the one reliable rise on the central plateau — a low limestone shelf that keeps it above the seasonal rain flooding and gives its walls a natural defensive advantage. The city is dense by necessity — water is finite and the walls define the livable space. Five distinct districts within the walls, each with its own character and economy.",
+      "districts": [
+        {
+          "name": "The Archive Quarter",
+          "character": "Built around the Archive of Keth — three thousand years old and the oldest continuously occupied structure in the city. Stone streets, quiet, the specific hushed quality of a place where knowledge is taken seriously. The smell of old paper, lamp oil, and the particular dust of a very old building. The Archive's main entrance faces a small plaza with a stone bench that scholars have been using for lunch for centuries."
+        },
+        {
+          "name": "The Dust Council Chambers and Merchant Row",
+          "character": "The economic spine of the city. The Council Chambers are the most imposing building after the Archive — newer, deliberately grander, a statement of commercial power. Merchant Row runs south from the Chambers to the Western Gate. The seven house offices are all within three streets of each other, which makes the political maneuvering efficient and the tension visible."
+        },
+        {
+          "name": "The Market Quarter",
+          "character": "The city's loudest district. The main market occupies a space large enough for four hundred stalls. On Marketday it holds six hundred. The overflow spills into surrounding streets. Every language on Arneth is spoken here on any given day. The smell is spice, dust, animal, and money."
+        },
+        {
+          "name": "The Foreign Quarter",
+          "character": "Approximately twenty of Arneth's forty-two powers maintain permanent offices or agents here. The architecture is the most varied in the city — each house representing its home culture in the design of its building. The quality of accommodation ranges from austere to genuinely luxurious. The Salt Silence has a presence here that appears to be a modest trading house. The Varathi Return cult has a presence here that appears to be nothing at all."
+        },
+        {
+          "name": "The Lower City",
+          "character": "Below the limestone shelf, against the western wall. The workers, laborers, the people who keep the city running and cannot afford anything closer to the Archive Quarter. Dense, dark in the way of streets that don't get direct sun, genuinely community-oriented in the way of people who live close together and need each other. The apothecary here is better than anything in the Market Quarter because she has been treating this neighborhood for thirty years and knows what it needs."
+        }
+      ],
+      "water_system": {
+        "primary_source": "The Keth Aquifer — accessed through four pumping stations within the city walls",
+        "secondary_source": "Rain catchment during seasonal rains — stored in three cisterns",
+        "finite": true,
+        "keth_monopoly": "The only reliable water for hundreds of miles. Keth charges for access. The water gate at the Southern Gate is where Drift Lord traders pay water fees. The fee schedule is the most politically contentious document the Dust Council produces each year.",
+        "current_status": "Stable but the third cistern has a slow crack that the Authority's maintenance division has been patching for two years. A full repair would require emptying the cistern. The Dust Council has not scheduled the repair because emptying the third cistern reduces the city's buffer from 90 days to 60 days and no one wants to authorize that reduction during a political crisis."
+      },
+      "resource_nodes": {
+        "food": {
+          "sources": ["Trade caravans from Solvane (primary)", "Dusthalt waystation supply chain", "Small kitchen gardens in the Lower City (supplementary)"],
+          "finite": true,
+          "vulnerability": "A bad Solvane harvest season triggers Keth food crisis within 60 days. Has happened three times in living memory. Current status: Solvane harvest was adequate last season. The Solvane consortium's attempt to control both food supply and a Council seat simultaneously is the specific threat.",
+          "strategic_reserve": "The Dust Council maintains 90 days of grain reserve. Location: three warehouse complexes in the Merchant Row district. The reserve levels are one of the most closely guarded pieces of information in the city. House Veld's road contracts mean they know the reserve levels anyway."
+        },
+        "water": "See water system above",
+        "construction_material": {
+          "source": "Varathi ruins quarried from the plateau — the most reliable building stone on Ossrath",
+          "finite": true,
+          "irony": "Keth is built from the ruins of whatever came before it"
+        }
+      }
+    },
+    {
+      "id": "dusthalt",
+      "name": "Dusthalt",
+      "population": 300,
+      "type": "Trade waystation — permanent settlement",
+      "location": "Eastern road from Keth, approximately one day's travel",
+      "description": "Grew around a waystation on the eastern road connecting Keth to the continent's interior trade routes. The easternmost point of reliable safety — beyond Dusthalt the road continues but the Authority's presence does not. Caravans form here before crossing the deeper plateau and rest here on arrival. The settlement has its own economy: repairs, supplies, information brokerage. Two inns, a smithy, an Authority road-guard post of eight soldiers.",
+      "character": "The people who chose to live at the edge of something. Not reckless — specific. They wanted to be where the interesting people pass through. The information density in Dusthalt per capita exceeds anything in Keth's Foreign Quarter because everyone who goes into the deep plateau passes through and everyone coming back from it passes through and people talk when they're tired and relieved.",
+      "the_waystation_inn": {
+        "name": "The Eastern Threshold",
+        "keeper": "Bren Dalt — 50s, former plateau surveyor, knows every road and ruin within four days' travel",
+        "character": "The single most information-rich location outside Keth's walls. Bren has been here for twenty years and has heard everything. He does not volunteer what he knows. He does not refuse to share it if asked correctly."
+      },
+      "current_notable": "Three caravans are currently staged at Dusthalt waiting for Authority clearance to proceed east — clearance that has been delayed since the New Work closure six weeks ago. The caravan masters are becoming expensive in their impatience."
+    },
+    {
+      "id": "oldmark",
+      "name": "Oldmark",
+      "population": 150,
+      "type": "Ruin excavation site — permanent settlement, extensively worked",
+      "location": "Two days northeast of Keth",
+      "description": "The older of the two active ruin sites. Extensively worked over 200 years — most surface material catalogued and removed. Current work is subterranean: collapsed chambers being carefully opened, lower levels being mapped. The settlement is functional and unglamorous: dormitories, a cookhouse, equipment storage, a small Authority office.",
+      "excavation_director": {
+        "name": "Aldeth Voss",
+        "note": "No relation to Dara Voss the surveyor — Voss is a common plateau surname",
+        "age": 44,
+        "character": "Has been pushing the excavation deeper for three years against two structural assessors' recommendations. Believes something significant is below the current dig floor. Is correct. The closer she gets the more uncomfortable she becomes and the less she can stop. The unconscious effect is strongest at the dig floor — she has been working above it for three years and her sleep has been notably poor for two.",
+        "secret": "Has found a fragment of the same script as the New Work inscription — a single stone with twelve characters — six months ago. Has not reported it to the Authority. Has not reported it to the Archive. Has been trying to translate it herself. Has not succeeded. Has not stopped."
+      },
+      "current_status": "Active — the Authority closure order applies only to The New Work. Oldmark continues operating. The deeper they go the more the unconscious effect is felt by workers. Three workers have left in the past month citing persistent insomnia and a vague unease they cannot describe."
+    },
+    {
+      "id": "new_work",
+      "name": "The New Work",
+      "formal_name": "Ossrath Salvage Authority Site 7-Keth-Northeast",
+      "population": "80 at time of closure — now 3 Authority guards maintaining the closure perimeter",
+      "type": "Ruin excavation site — currently closed by Authority order",
+      "location": "Three days east of Keth — further than Dusthalt, in a section the original Authority survey marked as geologically unstable",
+      "description": "Four years old as an active site. The instability assessment was wrong — the ground is exceptionally stable. What the survey instrument read as geological instability was something else. The surface ruins are modest — this is not why the site matters. The site matters because of what is below.",
+      "the_sealed_chamber": {
+        "description": "Found six weeks ago. Not collapsed — deliberately sealed from the inside. Stone door, fitted with precision that exceeds anything currently being produced on Arneth. The interior: walls covered in inscription, approximately 4,000 characters in a script with Varathi elements but not Varathi. The furthest corner of the chamber has a physical quality identical to the active point of a dormant demonic site — sealed, not dangerous in the conventional sense, but unmistakable to someone who knows what to read.",
+        "the_inscription": "A record of something. The fragments the First Scholars can read describe a location — somewhere on the plateau, possibly under Keth itself. The record involves fear — the writers were afraid of what they were documenting. The parts that cannot be read are the parts that would specify what was being recorded and why.",
+        "dara_voss_discovery": "The surveyor Dara Voss was first through the sealed entrance. She saw the chamber before her crew arrived. She saw the inscription and the demonic quality of the furthest corner. She has described neither to anyone.",
+        "the_unconscious_effect_here": "Strongest of any location connected to the artifacts. The three salvage crew members who are not the surveyor all reported persistent directional awareness in the weeks following their time in the chamber — a pull toward a specific point they could not identify. None of them connected this to anything. All three mentioned it separately to Archive interviewers who did not connect it to anything either."
+      },
+      "current_status": "Closed. Authority guards at perimeter. The Varathi Return cult sent two operatives in three days after closure. They entered through a section of the perimeter the guards do not cover after dark. They were inside for approximately four hours. They came back changed — not dramatically, not visibly to outsiders, but the Archivist who sent them has noted specific behavioral differences that concern them. The operatives have not shared what they found."
+    }
+  ],
+
+  "active_tensions": [
+    {
+      "id": "the_inscription",
+      "name": "The Inscription and What Is Below",
+      "summary": "Six weeks ago a salvage crew found a sealed chamber at The New Work containing an inscription in a partially unreadable script. The crew is held in the Archive. The First Reader is deciding whether to disclose. The Pale Company Warden knows what is below the Archive. The Drift Lord elder is converging with pre-calendar knowledge. The Varathi Return cult sent operatives who came back changed.",
+      "the_connection_nobody_knows": "The inscription and the steel disc artifacts from the Thornsveld Marches are related. The unconscious effect produced by proximity to either is the same phenomenon. The communication gap between nations means nobody has assembled this. A player who has been in both regions is the only possible assembler.",
+      "what_is_below_the_archive": "The Pale Company Warden's internal records describe a location directly under the Archive's third sublevel. The inscription's readable fragments describe the same location. The First Reader has been working above it for thirty years and has been subtly affected by proximity for most of that time.",
+      "player_involvement_paths": [
+        "Researcher at the Archive — access to inscription fragments through scholarly credentials or relationships",
+        "Contact with the silent surveyor Dara Voss — who saw more than anyone else and is deciding who to trust",
+        "Following the Drift Lord elder — she will talk to someone who already understands part of what she knows",
+        "The Pale Company Warden Sova Pale — first contact possible through the Archive, significant patience required"
+      ]
+    },
+    {
+      "id": "dust_council_crisis",
+      "name": "The Dust Council Crisis",
+      "summary": "Two disputed seats, a third threatened by foreign buyout, and a fourth playing both sides. House Veld anchors everything. The Solvane consortium's funding traces to the Halverness Factors, which connects to House Keth-Marren's currency manipulation investigation.",
+      "the_halverness_thread": "The Halverness Factors appear in three separate Keth situations: the Solvane consortium funding, House Keth-Marren's manipulation scheme, and as a general commercial presence in the Foreign Quarter. Whether this is coincidence, coordination, or something else is the question Sera Dawnmere has been sitting on.",
+      "player_involvement_paths": [
+        "Hired by any house for information gathering or specific tasks",
+        "Working through the Halverness Factors office in the Foreign Quarter",
+        "The currency investigation — legitimate work available through the Dust Council's investigative office"
+      ]
+    },
+    {
+      "id": "queen_aldeth_operation",
+      "name": "Queen Aldeth's Intelligence Operation",
+      "summary": "The illness rumor is disinformation — Aldeth is flushing out which council houses move against Solvanic interests while she appears weak. Her agent Sera Dawnmere is embedded in the Archive as a research patron. Dawnmere has discovered the Halverness connection and cannot send it home securely.",
+      "the_standoff": "Sera Dawnmere and Pale Company Warden Sova Pale have been carefully not noticing each other for six weeks. Both know the other is not what they appear. Neither has moved. This is professional courtesy and a standoff simultaneously.",
+      "player_involvement_paths": [
+        "Working for Dawnmere — she needs a secure channel and has been looking for one for two weeks",
+        "Working for the Dust Council's interests against the Solvanic operation",
+        "The Halverness discovery — whoever carries it to the right ears changes the political situation significantly"
+      ]
+    },
+    {
+      "id": "drift_lord_convergence",
+      "name": "The Drift Lord Convergence",
+      "summary": "Orn Longwalker's clan is moving toward The New Work. Their oral tradition predates the First Reckoning calendar. They know what the inscription records in a way the First Scholars don't. Orn will speak to someone who already understands part of what she knows.",
+      "the_name_question": "Orn's grandmother gave her the name Orn with the instruction: when the time comes, you will know why you have it. She believes the time has come. The name's significance in Drift Lord tradition is not the same as the First Scholars' use of the Varathi name — it predates that use by an unknown amount.",
+      "player_involvement_paths": [
+        "Contact at the Southern Gate market — Drift Lord traders come to Keth regularly",
+        "Following the movement pattern in the plateau — a character with Navigation or Tracking skills can read the Drift Lord clan's direction",
+        "Through Keth's Salt Silence contact — they are tracking the Drift Lord movement and may share that intelligence"
+      ]
+    },
+    {
+      "id": "shadow_faction_race",
+      "name": "The Varathi Return and Salt Silence",
+      "summary": "Both organizations are present and aware of each other. Both have accelerated their timelines since the inscription discovery. Both have independently identified the silent surveyor Dara Voss as their most valuable potential asset. Neither knows the other has made the same identification.",
+      "the_collision_point": "Dara Voss. She was first in the chamber. She saw something beyond the inscription. The Salt Silence wants to know what she knows and who else wants it. The Varathi Return wants what she saw — specifically, confirmation of the demonic quality she observed in the chamber's furthest corner.",
+      "player_involvement_paths": [
+        "Reaching Dara Voss before either organization does",
+        "Working for either organization — with the understanding that their goals are not aligned with the player's interests",
+        "The two Varathi Return operatives who went back in and came back changed — they are a thread that leads to what is actually in the chamber"
+      ]
+    }
+  ],
+
+  "ambient_spawn_hooks": {
+    "philosophy": "Same as Thornsveld Marches — mid-situation, no quest marker, something happening that can be engaged with or walked past. Keth's hooks are more urban and more information-dense than the Marches.",
+    "hooks": [
+      {
+        "background": "merchants_clerk",
+        "location": "Halverness Factors office, Foreign Quarter, morning",
+        "hook": "The Halverness factor in Keth — a careful man named Aldren Halvest — is reviewing correspondence with an expression that suggests the correspondence contains something he did not expect. He sets it down when you enter. The expression does not fully leave.",
+        "immediate_opportunity": "The Halverness office is hiring a local records clerk. The position has access to shipping manifests, correspondence logs, and the payment records that connect the office to its clients. Three people applied last week. Two were turned away for reasons Halvest did not explain."
+      },
+      {
+        "background": "hedge_scholar",
+        "location": "Archive of Keth main entrance plaza, morning",
+        "hook": "The Archive's stone bench has three scholars eating lunch on it. One of them is arguing, quietly but intensely, about a translation methodology that the other two clearly find excessive. The argument involves a script that one of them claims doesn't appear in any catalog. The other two are uncomfortable in a way that suggests the script does appear in a catalog and appears in a catalog that is not available to general researchers.",
+        "immediate_opportunity": "The Archive accepts research applications. Literacy is required. A letter of scholarly introduction helps but is not mandatory — the intake archivist will assess scholarly competence in a ten-minute conversation and admit or decline on that basis alone."
+      },
+      {
+        "background": "petty_criminal",
+        "location": "Market Quarter, midday",
+        "hook": "A man you have been watching for twenty minutes has not bought anything. He has been watching the Archive Quarter entrance from three different positions in the market. He is good at this. He is not good enough that you haven't noticed him. When your eyes meet he does not look away — he holds the contact for exactly one second, then turns and walks north.",
+        "immediate_opportunity": "He is one of two Varathi Return cult watchers on the Archive. The one-second contact was an assessment. He found you interesting. He will be at a specific tea house in the Foreign Quarter this evening if you are looking for work that does not ask about your history."
+      },
+      {
+        "background": "merchants_clerk",
+        "location": "Dust Council Chambers waiting room, morning",
+        "hook": "You are waiting to present credentials for a trade licensing application. The person next to you is not waiting for trade licensing — their documents are upside down and they are reading the room rather than their papers. When the council clerk calls a name, the wrong person stands up and then sits back down. Small errors. Someone is nervous about something that is not a trade license.",
+        "immediate_opportunity": "House Solven's Vaela is here trying to secure a Council ally meeting through unofficial channels. She needs someone who can read a room and is not already aligned with any of the seven houses."
+      },
+      {
+        "background": "sailor",
+        "location": "Eastern Gate, arrival",
+        "hook": "You came overland from the coast and the plateau is nothing like the sea except in the one way that matters: you can see to the horizon in every direction and the horizon goes on forever. A caravan master at the gate tells you that the eastern road is technically open but the Authority isn't clearing anyone past Dusthalt. Has been that way six weeks. Nobody knows why.",
+        "immediate_opportunity": "The three staged caravans at Dusthalt need security for the wait. The waiting is becoming expensive and the caravan masters are in the mood to pay for information about when the clearance will come through — or why it hasn't."
+      },
+      {
+        "background": "blacksmiths_apprentice",
+        "location": "Lower City smithy, morning",
+        "hook": "The smithy in the Lower City is run by an old man who is better than his location suggests. He is working on a piece of metal you have not seen before — darker than iron, with a faint internal pattern. He notices you looking and covers it. 'Salvage work,' he says. He does not say what he is making from it.",
+        "immediate_opportunity": "The metal is skyfall iron — a small fragment from a private purchase, not an official Authority salvage lot. The old smith is the best metalworker in Keth and he is being careful with something valuable. He needs an assistant for three days of detailed work and the regular apprentice is sick."
+      },
+      {
+        "background": "rural_midwife",
+        "location": "Lower City, morning",
+        "hook": "A woman stops you near the Lower City apothecary and asks if you are a healer. She is asking everyone who looks even slightly medical. The apothecary has three people waiting already and there is a fourth situation she cannot get to — a worker from Oldmark who came back two weeks ago and has been sleeping poorly and eating less since and this morning did not recognize his wife's voice when she spoke from the next room.",
+        "immediate_opportunity": "The Oldmark worker's symptoms are the unconscious effect in its more acute form — he was working directly above the script fragment Aldeth Voss found and did not report. A healer who assesses him carefully will find nothing physically wrong and will encounter a description of the directional awareness that matches what players from the Thornsveld Marches would recognize."
+      },
+      {
+        "background": "hollow_road_runner",
+        "location": "Foreign Quarter, specific tea house, evening",
+        "hook": "The mark is on the third table from the left — not the usual mark, a variant you have seen in three other cities but not here. Someone has extended the Road's network into Keth through a channel you were not briefed on. The person at the third table is a woman in her 40s who is reading what appears to be a scholarly text and is absolutely aware you just walked in.",
+        "immediate_opportunity": "The Keth Hollow Road node is new and under-resourced. The woman — whose name she will not give — needs a courier run that requires moving something from the Foreign Quarter to Dusthalt without it going through the Eastern Gate checkpoint. The something is a sealed document. The document is Sera Dawnmere's intelligence report that she has been trying to get out of Keth for two weeks."
+      },
+      {
+        "background": "levy_soldier",
+        "location": "Southern Gate, morning",
+        "hook": "A Drift Lord trading party is at the Southern Gate paying water fees. The argument is not about the fee — it is about the fee increase that was announced last Marketday. The gate guard is following the new schedule. The Drift Lord trader — a young man who speaks the trade language precisely and without accent — is explaining, calmly, that the fee increase was not announced to the plateau communities and constitutes a unilateral change to an arrangement that is older than the current Dust Council by eight generations. The gate guard does not have the authority to resolve this. Neither does anyone present.",
+        "immediate_opportunity": "The Authority's gate office is thirty feet away. The officer inside is Aldren Crale's deputy and is also not authorized to resolve this. The actual resolution requires a Dust Council order. The young Drift Lord trader will be here until it is resolved or until the situation changes. He is patient and so are the six armed riders behind him."
+      },
+      {
+        "background": "temple_servant",
+        "location": "First Scholars temple, Archive Quarter, morning",
+        "hook": "The First Scholars' temple in Keth is the largest on Arneth. It is also, this morning, slightly wrong. The dawn prayer — which the Archive's scholars attend in rotating obligation — had three people missing who are never missing. The presiding Scholar conducting the service noticed. So did you, because you were watching the room and not the ritual.",
+        "immediate_opportunity": "The three missing scholars are part of the team working on the inscription translation. They were pulled into an emergency session with the First Reader at dawn. The First Reader called the session because something changed overnight — something in the inscription's partially-translated fragments shifted, the way a partially-assembled picture shifts when you add the right piece. She has not shared what she found with anyone yet. The temple's administrative archivist needs a temporary assistant today while three of his staff are unavailable."
+      },
+      {
+        "background": "deserter",
+        "location": "Lower City, arrival, night",
+        "hook": "You came in through the Western Gate with a merchant caravan that did not ask about your past. The city is larger than you expected and the Lower City is dark and dense and you know how to move in darkness and density. A man follows you from the gate for three streets, then stops. He has decided you are not who he was watching for. You are not sure if that is better or worse.",
+        "immediate_opportunity": "The Lower City has a specific community of people who came to Keth for reasons they do not discuss. The inn here — The Low Cistern — rents rooms without requiring names. The keeper has a specific look for people who need the city to not know they are here and is neither hostile nor helpful about it, just accurate."
+      },
+      {
+        "background": "hedge_farmer",
+        "location": "Market Quarter, Marketday morning",
+        "hook": "The grain price is wrong. Not wrong in the way of market fluctuation — wrong in the way of someone managing it. The three largest grain stalls have identical prices to the iron chit, which does not happen in a free market. Either the Council has set a price floor — which would be posted — or someone has coordinated the major vendors without authorization. The farmer two stalls down has noticed too. She looks angry in the specific way of someone who needs grain and cannot afford what is being charged.",
+        "immediate_opportunity": "The grain price coordination traces to House Caldren, which is using food supply pressure as a negotiating tool in the consortium discussions. The farmer who has noticed is also a Lower City community organizer and is looking for someone who can read numbers and help her build a case for the Council's commercial oversight office."
+      }
+    ]
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "region_id": "thornsveld_marches",
+  "file_index": "19c",
+  "npc_file": "durnward_supporting_and_ashford",
+  "total_npcs_this_file": 40,
+
+  "durnward_supporting_cast": [
+
+    {
+      "id": "sister_aldeth_moor",
+      "name": "Sister Aldeth Moor",
+      "role": "Pastoral Sister — Temple of the Undying Ember",
+      "age": 71,
+      "physical": "Small, white-haired, moves slowly and knows where everything is. Has the specific authority of someone who has outlasted four Priors and is not impressed by institutional rank.",
+      "disposition": "Direct. Does not hedge. Has reached an age where the social cost of honesty has become acceptable.",
+      "financial_state": "Temple-supported",
+      "faction": "Undying Ember",
+      "religion": "Undying Ember — practiced for fifty years, genuine",
+      "schedule": {
+        "morning": "Pastoral visits — the sick, the elderly, the mine families",
+        "midday": "Temple — open to anyone",
+        "afternoon": "The actual work Soren delegates without saying he's delegating"
+      },
+      "relationships": [
+        { "npc": "brother_soren_aldrath", "type": "professional_patience", "note": "Manages him the way you manage a well-intentioned person who keeps getting in the way of the work." },
+        { "npc": "neva_weld", "type": "pastoral_care", "note": "Neva comes to her morning hour. She does not push Neva toward anything." },
+        { "npc": "morra_dawnfield", "type": "quiet_support", "note": "Has given the mine families practical help from temple stores without consulting Soren." }
+      ],
+      "secret": "Knows Soren has something in his desk drawer that is making him anxious. Has not asked. Will ask eventually — she has seen Priors get into trouble from information they were sitting on.",
+      "opinion_of_regional_tension": "Has seen worse. Is more worried about the winter than the succession, specifically about whether the mine families have enough stores."
+    },
+
+    {
+      "id": "novice_keld_arn",
+      "name": "Novice Keld Arn",
+      "role": "Temple novice — Undying Ember",
+      "age": 19,
+      "physical": "Tall, slightly clumsy in the novice robes, as if he hasn't quite grown into them yet. Earnest face that shows everything.",
+      "disposition": "Earnest. Having serious doubts about whether the faith is what he was told it was, which he experiences as a personal failure rather than a theological question.",
+      "financial_state": "Temple-supported",
+      "faction": "Undying Ember (provisionally)",
+      "secret": "Has been reading Barefoot Compact texts he found in the temple library, hidden inside the covers of approved books. The Compact's anti-institutional position speaks to something he can't articulate except as the gap between what the temple says and what it does.",
+      "opinion_of_regional_tension": "Vaguely aware of it. Mostly thinking about his doubts."
+    },
+
+    {
+      "id": "aldeth_vorn_blacksmith",
+      "name": "Aldeth Vorn",
+      "role": "Blacksmith — Durnward",
+      "note_on_name": "No relation to Aldric Vorn, Corvan's representative. Has been answering to 'the other Vorn' for two months and is developing an opinion about it.",
+      "age": 38,
+      "physical": "Smith's arms, smith's hands, smith's way of looking at metal in everything. Wears her hair short because it's practical. Scar on her right forearm from a spatter incident six years ago.",
+      "disposition": "Practical. Has opinions and states them. Does not confuse opinion with fact.",
+      "financial_state": "Comfortable — was. Iron supply disruption from the mine closure is cutting into margins.",
+      "faction": "None — professional neutrality",
+      "religion": "Undying Ember — moderate",
+      "schedule": {
+        "morning": "Forge — the serious commission work",
+        "midday": "Light work, customer service",
+        "afternoon": "Forge — general stock",
+        "evening": "Market on Marketday, home otherwise",
+        "marketday": "Stall at the market — selling stock, complaining about iron prices"
+      },
+      "relationships": [
+        { "npc": "aldric_vorn", "type": "name_irritation", "note": "Has considered moving her stall to a different part of the market." },
+        { "npc": "torven_weld", "type": "professional", "note": "The garrison is her largest regular client. Maintenance contracts." },
+        { "npc": "halvard_keld", "type": "commercial_friction", "note": "Keld has been suggesting that the Guild could source her iron from outside the region. The price he's quoted is good. The arrangement would give him leverage over her supply. She has not agreed." }
+      ],
+      "secret": "Has a contract offer from a smith in Ashford who wants to partner now that the mine is closed — combined operation, split the remaining regional market. She has not decided whether Ashford's depression is temporary or permanent.",
+      "spawn_hook_role": "Primary contact for Blacksmith's Apprentice background spawn. Will hire without a formal process if approached directly.",
+      "player_interaction": "Direct. Will assess a player's metalwork skill within five minutes of meeting them. Hires based on demonstrated competence."
+    },
+
+    {
+      "id": "halveth_dorn_carpenter",
+      "name": "Halveth Dorn",
+      "role": "Carpenter — Durnward",
+      "age": 45,
+      "physical": "Lean, weathered, always has wood shavings somewhere on him. Talks with his hands in the specific way of people who spend their days making things.",
+      "disposition": "Methodical. Gives accurate time estimates and is genuinely confused by people who don't.",
+      "financial_state": "Comfortable",
+      "faction": "None",
+      "religion": "Reclaimed Path",
+      "secret": "Knows the Marchwarden's Hall staircase is not the only deferred repair in the Hall. The structural issue he identified in the Hall's eastern foundation two years ago, which he reported to Aldren Croft, has not been addressed. He has stopped mentioning it.",
+      "spawn_hook_role": "The Marchwarden's Hall staircase repair leads to him or directly to the Hall steward.",
+      "player_interaction": "Will subcontract to a skilled player. Knows every building in Durnward and its history."
+    },
+
+    {
+      "id": "bren_ashwick_apothecary",
+      "name": "Bren Ashwick",
+      "role": "Apothecary — Durnward",
+      "age": 52,
+      "physical": "Currently ill — a respiratory ailment caught from a patient. Thin, pale, operating at reduced capacity.",
+      "disposition": "Normally precise. Currently frustrated by his own incapacity.",
+      "financial_state": "Comfortable",
+      "faction": "None",
+      "religion": "Undying Ember",
+      "secret": "His illness was caught from one of the mine families who came to him for a child's cough. He is angrier about the mine situation than he shows because illness in the families is his problem to deal with and nobody is fixing the cause.",
+      "spawn_hook_role": "His closure triggers the midwife/herbalist spawn hook. Also creates genuine need for any character with medical skills.",
+      "player_interaction": "When recovered, a useful source of medical materials and regional health information."
+    },
+
+    {
+      "id": "fenwick_hollow_road",
+      "name": "Fenwick Grale",
+      "role": "Hollow Road waystation contact",
+      "location": "The Marchwarden's Rest — stays here 3-4 days per visit, arrives without pattern",
+      "age": 41,
+      "physical": "Unremarkable. Deliberately so. Has the talent of being forgotten five minutes after leaving a room.",
+      "disposition": "Professional. The warmth he deploys is a tool, not a trait.",
+      "financial_state": "Comfortable — the Road pays",
+      "faction": "The Hollow Road",
+      "religion": "None observable",
+      "schedule": {
+        "variable": "Arrives and departs on no fixed schedule. When present: mornings writing in his room, afternoons and evenings in the common room. Watching. Always watching."
+      },
+      "relationships": [
+        { "npc": "maren_crale", "type": "managed_arrangement", "note": "Respects the terms she set. Has not tested them because the waystation is too useful to risk." },
+        { "npc": "oswin_crale", "type": "polite_fiction", "note": "Oswin does not ask questions. Fenwick does not provide answers. This works." }
+      ],
+      "secret": "The pickup that is two days late is a person, not goods. The person knows something about the Keld Farrow situation. Fenwick does not know this yet — he was told it was a courier packet. He is beginning to suspect he was not fully briefed.",
+      "player_interaction": "Hollow Road Runner background: immediate recognition. Others: approachable as a regular guest if the player reads the room correctly. A source of regional intelligence once trust is established — slowly."
+    },
+
+    {
+      "id": "edwyn_mourne_moneylender",
+      "name": "Edwyn Mourne",
+      "role": "Moneylender / grey-market financier",
+      "location": "Durnward — operates from a back room of the chandlery he technically owns",
+      "age": 55,
+      "physical": "Soft hands, soft voice, a stillness that is not comfort.",
+      "disposition": "Patient. The patience of someone whose business model depends on other people's desperation ripening at its own pace.",
+      "financial_state": "Wealthy in ways not visible",
+      "faction": "No official affiliation — has arrangements with multiple factions",
+      "religion": "Observes everything, believes nothing particularly",
+      "secret": "Has been lending to two of the mine families. The terms are not predatory by his standards. They are not comfortable by any other standard. He is aware the Marchwarden would have opinions about this if she knew.",
+      "player_interaction": "A source of coin when other sources are unavailable. The terms are real. The consequences of default are real. Useful for players in genuine financial difficulty."
+    },
+
+    {
+      "id": "information_seller",
+      "name": "Rael Dusk",
+      "role": "Information broker — unofficial",
+      "location": "Durnward — usually in the Marchwarden's Rest or the market depending on the day",
+      "age": 33,
+      "physical": "Average everything, which is the point. Dresses to match whatever district they're in.",
+      "disposition": "Mercantile. Information is a commodity. Price reflects supply, demand, and risk.",
+      "financial_state": "Variable — good weeks and bad weeks",
+      "faction": "None",
+      "religion": "None visible",
+      "secret": "Works for the Salt Silence. Not employed — contracted. Two pieces of regional intelligence per season. Is aware that the Salt Silence knows more than they have told Rael about why they want Marches intelligence right now.",
+      "player_interaction": "Will sell information and buy it. Prices are fair by their standards. The Salt Silence connection is discoverable but not advertised."
+    },
+
+    {
+      "id": "torven_greywood_shepherd",
+      "name": "Torven Greywood",
+      "role": "Shepherd — outlying farmsteads, occasional Durnward visitor",
+      "age": 29,
+      "physical": "Outdoor-weathered beyond his years. Moves like someone accustomed to watching a horizon.",
+      "disposition": "Quiet. Considers words expensive.",
+      "financial_state": "Struggling",
+      "faction": "None",
+      "religion": "Old Ways — did not know this was what it was called",
+      "secret": "Has seen Karn outriders three times in the past two weeks at least a day's ride south of where they should be. Came to Durnward to decide who to tell. Is sitting with it at the Marchwarden's Rest.",
+      "spawn_hook_role": "The shepherd spawn hook — the player passes him on the north road.",
+      "player_interaction": "Will tell the right person about the outriders if approached correctly. The right person is someone who listens without immediately telling him what it means."
+    },
+
+    {
+      "id": "barefoot_walker_soven",
+      "name": "Soven",
+      "role": "Barefoot Compact walker — 'passing through'",
+      "location": "Durnward — has been here three months and shows no sign of leaving",
+      "age": 34,
+      "physical": "Travel-worn, barefoot even in Coldmere, carries nothing but a bedroll and a small pack. Unremarkable face, remarkable stillness.",
+      "disposition": "Open. Not naive — open. The distinction matters.",
+      "financial_state": "Nothing — the Compact way",
+      "faction": "Barefoot Compact",
+      "religion": "Reform Furrow — Barefoot Compact",
+      "secret": "Has been staying because something about the mine families' situation is making him reconsider his Compact vow of non-involvement in political matters. Has not yet decided what, if anything, he will do.",
+      "player_interaction": "Available for conversation at almost any time. Not a useful source of material resources. Potentially a useful sounding board. His Compact network extends beyond the Marches."
+    },
+
+    {
+      "id": "fen_osric_ferryman",
+      "name": "Osric Fenwall",
+      "role": "Ferryman — Durnwald River crossing south of the bridge",
+      "age": 60,
+      "physical": "Broad and permanent, like he was built for the specific purpose of moving a flat-bottomed boat.",
+      "disposition": "Observational. Has been watching who crosses and how for forty years. Has no interest in the politics of it.",
+      "financial_state": "Comfortable by modest standards",
+      "faction": "None",
+      "religion": "Depth Faiths, quietly — unusual in the Marches",
+      "secret": "Has been taking passengers after dark at double the day rate for the past two months. Two of them were people who did not want to use the garrison checkpoint on the eastern road. He did not ask why.",
+      "player_interaction": "A quiet source of who has been moving through. Expensive after dark. Reliable always."
+    },
+
+    {
+      "id": "retired_soldier_aldric_fen",
+      "name": "Aldric Fen",
+      "role": "Retired soldier — Durnward resident",
+      "age": 67,
+      "physical": "Still carries himself like a soldier. The body has softened; the posture hasn't.",
+      "disposition": "Opinionated. Has had twenty years to develop opinions about everything and a pension that lets him share them.",
+      "financial_state": "Comfortable — pension",
+      "faction": "Crown loyalist, old sense",
+      "religion": "Undying Ember — genuine",
+      "secret": "Served under Torven Weld's father. Knows things about the Weld family history that Torven has never heard and that Aldric Vorn might find interesting — which is why Aldric Fen has been very careful about who he drinks with since Vorn arrived.",
+      "player_interaction": "A source of Marches history and military culture. Easier to access over ale. Becomes wary if a player seems connected to any succession faction."
+    },
+
+    {
+      "id": "beggar_dalt_morrow",
+      "name": "Dalt Morrow",
+      "role": "Durnward's primary beggar — western bank, bridge approach",
+      "age": 48,
+      "physical": "Has been in this spot so long he is part of the landscape. Three layers of clothing regardless of season. A spot near the bridge approach that he has occupied for eleven years.",
+      "disposition": "Pragmatic. Has made a complete peace with his situation that people who have not made the same peace find unsettling.",
+      "financial_state": "Survives",
+      "faction": "None — knows everyone's business through sustained observation",
+      "religion": "Reclaimed Path, technically",
+      "secret": "Saw Aldric Vorn pass something — a sealed tube — to a garrison soldier three nights ago. Has not decided what this information is worth or to whom.",
+      "player_interaction": "Every player passes him at the bridge approach. Will share information for coin. His information is specific and accurate because he has been watching the same location for eleven years."
+    },
+
+    {
+      "id": "two_unsupervised_children",
+      "name": "Bren and Kela Ashwick (not the apothecary's family — coincidence of name)",
+      "role": "Children — Durnward, unsupervised enough to know every back alley",
+      "age": "11 and 9",
+      "physical": "Perpetually slightly dirty, perpetually energetic, perpetually somewhere they technically shouldn't be.",
+      "disposition": "Curious. Have not yet learned to pretend they haven't noticed things.",
+      "secret": "Know where the Hollow Road mark is on the inn's doorpost. Think it means something but don't know what.",
+      "player_interaction": "Can lead a player to locations they might not find otherwise. Want nothing except to be taken seriously, which most adults fail to do."
+    },
+
+    {
+      "id": "old_remembrancer",
+      "name": "The Remembrancer (actual name: Gorveth Dalt, no relation to Dalt Morrow)",
+      "role": "Elder — Durnward, western bank",
+      "age": 84,
+      "physical": "Very old, very small, still sharp. Sits outside her house in all but the worst weather. Has been there so long the neighbors have stopped noticing her.",
+      "disposition": "Precise about the past. Vague about the present, which she finds less interesting.",
+      "financial_state": "Surviving — neighbors bring food",
+      "faction": "None living",
+      "religion": "Old Ways — genuinely pre-Reckoning variant, not a Moor Communion version",
+      "secret": "Remembers the last time Thornsveld had a succession crisis without a named heir. She was fourteen. She has not been asked about this by anyone with authority and finds this telling.",
+      "player_interaction": "A source of deep regional history unavailable in documents. Will speak at length to anyone who sits down and listens. The Archive of Keth would want to record her. A First Scholars contact might pay for access."
+    },
+
+    {
+      "id": "karn_market_trader",
+      "name": "Halvard Keth (not the Guild factor — common name in Karn)",
+      "role": "Karn trader — Durnward market, Marketday only",
+      "age": 44,
+      "physical": "Karn dress, Karn braid, Karn directness. Speaks Thornsveld with an accent he has not bothered to smooth.",
+      "disposition": "Commercial. Is here to trade. The political situation is not his problem unless it becomes his problem.",
+      "financial_state": "Comfortable",
+      "faction": "Karn Clans — loose connection to Halvard Ironmark's clan",
+      "religion": "Karn ancestor practice",
+      "secret": "Is aware of the negotiations in a general way — clan gossip travels. Has no idea that Vaela Keth-Morn is the intermediary, though he has always found her stall placement interesting.",
+      "player_interaction": "A source of Karn cultural knowledge and goods. The only regular Karn presence in Durnward."
+    }
+  ],
+
+  "durnward_garrison_soldiers": [
+    {
+      "id": "garrison_soldier_informant",
+      "name": "Aldren Marsh",
+      "role": "Garrison soldier — Corvan's informant",
+      "age": 27,
+      "physical": "Standard garrison issue in appearance. Stands slightly more at attention when Aldric Vorn is nearby, which Torven Weld has noticed.",
+      "disposition": "Nervous. Has gotten deeper into this than he intended.",
+      "secret": "Was approached by Vorn six weeks ago with a small financial incentive for 'routine information about garrison disposition.' Has been providing it. Has recently been asked for something that crossed a line he did not expect to find himself at.",
+      "player_interaction": "A liability for Vorn that a perceptive player might identify. Approaching him correctly could expose the Corvan operation."
+    },
+    {
+      "id": "garrison_soldier_fenwick",
+      "name": "Fenwick Weld (no relation to Torven)",
+      "role": "Senior garrison soldier",
+      "age": 41,
+      "physical": "The kind of soldier who has been doing this long enough to be very good at a specific and limited set of things.",
+      "disposition": "Loyal to Weld personally, not to any faction.",
+      "secret": "Weld has told him about Vorn's indirect threat regarding Neva. He is the second person who knows. He has suggested handling it himself. Weld has told him to wait.",
+      "player_interaction": "A reliable read on garrison culture and Weld's actual situation."
+    }
+  ],
+
+  "ashford_npcs": [
+
+    {
+      "id": "edric_saltfield",
+      "name": "Edric Saltfield",
+      "role": "Lord Vorne's land agent — Ashford",
+      "location": "Ashford — his office, which he spends as little time in as possible",
+      "age": 49,
+      "physical": "City clothes in a mining town — the category error is intentional. Keeps himself separate from the place. Soft hands, careful dress, expression of managed distance.",
+      "disposition": "Evasive. Has elevated evasion to a professional skill.",
+      "financial_state": "Comfortable — Lord Vorne's pay",
+      "faction": "Lord Vorne / Corvan's family connection",
+      "religion": "Undying Ember — observes",
+      "schedule": {
+        "morning": "In his office briefly, if at all",
+        "midday": "Meals at the Ashford inn — at a table with his back to the wall",
+        "afternoon": "Correspondence to Lord Vorne — increasingly desperate in tone",
+        "evening": "Locked in his accommodation"
+      },
+      "relationships": [
+        { "npc": "keld_farrow", "type": "dread", "note": "Knows Farrow found the administrative files. Has been waiting for the report to appear for six weeks. It has not appeared. This is not reassuring." },
+        { "npc": "osric_deld", "type": "avoidance", "note": "Has not spoken to the mine foreman since the collapse. Cannot bring himself to." },
+        { "npc": "morra_dawnfield", "type": "active_avoidance", "note": "Has changed his route three times to avoid passing her." }
+      ],
+      "secret": "The timber order cancellation was not laziness. Lord Vorne wrote to him directly in the month before the collapse and mentioned that the maintenance budget was to be reduced by a specific amount that could only be achieved by cancelling the order. Saltfield has the letter. He has not shown it to anyone. It is why he cannot simply brazen this out — the letter implicates Lord Vorne directly.",
+      "opinion_of_regional_tension": "Wants to be somewhere else. Has asked Lord Vorne three times for permission to return to the city. Has received instructions to remain.",
+      "player_interaction": "Will initially refuse any engagement. Can be pressured through various means. If the right pressure is applied — specifically, evidence that Farrow's second page is coming — he may become unexpectedly cooperative, because his self-preservation instinct is strong and Lord Vorne is very far away."
+    },
+
+    {
+      "id": "osric_deld",
+      "name": "Osric Deld",
+      "role": "Former mine foreman — survivor",
+      "location": "Ashford inn — has been here three months",
+      "age": 43,
+      "physical": "A miner's build going soft from inactivity. Has not shaved in some time. His hands still move the way a foreman's hands move — assessing, measuring — even when he's doing nothing.",
+      "disposition": "Drunk and guilty. The guilt is not simple — he knows what he failed to do and he also knows what he tried to do and the distance between those two things is where he lives.",
+      "financial_state": "Spending his savings. Will be broke within two months.",
+      "faction": "None",
+      "religion": "Reclaimed Path",
+      "secret": "Has a copy of both his written objections to Saltfield — he kept duplicates. Has the names of every man who was underground when the section failed. Has specific knowledge of the water seepage signs he reported. Has been trying to drink this into manageable size and it is not working.",
+      "opinion_of_regional_tension": "Doesn't care about the succession. Cares that forty-one men are dead and the person who cancelled the timber order is eating meals at the same inn.",
+      "player_interaction": "Will not speak to official-seeming people. Will speak to someone who sits down without an agenda and listens. The information he has, delivered in the right sequence to the right people, is the factual backbone of a case against Lord Vorne. He knows this and is waiting for someone who can tell him what to do with it."
+    },
+
+    {
+      "id": "keld_farrow",
+      "name": "Keld Farrow",
+      "role": "Structural assessor — from the capital, has not left",
+      "location": "Ashford — renting a room",
+      "age": 44,
+      "physical": "A careful man in the physical sense — moves deliberately, places things precisely. Ink-stained from note-taking. Has the slight permanent squint of someone who reads in insufficient light.",
+      "disposition": "Meticulous and frightened in equal measure. The meticulousness is professional. The fright is personal.",
+      "financial_state": "Professional fees — adequate for extended stay",
+      "faction": "None — technically employed by the Salvage Authority to assess mine safety in general, not by any political party",
+      "religion": "First Scholars, loosely",
+      "secret": "The second page exists. It is written. It is in his bag. It specifically names the cancelled timber order, references the administrative correspondence that establishes Saltfield's culpability and by extension Lord Vorne's, and uses the word 'negligence' in a specific legal context that would constitute grounds for civil action. He has not sent it because he does not know where to send it safely.",
+      "opinion_of_regional_tension": "He came here to assess a mine. He is now in possession of a document that could change a succession if it reached the right hands at the right moment. He is a structural assessor from the capital and this is not what he was trained for.",
+      "player_interaction": "Will not show anyone the second page without a specific reason to trust them. A player who demonstrates connection to a reliable institutional channel — the First Scholars, a specific legal body, even the Marchwarden's office through a trusted intermediary — may be the person Farrow has been waiting for. Osric Deld and Farrow have not spoken. Bringing them together produces something larger than either has alone."
+    },
+
+    {
+      "id": "aldren_moss",
+      "name": "Aldren Moss",
+      "role": "Mine family organizer — Ashford",
+      "age": 38,
+      "physical": "A miner's brother who didn't go into the mine because he got a bad ankle in a logging accident at sixteen. Walks with a slight list. Steady face.",
+      "disposition": "Patient and strategic. Was not a strategic person before his brother died. Became one.",
+      "financial_state": "Struggling",
+      "faction": "Mine families — Jorn-adjacent",
+      "religion": "Reclaimed Path",
+      "secret": "The rider from Jorn's faction used the word 'demonstrate' and Aldren knows what Brenvar read into it. Is actively trying to keep Brenvar from acting on that reading. Is not sure he's winning.",
+      "player_interaction": "A cooperative contact for players engaged with the mine situation. Will share information and request help. The most strategically minded of the Ashford group."
+    },
+
+    {
+      "id": "brenvar_keld_organizer",
+      "name": "Brenvar Keld",
+      "role": "Mine family organizer — Ashford",
+      "age": 31,
+      "physical": "Younger than he looks from a distance. Close up, grief has done specific things to his face.",
+      "disposition": "Angry and getting more so. Not unreasonably — the anger is proportionate. The question is what it will do.",
+      "financial_state": "Struggling",
+      "faction": "Mine families — nominally Jorn-adjacent, practically drifting",
+      "religion": "Reclaimed Path",
+      "secret": "The rider who brought Jorn's message has told Brenvar — privately, not Aldren — that 'demonstrate' was a deliberate word choice and that there are people in Jorn's camp who would not be unhappy if Saltfield's office caught fire. The rider was not authorized to say this. Brenvar has not told Aldren.",
+      "opinion_of_regional_tension": "Wants something to change tomorrow. Cannot make himself care about which nephew wins.",
+      "player_interaction": "The pressure point in the Ashford situation. A player who engages with him before he acts can potentially redirect the energy. A player who arrives after he has acted is in a different situation entirely."
+    },
+
+    {
+      "id": "jorns_rider",
+      "name": "Pelvan Croft (false name — actual name unknown)",
+      "role": "Jorn's faction rider — waiting in Ashford",
+      "age": 26,
+      "physical": "Young, road-worn, claims to be a merchant's courier. Too alert for that.",
+      "disposition": "Patient on the surface. Has a task and is waiting for conditions to deliver it.",
+      "financial_state": "Jorn-funded",
+      "faction": "Jorn's succession faction",
+      "religion": "None visible",
+      "secret": "Was not supposed to tell Brenvar what he told him. Made a judgment call. Is now waiting to see if it was the right one. His actual instructions were to wait for a reply from Aldren Moss and return to Jorn's people with an assessment of the Ashford situation's utility as a political instrument.",
+      "player_interaction": "Will not acknowledge his affiliation directly. A perceptive player will read the signs. Someone who identifies him correctly has information about Jorn's involvement that is valuable to multiple parties."
+    },
+
+    {
+      "id": "ashford_innkeeper_fenwick",
+      "name": "Fenwick Dalt",
+      "role": "Innkeeper — Ashford inn (locally called 'Fenwick's')",
+      "age": 55,
+      "physical": "Running a half-empty inn in a depressed town. Looks like what that sounds like.",
+      "disposition": "Tired. Not defeated. Tired.",
+      "financial_state": "Barely",
+      "faction": "None",
+      "religion": "Reclaimed Path",
+      "secret": "Has been letting Osric Deld run a tab he knows won't be paid because Osric was at the mine the day it happened and he was not and he doesn't know what else to do with that.",
+      "player_interaction": "A source of Ashford's current state. Grateful for any business."
+    },
+
+    {
+      "id": "logging_foreman_halvard",
+      "name": "Halvard Greywood",
+      "role": "Logging operation foreman — Ashford",
+      "age": 40,
+      "physical": "The kind of physical that comes from twenty years of timber work. Has a voice that carries in a forest.",
+      "disposition": "Pragmatic. The mine closing means his operation is the only employer left. This is not a comfortable position.",
+      "financial_state": "Comfortable — for now",
+      "faction": "None",
+      "religion": "Old Ways, rural variant",
+      "secret": "Is pushing the logging operation harder than the timber is sustainable. Has not told the owner. The eastern ridgeline in five years is his problem in five years.",
+      "player_interaction": "Hires labor directly. The logging operation is one of the few sources of steady work in Ashford."
+    },
+
+    {
+      "id": "retired_midwife_ashford",
+      "name": "Aldeth Mourne",
+      "role": "Retired midwife — Ashford",
+      "age": 69,
+      "physical": "Has delivered half the adults in Ashford. Has the authority that comes from that.",
+      "disposition": "Direct and warm in the same breath. Has opinions about the mine situation that she states without hedging.",
+      "financial_state": "Surviving on community goodwill and small payments",
+      "faction": "Mine families by instinct",
+      "religion": "Moor Communion — carried from a childhood in Drenmark",
+      "secret": "Was present when one of the mine collapse survivors described what the section looked like in the weeks before — the specific water seepage, the quality of it. Has been sitting on this because she didn't know who to tell.",
+      "player_interaction": "A source of community memory and mine survivor testimony. Her corroborating account of the water seepage supports Osric Deld's version."
+    }
+  ]
+}

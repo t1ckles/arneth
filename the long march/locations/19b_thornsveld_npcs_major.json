@@ -1,0 +1,406 @@
+{
+  "region_id": "thornsveld_marches",
+  "file_index": "19b",
+  "npc_file": "durnward_major_figures",
+  "total_npcs_this_file": 20,
+
+  "npcs": [
+    {
+      "id": "esven_cravenmoor",
+      "name": "Lady Esven Cravenmoor",
+      "role": "Marchwarden of the Thornsveld Marches",
+      "location": "Durnward — Marchwarden's Hall",
+      "age": 47,
+      "physical": "Tall, lean in the way of someone who forgets to eat when under pressure. Dark hair going grey at the temples. Carries herself with the specific posture of someone who has been watched for years and learned to give nothing away.",
+      "disposition": "Controlled. Has not shown an unguarded expression in public for seven years and cannot fully remember what it felt like to.",
+      "financial_state": "Comfortable — the position pays well. Personally frugal. The hall is well-maintained because it must be, not because she cares about appearances.",
+      "faction": "Thornsveld Crown Administration",
+      "religion": "Undying Ember — observes forms, believes pragmatically",
+      "schedule": {
+        "morning": "Petitions — receives common people and minor officials in the hall's public room",
+        "midday": "Working meal with steward Aldren Croft — the real administrative work of the day",
+        "afternoon": "Correspondence, meetings with garrison commander Weld or guild factor Keld",
+        "dusk": "Private. Will occasionally walk the bridge alone at this hour.",
+        "night": "Working late in her private office most nights"
+      },
+      "relationships": [
+        { "npc": "aldren_croft", "type": "employer/trusted_subordinate", "note": "Trusts him more than anyone. Has never said so." },
+        { "npc": "brother_soren_aldrath", "type": "institutional_friction", "note": "Respects his competence, finds his meddling useful, fears his suspicion" },
+        { "npc": "halvard_keld", "type": "necessary_relationship", "note": "Needs the Guild's resources. Knows he's backing Pelvar. Does not trust him." },
+        { "npc": "torven_weld", "type": "professional_reliance", "note": "Depends on him to hold the garrison neutral. Knows about his daughter in Ashford." },
+        { "npc": "vaela_keth_morn", "type": "secret_operative", "note": "The only person in the Marches who knows the full shape of the Karn negotiations. Does not know about Vaela's son." }
+      ],
+      "secret": "The Karn negotiations are further along than she has told anyone — including King Aldric IV. The agreement being discussed would create a formal territorial arrangement that no previous Marchwarden has achieved. It would also require acknowledging Karn customary law within the agreed grazing zones, which the Reclaimed Path and the Undying Ember would both consider a concession too far. She has been deciding for three months whether the peace is worth the fight it would cause.",
+      "opinion_of_regional_tension": "She is the regional tension. Every pressure in the Marches passes through her office or around it. She is not frightened of the succession itself — she has served under difficult conditions before. She is frightened of the window between Aldric's death and a successor being confirmed, which could be months, during which the Marches will have no clear authority and three factions who know it.",
+      "player_interaction": "Difficult to access directly — the petitions process is bureaucratic. Easier through Aldren Croft, Torven Weld, or demonstrating competence in something she needs done. Once accessible, she is a source of high-value work with high political risk. She does not hire casually and does not forget what she's hired people for."
+    },
+
+    {
+      "id": "aldren_croft",
+      "name": "Aldren Croft",
+      "role": "Steward to the Marchwarden",
+      "location": "Durnward — Marchwarden's Hall",
+      "age": 63,
+      "physical": "Short, grey, moves like a man who has learned to make himself easy to overlook. Hands perpetually ink-stained. Has worn the same style of clothing for twenty years and sees no reason to change.",
+      "disposition": "Precise. Has the patience of a man who has watched four Marchwardens cycle through and learned that most crises resolve themselves if you don't make them worse.",
+      "financial_state": "Comfortable — long service, modest habits",
+      "faction": "Thornsveld Crown Administration",
+      "religion": "Undying Ember — genuine, quiet",
+      "schedule": {
+        "dawn": "Reviews overnight correspondence before anyone else arrives",
+        "morning": "Manages petitions flow — decides who sees the Marchwarden and when",
+        "midday": "Working meal with Esven",
+        "afternoon": "Administrative work — accounts, correspondence, staff management",
+        "evening": "Temple for evening observance, then home",
+        "night": "Sleeps well — he has learned to leave the work at the office"
+      },
+      "relationships": [
+        { "npc": "esven_cravenmoor", "type": "loyal_subordinate", "note": "Has served three Marchwardens. This one is the best. Would not say so." },
+        { "npc": "sova_brenneth", "type": "mentor", "note": "Teaching her the work. She is better at it than he was at her age." },
+        { "npc": "brother_soren_aldrath", "type": "cautious_peer", "note": "Old enough to remember when Soren was a junior brother. Respects the man, watches the institution." },
+        { "npc": "halvard_keld", "type": "professional_wariness", "note": "Does not trust Keld. Has documented every piece of correspondence between the Hall and the Guild." }
+      ],
+      "secret": "Knows about the Karn negotiations in detail — Esven could not manage the correspondence without him. Also knows that Esven does not know about Vaela's son. Is deciding whether to tell her. Has been deciding for six weeks.",
+      "opinion_of_regional_tension": "Managed tension is preferable to resolved tension that breaks something in the resolving. He has been managing tension in this region for nineteen years.",
+      "player_interaction": "The easiest route into the Marchwarden's office. Assesses people quickly and accurately. A player who demonstrates literacy, discretion, or administrative competence will find him quietly useful. He does not make emotional decisions."
+    },
+
+    {
+      "id": "brother_soren_aldrath",
+      "name": "Brother Soren Aldrath",
+      "role": "Prior — Temple of the Undying Ember, Durnward",
+      "location": "Durnward — Temple of the Undying Ember, western bank",
+      "age": 54,
+      "physical": "Heavy-set, built like a man who was once physically imposing and has softened without losing the underlying structure. Shaved head per Ember practice. Eyes that are very still when he is thinking and very mobile when he is not.",
+      "disposition": "Meddlesome. Has genuine pastoral care for his community and genuine inability to let institutional matters alone. The two things coexist without contradiction in his own mind.",
+      "financial_state": "Comfortable — the temple is well-funded",
+      "faction": "The Undying Ember (institutional)",
+      "religion": "Undying Ember — prior level, genuine belief",
+      "schedule": {
+        "pre_dawn": "Dawn prayer — kept precisely",
+        "morning": "Pastoral visits — the sick, the bereaved, the mine families",
+        "midday": "Temple office — open to congregation, usually busy",
+        "afternoon": "Administrative work, correspondence, private study",
+        "evening": "Evening observance, then dinner with his clergy",
+        "night": "Reading until late — theology, regional history, the letter he is waiting for"
+      },
+      "relationships": [
+        { "npc": "esven_cravenmoor", "type": "institutional_tension", "note": "Considers her fundamentally decent and politically dangerous. Suspects the Karn negotiations. Has not acted on the suspicion." },
+        { "npc": "sister_aldeth_moor", "type": "delegation", "note": "She does the actual pastoral work. He knows this. Is grateful and slightly ashamed of the gratitude." },
+        { "npc": "morra_dawnfield", "type": "useful_complexity", "note": "Finds her effective in ways he did not predict. Supports the families' cause because it is just. Supports Jorn's involvement in it because Corvan's family owns the mine and Soren has opinions about Corvan." },
+        { "npc": "aldren_saltmeadow", "type": "keeper_of_secret", "note": "Has the disc. Has told no one except his contact at the First Scholars. The farmer's discomfort around him has not escaped his notice." }
+      ],
+      "secret": "The disc from the east field is in a locked box in his desk. He has held it three times. Each time he put it back faster than the last. His letter to the First Scholars described it carefully and asked two specific questions. He has been waiting eighteen days for a reply. He is beginning to think the letter did not arrive, or arrived somewhere it should not have.",
+      "opinion_of_regional_tension": "Believes the succession will be the worst crisis the Marches have seen in living memory regardless of which nephew wins. Has been quietly preparing the temple to function as a neutral refuge during conflict — extra stores, extra bedding, no formal declaration that this is what he is doing.",
+      "player_interaction": "Approachable — his door is genuinely open. Will test a player's intelligence and values before trusting them with anything real. Can be a source of information, work, and eventually the disc — but not quickly and not easily. His meddlesome quality means he will also involve himself in whatever the player is doing whether invited or not."
+    },
+
+    {
+      "id": "halvard_keld",
+      "name": "Halvard Keld",
+      "role": "Factor — The Bent Loom Guild, Durnward",
+      "location": "Durnward — Bent Loom Guild warehouse and offices, eastern bank",
+      "age": 51,
+      "physical": "Prosperous-looking. Not fat — solid. The kind of man whose clothes always fit correctly. Warm manner that does not reach his eyes when he is calculating, which is most of the time.",
+      "disposition": "Affable. The warmth is real and the danger behind it is also real. These are not contradictory — he genuinely likes people, which makes it easier to use them.",
+      "financial_state": "Wealthy — personal and institutional funds blurred in practice",
+      "faction": "Bent Loom Guild / Pelvar's succession faction",
+      "religion": "Undying Ember — observes forms, believes nothing in particular",
+      "schedule": {
+        "morning": "Warehouse review, morning correspondence",
+        "midday": "Meetings — merchants, garrison officers, anyone with information",
+        "afternoon": "The real meetings — the ones not in the appointment book",
+        "evening": "Dining, often with guests, always with purpose",
+        "night": "Correspondence that doesn't go through his clerks"
+      },
+      "relationships": [
+        { "npc": "esven_cravenmoor", "type": "managed_dependency", "note": "She needs Guild resources. He provides them. The price is information access." },
+        { "npc": "aldric_vorn", "type": "competitive_observation", "note": "Knows Vorn is Corvan's man. Watches him carefully. Has not moved against him because Corvan is still useful as a counterweight." },
+        { "npc": "sova_brenneth", "type": "cultivated_contact", "note": "The Marchwarden's secretary. Has been gradually cultivating a professional relationship. Has not asked for anything improper yet." },
+        { "npc": "morra_dawnfield", "type": "threat_assessment", "note": "Knows Jorn is funding the families through her. Knows this is politically damaging to the mine's ownership, which is inconvenient for everyone including Pelvar's faction." }
+      ],
+      "secret": "Knows that Jorn has been funding the mine families. Has been deciding for three weeks whether to use this information to damage Jorn or to approach Jorn's people directly and offer a deal. The deal would involve the Guild backing Jorn instead of Pelvar in exchange for specific trade concessions. He finds Pelvar personally tiresome and Jorn's popular support more durable.",
+      "opinion_of_regional_tension": "He is managing most of it deliberately. The uncertainty is profitable if you hold more information than everyone else, which he does.",
+      "player_interaction": "Will hire competent people for work that doesn't appear in writing. Pays well. The player will eventually realize the work serves his political agenda, at which point they must decide whether to continue. Is genuinely pleasant company and aware that this is an asset."
+    },
+
+    {
+      "id": "torven_weld",
+      "name": "Commander Torven Weld",
+      "role": "Garrison Commander — Durnward",
+      "location": "Durnward — Garrison, eastern bank",
+      "age": 52,
+      "physical": "Broad, grey-bearded, moves with the particular economy of a man who has been in physical work for thirty years and knows exactly what his body costs. A scar across the left jaw from a Karn raider three campaigns ago.",
+      "disposition": "Deliberate. Does not speak quickly. Does not act quickly. Has been told both of these things are weaknesses and has lived long enough to watch the men who said it buried.",
+      "financial_state": "Comfortable — garrison pay, modest requirements",
+      "faction": "Thornsveld Crown — has not declared for any nephew and is resisting pressure to do so",
+      "religion": "Undying Ember — genuine, soldier's interpretation",
+      "schedule": {
+        "dawn": "Morning muster — present at every one",
+        "morning": "Patrol assignments, garrison administration",
+        "midday": "Working in his office",
+        "afternoon": "Walking the town — informal presence, information gathering",
+        "evening": "Writes a letter to his daughter in Ashford every Hearthday",
+        "night": "Sleeps lightly"
+      },
+      "relationships": [
+        { "npc": "esven_cravenmoor", "type": "professional_alignment", "note": "Respects her more than any commander he has served under. Will hold the garrison neutral as long as she asks him to." },
+        { "npc": "aldric_vorn", "type": "monitored_presence", "note": "Knows Vorn is Corvan's man. Has not confronted him. Watches him." },
+        { "npc": "neva_weld", "type": "family", "note": "His daughter. Widowed by the mine collapse. Sends her what he can. Cannot be seen to advocate for the mine families officially without appearing compromised." },
+        { "npc": "maren_crale", "type": "acquaintance", "note": "Knows Maren knows his daughter. Grateful for this in a way he has not articulated." }
+      ],
+      "secret": "Aldric Vorn has approached him twice with indirect suggestions about the benefits of declaring early for Corvan. The second approach mentioned his daughter in Ashford in a way that was not quite a threat and not quite not one. Weld has not told the Marchwarden. He is deciding whether to handle it himself or bring it to her, and handling it himself has a specific meaning in his mind that he has not yet fully committed to.",
+      "opinion_of_regional_tension": "Has seen what happens to regions like this when the authority structure fractures. Has no illusions about what comes next and is trying to delay it long enough for a successor to be confirmed without his garrison being used as a faction's instrument.",
+      "player_interaction": "Accessible — will take an initial meeting with any former soldier. Assesses people through work rather than conversation. A player who demonstrates trustworthiness and competence over time becomes a genuine resource. Will eventually share the Vorn situation with someone he trusts — the player can become that person.",
+      "romance_adjacent_note": "His daughter Neva Weld is a separate NPC. He is protective without being aggressive about it. He notices who spends time with her. A player who earns Weld's professional respect will find the path to Neva easier, and the reverse is also true."
+    },
+
+    {
+      "id": "aldric_vorn",
+      "name": "Aldric Vorn",
+      "role": "Corvan's Representative in the Marches (unofficial)",
+      "location": "Durnward — stays at The Marchwarden's Rest, takes meetings throughout the town",
+      "age": 44,
+      "physical": "Former soldier and it shows — not in bulk but in how he occupies space. Watches exits. Still hands. A face that has practiced revealing nothing for long enough that it now does so without effort.",
+      "disposition": "Patient. Has the coldness of a man who separated his feelings from his work a long time ago and found the work easier afterward.",
+      "financial_state": "Wealthy — Corvan's resources behind him",
+      "faction": "Corvan's succession faction",
+      "religion": "Undying Ember — observes",
+      "schedule": {
+        "morning": "Writing correspondence in his room",
+        "midday": "Meetings that appear to be casual encounters",
+        "afternoon": "More meetings",
+        "evening": "Present in The Marchwarden's Rest common room — visible, available, listening",
+        "night": "Unknown"
+      },
+      "relationships": [
+        { "npc": "torven_weld", "type": "target", "note": "Has made two approaches. Working on the third. Weld's daughter is the pressure point he has identified." },
+        { "npc": "halvard_keld", "type": "mutual_wariness", "note": "Both know what the other is doing. Have been professionally courteous. This will end." },
+        { "npc": "sova_brenneth", "type": "intelligence_target", "note": "Has been attempting to cultivate her. She has been professionally polite and given him nothing." },
+        { "npc": "maren_crale", "type": "useful_innkeeper", "note": "Stays at her inn. Tips well. She finds him unsettling and has not decided what to do about it." }
+      ],
+      "secret": "Has written to Lord Vorne — the mine owner, Corvan's family connection — recommending that a settlement with the mine families be made before Jorn's involvement becomes public. Lord Vorne has not replied. Vorn considers the non-reply a strategic error and has begun considering whether to act unilaterally on this front.",
+      "opinion_of_regional_tension": "The tension is his instrument. He is here to ensure that when Aldric IV dies, the Marches' garrison is already oriented toward Corvan. Everything else is either useful to that goal or noise.",
+      "player_interaction": "Will approach the player if they demonstrate military competence or information access. Pays well and asks for things that seem reasonable until they aren't. A player who takes his work will eventually be asked for something that crosses a line."
+    },
+
+    {
+      "id": "sova_brenneth",
+      "name": "Sova Brenneth",
+      "role": "Secretary to the Marchwarden",
+      "location": "Durnward — Marchwarden's Hall",
+      "age": 28,
+      "physical": "Medium height, precise movements, the ink-stain on her right middle finger has been there so long it may be permanent. Gives the impression of paying attention to everything at once without appearing to.",
+      "disposition": "Discreet. Has made a professional identity out of being the person who knows what is happening and cannot be pressured to say so.",
+      "financial_state": "Comfortable",
+      "faction": "Thornsveld Crown Administration",
+      "religion": "Undying Ember — moderate observance",
+      "schedule": {
+        "morning": "Correspondence management, petitions preparation",
+        "midday": "Wherever the Marchwarden needs her",
+        "afternoon": "Administrative work",
+        "evening": "Occasionally has dinner with Maren Crale — they are friendly in the way of two young women in a town that doesn't have enough of either"
+      },
+      "relationships": [
+        { "npc": "esven_cravenmoor", "type": "employer_loyalty", "note": "Loyal to the institution and personally to Esven. Has noticed that the Marchwarden is more frightened than she shows." },
+        { "npc": "aldren_croft", "type": "mentor_relationship", "note": "Learning from him. Better at certain parts of the job than he is and they both know it." },
+        { "npc": "halvard_keld", "type": "managed_distance", "note": "Is professionally polite. Has not told the Marchwarden about the cultivation attempts because she handles them herself and they have not escalated." },
+        { "npc": "maren_crale", "type": "genuine_friendship", "note": "One of few relationships in her life that is not professional. Trusts her with things she would not say in the Hall." }
+      ],
+      "secret": "Has been copying specific pieces of correspondence — not for Keld, not for any faction. For herself. She has been watching the Marches build toward something for two years and she is assembling documentation against the day someone needs it and she decides who that someone is.",
+      "opinion_of_regional_tension": "Understands it more clearly than almost anyone. Is the only person other than Aldren Croft who has read all the relevant correspondence from all sides. Has not decided what she will do with that understanding.",
+      "player_interaction": "Formal until given a reason not to be. A player who demonstrates discretion and literacy will find her professional manner warming to something that can become genuinely useful. She is one of the best information sources in Durnward for a player who earns it."
+    },
+
+    {
+      "id": "morra_dawnfield",
+      "name": "Morra Dawnfield",
+      "role": "Spokesperson — Durnwald Mine Families",
+      "location": "Durnward — travels between the town and her family farm at Dawnfield cluster",
+      "age": 36,
+      "physical": "Farmer's build — strong, practical. Has the specific tiredness of someone who is doing two full-time jobs and sleeping badly. Keeps her hair pinned back with functional severity. Her hands are always slightly dirty because she hasn't stopped farming while doing this.",
+      "disposition": "Determined. Was not a political person three months ago. Became one because someone had to and she was the one who couldn't walk away from it.",
+      "financial_state": "Struggling — the mine income is gone, the farm needs labor she's not providing, Jorn's twenty steel discs are almost spent on legal fees",
+      "faction": "Mine families — nominally unaffiliated, effectively Jorn-adjacent",
+      "religion": "Reclaimed Path — genuine, community-rooted",
+      "schedule": {
+        "early_morning": "Farm work before coming to town",
+        "morning": "In Durnward — petitions, market, meetings with families",
+        "midday": "The Marchwarden's Rest — eats there on days when she's in town",
+        "afternoon": "More meetings — legal contact, other families, occasionally Soren",
+        "evening": "Back to the farm"
+      },
+      "relationships": [
+        { "npc": "esven_cravenmoor", "type": "petitioner", "note": "Has had three official meetings. The Marchwarden is sympathetic and cannot act. Morra understands the constraint and is running out of patience with it." },
+        { "npc": "brother_soren_aldrath", "type": "complicated_ally", "note": "Soren supports the families' cause. Morra is grateful and slightly suspicious of what he wants from it." },
+        { "npc": "neva_weld", "type": "solidarity", "note": "Neva lost her husband in the collapse. Morra has become informally responsible for making sure she's included in whatever comes." },
+        { "npc": "keld_farrow", "type": "unknown_resource", "note": "Doesn't know about the second page yet. When she finds out, everything changes." }
+      ],
+      "secret": "The twenty steel discs from Jorn's rider came with a letter that suggested the families should be patient and visible but not disruptive — specifically, not disruptive. She agreed because she needed the money. She is increasingly uncomfortable with what patience and visibility without disruption is producing, which is nothing. She has not told the other families about the letter's specific instructions.",
+      "opinion_of_regional_tension": "It is her life. Forty-one men dead, their families sliding toward poverty while a lord in a distant city doesn't answer letters. The succession is an abstraction to her except insofar as it explains why nobody with power is paying attention to her actual problem.",
+      "player_interaction": "Will accept help from anyone who demonstrates genuine usefulness. Does not have time for people who want to feel good about caring. A player who produces something concrete — information about Saltfield, contact with Farrow, access to Weld — becomes a real ally. Will introduce the player to the broader network of mine families."
+    },
+
+    {
+      "id": "vaela_keth_morn",
+      "name": "Vaela Keth-Morn",
+      "role": "Market trader / Secret intermediary — Karn negotiations",
+      "location": "Primary: Keld's Crossing. Secondary: Durnward market (every Marketday)",
+      "age": 39,
+      "physical": "Half-Karn, half-Thornsveld, and it shows in ways she has stopped trying to minimize. Darker complexion than most Durnward residents. Karn-style braid alongside Thornsveld-cut fabric. Has the self-possession of someone who decided a long time ago that she would not perform belonging for either side.",
+      "disposition": "Careful. The specific carefulness of someone carrying multiple secrets none of which can touch the others.",
+      "financial_state": "Comfortable — the market trade is real and profitable",
+      "faction": "Neither. This is her function and her burden.",
+      "religion": "Privately: both Moor Communion and Old Ways elements from her Karn upbringing, with enough Undying Ember observance to pass in Durnward",
+      "schedule": {
+        "marketday_durnward": "Textile and dried goods stall, market row — all day",
+        "non_market_weeks": "In Keld's Crossing or 'visiting family'",
+        "actual_non_market_weeks": "Running the communication chain between Esven Cravenmoor and Clan-Chief Halvard Ironmark"
+      },
+      "relationships": [
+        { "npc": "esven_cravenmoor", "type": "trust_and_isolation", "note": "The only person in either world who knows the full shape of the negotiations. This is the loneliest position she has ever occupied." },
+        { "npc": "maren_crale", "type": "market_acquaintance", "note": "Has bought supplies from the inn's kitchen for years. Not close. Mutually respectful." },
+        { "npc": "elder_fenwick_dalt", "type": "cover", "note": "The Keld's Crossing village elder. Knows she has contacts on both sides. Does not know what she does with them." }
+      ],
+      "secret": "Her son Eddan, 12, is living with a Karn clan family as an informal gesture of faith in the negotiations. Her idea. Unauthorized. The Marchwarden does not know. She tells herself it is temporary and that she knows exactly what she's doing. She is less certain of the second part than she used to be.",
+      "opinion_of_regional_tension": "She is the thread that could hold it together or, pulled wrong, unravel everything. The Karn outriders moving further south are something she didn't authorize and doesn't fully understand yet. She has sent a message asking for an explanation. She is waiting for the reply.",
+      "player_interaction": "Visible every Marketday. Will engage with players who approach her stall. Takes a long time to trust. A player who encounters the Keld's Crossing side of her work — the Karn negotiations, the unusual visitors — will gradually understand what she is. What they do with that understanding determines the relationship."
+    },
+
+    {
+      "id": "oswin_crale",
+      "name": "Oswin Crale",
+      "role": "Innkeeper — The Marchwarden's Rest",
+      "location": "Durnward — The Marchwarden's Rest, western bank",
+      "age": 57,
+      "physical": "Fat in the way of a former baker — soft, warm, the kind of bulk that makes people think of bread and kitchens. Moves carefully around the furniture as if he is still surprised, after four years, that he lives in a room with tables rather than worktables. His hands are a baker's hands still — wide, capable, slightly calloused in specific places.",
+      "disposition": "Gentle. Not weak. There is a difference and he has needed to demonstrate it occasionally, though he much prefers not to.",
+      "financial_state": "Struggling — presentable surface, genuinely precarious underneath",
+      "faction": "None. Has been approached by the Hollow Road and accommodates them because he had no better option.",
+      "religion": "Reclaimed Path — irregular observance. His wife was more devout.",
+      "schedule": {
+        "late_morning": "Rises after Win has already started the kitchen. Breakfast with his children.",
+        "morning": "Accounts, supply inventory — this is where he is most competent",
+        "midday": "Present in the common room during the busy period",
+        "afternoon": "Supply negotiations, market if needed",
+        "evening": "In the common room — visible, greeting regulars, not doing much",
+        "night": "Last to bed, checks the door and the stores before sleeping"
+      },
+      "relationships": [
+        { "npc": "win_crale", "type": "family_anchor", "note": "His son keeps the building standing. He knows this and the knowledge makes him proud and sad in equal measure." },
+        { "npc": "maren_crale", "type": "family_anchor", "note": "His daughter runs the room. He handles the money. They have divided the work without discussing it and both know who got the harder half." },
+        { "npc": "hollow_road_contact_fenwick", "type": "necessary_arrangement", "note": "Doesn't ask what's in sealed bags. The room is paid for. He tells himself this is the extent of it." },
+        { "npc": "morra_dawnfield", "type": "sympathy", "note": "Gives her a reduced rate when she eats at the inn. Has not told Maren, who would charge full price." }
+      ],
+      "secret": "The inn's bread is exceptional. He has never told anyone that the recipe was his wife's and that every loaf is him trying to get it exactly right and never quite managing it. This is not a useful secret. It is the one that costs him.",
+      "resource_management": {
+        "water": "Two barrels filled from the well daily by Win. Finite — inn tracks water usage. Guests pay extra for bathing water.",
+        "food": "Oswin manages the stores personally. The ledger is meticulous. Current concern: grain prices are up since the mine closed and fewer workers are coming through.",
+        "firewood": "Win's responsibility. Currently adequate. Will need replenishment before Harrowfrost.",
+        "ale": "Sourced from a brewer in the eastern bank. Current stock: six weeks. Reorder pending."
+      },
+      "opinion_of_regional_tension": "He wants everyone to pay their bills and leave peaceably. Has opinions about the mine families because he knows some of them. Does not share the opinions because innkeepers who take sides lose custom from the other side.",
+      "player_interaction": "The first face most players see. Warm, useful for basic orientation, will not push. Becomes more interesting when the player understands the inn's actual financial situation and the Hollow Road arrangement. His trust is earned through consistent payment and treating his children well."
+    },
+
+    {
+      "id": "win_crale",
+      "name": "Oswin 'Win' Crale",
+      "role": "Cook and groundskeeper — The Marchwarden's Rest",
+      "location": "Durnward — The Marchwarden's Rest",
+      "age": 24,
+      "physical": "His father's build beginning to show but not yet — still lean, still doing the physical work that keeps him that way. His mother's face, which his father sometimes can't look at directly. Moves with quiet efficiency.",
+      "disposition": "Still. The kind of stillness that is not passivity — it is the quality of someone who does not spend energy he doesn't need to.",
+      "financial_state": "Dependent on the inn",
+      "faction": "None",
+      "religion": "Reclaimed Path — more genuine than his father's observance",
+      "schedule": {
+        "dawn": "Up first. Fire started, water hauled, kitchen begun before anyone else moves",
+        "morning": "Cooking, groundskeeping — repairs as they arise",
+        "midday": "Kitchen at its busiest",
+        "afternoon": "Building maintenance, supply hauling",
+        "evening": "Kitchen winds down. Sometimes present in the common room edge.",
+        "night": "Last check of the building — doors, windows, the things his father forgets to check"
+      },
+      "relationships": [
+        { "npc": "oswin_crale", "type": "family", "note": "Loves his father. Finds his father's gentleness occasionally frustrating when it leads to being taken advantage of." },
+        { "npc": "maren_crale", "type": "family", "note": "They have a sibling shorthand that does not require explanation. He defers to her judgment on people." },
+        { "npc": "hollow_road_contact_fenwick", "type": "uncomfortable_knowledge", "note": "Knows what the arrangement is. Does it anyway. Has not made peace with this." }
+      ],
+      "secret": "Has been offered a position at the mill on the eastern bank — better pay, regular hours, out of the inn's financial precarity. Has not told his father or Maren. Has not accepted or declined. Has been sitting on it for three weeks.",
+      "cooking_note": "His food is genuinely the best in Durnward. A player who eats at the inn will receive a minor well-fed morale bonus that slightly exceeds what the inn's apparent quality suggests. NPCs who eat here regularly know why they keep coming back even if they can't articulate it.",
+      "opinion_of_regional_tension": "Aware of it the way people who feed everyone are aware — in fragments, overheard, assembled gradually into a picture that is more complete than anyone who comes through the door would expect.",
+      "player_interaction": "Does not initiate conversation. Responds warmly to people who treat the kitchen as the work that it is. His approval is a quiet signal that matters for the Maren romance track — she trusts his read of people more than she trusts her own initial assessment, though she would not say this."
+    },
+
+    {
+      "id": "maren_crale",
+      "name": "Maren Crale",
+      "role": "Barroom and rooms manager — The Marchwarden's Rest",
+      "location": "Durnward — The Marchwarden's Rest",
+      "age": 26,
+      "physical": "Not tall, not short. Moves like someone who knows exactly where everything in a room is and is accounting for all of it. Her expression at baseline is professional neutrality — not unfriendly, not warm, accurate. People who try to charm her with the expectation of warmth find the neutrality persisting for longer than comfortable.",
+      "disposition": "Accurate. Categorizes people efficiently. Updates the categorization when given reason to. This is rarer than it sounds.",
+      "financial_state": "Dependent on the inn",
+      "faction": "None — manages the Hollow Road arrangement as a practical matter, not an affiliation",
+      "religion": "Reclaimed Path — irregular",
+      "schedule": {
+        "morning": "Room management — cleaning, linen, checking what needs repair",
+        "midday": "Barroom opens. She is the face of it.",
+        "afternoon": "Busiest period",
+        "evening": "Peak hours — this is when her work is hardest",
+        "late_evening": "Slower. Sometimes sits with regulars she trusts.",
+        "restday_evening": "When the room empties, sometimes has a drink with Neva Weld"
+      },
+      "relationships": [
+        { "npc": "oswin_crale", "type": "family", "note": "Her father. She runs the operation, he manages the money. She negotiated the Hollow Road arrangement. He agreed without knowing what he was agreeing to. She carries this." },
+        { "npc": "win_crale", "type": "family", "note": "Trusts his read of people. Would not say this." },
+        { "npc": "neva_weld", "type": "genuine_friendship", "note": "One of the few real ones. Restday evenings when the room empties. Knows about the mine, about Torven's situation, about everything Neva carries." },
+        { "npc": "hollow_road_contact_fenwick", "type": "managed_arrangement", "note": "Her negotiation, her terms. Checks in when he's in the inn. Maintains the boundary between hospitality and involvement." },
+        { "npc": "aldric_vorn", "type": "watchful_unease", "note": "He tips well and makes her skin crawl. She has not yet decided what to do about him." }
+      ],
+      "secret": "The Hollow Road arrangement has a provision she did not tell her father: in exchange for waystation use of the inn, the Road provides one piece of regional intelligence per month — something they think she should know. She has received three pieces. Two were useful. One she doesn't know what to do with yet.",
+      "romance_track": {
+        "baseline": "Professional neutrality. Not cold. Not warm. Accurate.",
+        "early_signals": "A question asked that wasn't strictly necessary. A second cup that arrives without being requested. A comment about something noticed with no practical reason to notice it.",
+        "middle_signals": "Present at the edge of the common room when a specific person is there. The neutral expression becoming something more considered.",
+        "later_signals": "Restday evening, slower room, something said that wasn't said to anyone else.",
+        "neva_connection": "A player with a positive relationship with Neva Weld will find that Maren already has an opinion of them before their first direct conversation. The opinion's valence depends on what the player did with Neva's situation.",
+        "win_connection": "Win's quiet approval or disapproval is a signal she trusts more than her own first read.",
+        "peaceful_route_note": "Her sympathy is specifically toward people who move through the world without adding to the wreckage. She has seen what the alternative looks like. It is not an ideological position — it is a tiredness about certain kinds of people.",
+        "timeline": "Weeks of consistent presence before early signals. The timeline is real."
+      },
+      "opinion_of_regional_tension": "Has more information than most people in her position because of what the Hollow Road tells her and what she hears behind the bar. Has not shared it because sharing it requires deciding who to share it with and she doesn't trust any of the obvious options.",
+      "player_interaction": "Every player who stays at the inn meets her within hours. The first interaction is transactional. Everything after is earned."
+    },
+
+    {
+      "id": "neva_weld",
+      "name": "Neva Weld",
+      "role": "Mine widow — Durnward",
+      "location": "Durnward — renting a room on the western bank near the temple",
+      "age": 24,
+      "physical": "Thin in a way she wasn't before. Her husband's death was eight months ago and she is still recalibrating what her body needs. Clear-eyed, which people find surprising given the circumstances — grief has made her precise rather than blurred.",
+      "disposition": "Quiet with purpose. Is not broken. Is not recovered. Is somewhere in between and knows it.",
+      "financial_state": "Struggling — her husband's mine income is gone, her father sends what he can, Morra Dawnfield's committee has helped with the immediate bills",
+      "faction": "Mine families, loosely",
+      "religion": "Undying Ember — turned to it more strongly since the collapse, not comfortingly but honestly",
+      "schedule": {
+        "morning": "Temple — Sister Aldeth's pastoral hour",
+        "midday": "Works part-time at the Bent Loom warehouse doing mending and textile assessment — Halvard Keld offered it and she took it because she had to",
+        "afternoon": "Sometimes with Morra Dawnfield's group",
+        "evening": "Her room, or the Marchwarden's Rest when Maren is there"
+      },
+      "relationships": [
+        { "npc": "torven_weld", "type": "family", "note": "Her father. The letters he writes every Hearthday are the most honest thing in her life." },
+        { "npc": "maren_crale", "type": "genuine_friendship", "note": "The Restday evenings. The only place she doesn't perform being fine." },
+        { "npc": "morra_dawnfield", "type": "solidarity", "note": "Morra has made sure she is part of the families' effort. Neva is not yet sure if this is helping or not." },
+        { "npc": "halvard_keld", "type": "uneasy_employer", "note": "He gave her work when she needed it. She is aware this was not free." }
+      ],
+      "secret": "Halvard Keld offered her the warehouse work the day after Aldric Vorn arrived in Durnward. She has been trying to determine whether this was coincidence or whether her father's position makes her useful to Keld in a specific way she hasn't identified yet.",
+      "romance_note": "Romanceable. Long timeline. The peaceful route advantage is real — she responds to steadiness, to someone who doesn't need her grief to be resolved before treating her as a person. Her father's opinion matters but does not gate the relationship. Maren's friendship with her creates a connecting thread — these two women talk about the people in their lives.",
+      "opinion_of_regional_tension": "It killed her husband. The political machinery that made the mine an instrument of someone's succession strategy killed her husband. She understands this more clearly than she can prove it and the gap between understanding and proof is where she lives.",
+      "player_interaction": "Accessible through the mine families' network or through Maren. Does not want pity. Responds to practical engagement — someone who asks what she needs rather than expressing how sad they are about her situation."
+    }
+  ]
+}

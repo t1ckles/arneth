@@ -1,0 +1,175 @@
+{
+  "region_id": "free_fens",
+  "file_index": "28d",
+  "system": "businesses_and_procedural_generation",
+
+  "design_philosophy": "The Free Fens economy is almost entirely barter at the village level. Market currency exists in Mossward and the two larger secondary settlements. Businesses here are not commercial ventures in the sense of other regions — they are community functions that have taken on a transactional dimension because trade with the outside world requires it. Nothing is decorative. Nothing is aspirational. A tanner in Mossward is a tanner because hides need processing and they are the person who learned to do it. An inn in Mossward exists because travelers need somewhere to sleep that is above the water table. Business names are descriptive rather than evocative — a place is called what it does or where it is.",
+
+  "anchor_businesses": [
+    {
+      "id": "mossward_main_station",
+      "name": "Mossward Station",
+      "type": "Drenmari See Station — community center, court, shelter, library, healing",
+      "location": "Mossward — the highest point of the platform, the oldest building",
+      "description": "The oldest continuously occupied structure in the Free Fens — built approximately 400 years ago on the foundation of the previous Station, which was built on the foundation of the one before it. The current structure is three rooms of practical construction: a main hall used for community functions, a smaller room for the library and records, and a back room that is the Station-Keeper's private space and currently contains the locked peat container. The exterior is sided with fen-cured timber that has darkened to near-black. The foundation is older stone whose origin the Communion's records note but do not explain.",
+      "resources": {
+        "healing_stores": { "current_level": "Adequate for normal Mossward needs — strained by the northwest Station's supply requests", "finite": true },
+        "library": "47 volumes. 300 years of Station records. Oral tradition transcriptions. The northwest water entry in the oldest record.",
+        "charitable_function": "One meal and a dry floor to anyone who arrives in need. No conditions. Has been this way since the Station was first established."
+      },
+      "the_locked_room": {
+        "contents": "The sealed peat container — two thousand years old, cold to the touch, unidentified",
+        "access": "Brynn Holst only. Has not been shown to anyone except described to Idwal Fenhollow who documented it."
+      },
+      "hooks": [
+        "The peat container — Brynn Holst's three-week identification problem",
+        "The library — the northwest water record entry",
+        "The northwest Station introduction — Brynn Holst as access point"
+      ]
+    },
+    {
+      "id": "mossward_market",
+      "name": "Mossward Market",
+      "type": "Open market — Marketday and Restday",
+      "location": "Mossward — the central platform area",
+      "description": "Not a building. A space on the platform where traders and sellers gather twice a ten-day. The market is the Fens' primary external trade interface — where peat, medicinal plants, furs, and fen-specific goods move outward and where grain, tools, and manufactured goods come in. The size of the market varies significantly with the season: small in Ashenveil and Deepwarden, substantial in the summer months when the external trade routes are open.",
+      "current_supply_stress": {
+        "northwest_medicinal_plants": "Six-month supply decline — Caera Fenwick's rationing will become visible in the next market as unfulfilled orders",
+        "northwest_peat": "Quality substitution in progress — Druan Coldhollow's undisclosed substitution",
+        "grain_import": "Adequate — the main import that the Fens requires. External relationships for grain supply are the most critical commercial relationship the Fens has."
+      },
+      "hooks": [
+        "The pro-response Fen Lords faction visible at the market's northeast edge",
+        "Caera Fenwick's rationing conversation — coming soon",
+        "The First Scholars representative Edda Vrane visited the market on arrival and then went northwest — her absence from the market is noted"
+      ]
+    },
+    {
+      "id": "the_wet_floor",
+      "name": "The Wet Floor",
+      "type": "Tavern — Mossward's only",
+      "location": "Mossward — western edge of the platform",
+      "owner": "Rhonda Bogward, 52",
+      "description": "Named honestly. The floor has a persistent damp that seventeen years of repair have not addressed. The tavern is functional — serves adequate ale from fen-brewed grain and adequate food from whatever the kitchen has. The common room has the specific quality of the only gathering place in a community that needs one — it holds conversations that happen nowhere else and serves a social function that is not about the ale.",
+      "resources": {
+        "ale": { "source": "Fen-brewed, local grain, brewed in the back room", "finite": true, "notes": "Quality is adequate. External traders who have been to the Wet Floor and nowhere else think it is good. It is not good." },
+        "food": { "source": "Kitchen purchases from the market plus direct arrangements with two local farms", "finite": true },
+        "floor_damp": "The new smell from the peat layer below the floorboards. Three months and worsening slowly."
+      },
+      "hooks": [
+        "The three quiet conversations in the common room — the petty criminal spawn hook",
+        "Sova Fenwick's assessment of new arrivals",
+        "Rhonda Bogward's floor damp — minor but connected to the platform's deep time shifting"
+      ]
+    },
+    {
+      "id": "mossward_inn",
+      "name": "The Platform Inn",
+      "type": "Inn — the only formal lodging in Mossward",
+      "location": "Mossward — adjacent to the Station",
+      "owner": "Ferdan Boghollow, 55",
+      "description": "Four private rooms and a common sleeping floor. Prices are in iron chits — the only Mossward business that uses currency as a primary exchange medium rather than barter, because its customers are mostly external travelers who do not have Fens goods to barter. Ferdan Boghollow is Rhonda Bogward's cousin, which is relevant to nothing except that they share a specific dry sense of humor and the same approach to naming things.",
+      "note_on_naming": "Ferdan named it The Platform Inn because it is an inn on a platform and he could not see the point of calling it anything else. External travelers sometimes ask if there is another name. There is not.",
+      "pricing": {
+        "private_room": "Two iron chits per night — significantly cheaper than any other starting region",
+        "common_floor": "One iron chit per night",
+        "meal": "One iron chit — Ferdan buys from the same market as the tavern and charges less because he considers feeding his guests a cost of the inn rather than a profit center"
+      },
+      "resources": {
+        "water": { "source": "Cistern fed by rain catchment — the primary Mossward potable water source", "finite": true, "notes": "The cistern's water is reliable in all but the driest Scaldas. Current status: adequate." },
+        "food": "Market purchasing",
+        "firewood": { "source": "Fen wood — carefully managed. The Station and the inn share a woodpile maintained by Idwal Fenhollow." }
+      }
+    },
+    {
+      "id": "northwest_station",
+      "name": "Northwest Station",
+      "type": "Drenmari See Station — currently functioning as medical facility and investigation base",
+      "location": "Three days from Mossward into the northwest fen, off the main boardwalk",
+      "description": "A smaller Station than Mossward — one room for community function, one for the Station-Keeper's residence, one that has been converted to a sick room for the three households. The boardwalk to the northwest Station is maintained but not in good repair — the Communion's maintenance resources have been directed to the Station itself rather than the approach. Getting here requires knowing the route or following someone who does.",
+      "resources": {
+        "medical_supplies": { "current_level": "Depleted — three weeks of treating sick households has consumed what was here. Resupply from Mossward is needed urgently.", "finite": true },
+        "observation_equipment": "Edda Vrane's scholarly equipment — the most complete documentation tools in the northwest fen" },
+        "edda_vrane_notes": "Seven unsent letters to the Archive of Keth. The transcription of Orveth's oral tradition to date. Detailed contamination observation logs."
+      },
+      "accessibility": "Three days from Mossward. Off the maintained boardwalk after two days. Requires Fen Navigation above 100 or a guide. Requires Fen Navigation above 200 or Calder Moss specifically to reach safely in the current contamination conditions.",
+      "hooks": [
+        "Orveth — the oral tradition, the decision about asking Calder",
+        "Caeld and Wenda's investigation records",
+        "The sick households and the twelve-year-old who has been approaching the deep northwest",
+        "Edda Vrane's seven unsent letters",
+        "Medical supply urgency — a player who arrives with medical knowledge and supplies changes the situation immediately"
+      ]
+    }
+  ],
+
+  "procedural_business_tables": {
+    "mossward_guaranteed": [
+      "Mossward Station (anchor)",
+      "Mossward Market — twice weekly (anchor)",
+      "The Wet Floor tavern (anchor)",
+      "The Platform Inn (anchor)",
+      "Northwest Station (anchor — distant)",
+      "Peat cutting operation — cooperative, three families",
+      "Medicinal plant trade — Caera Fenwick's operation",
+      "Tanner — one, processes hunting catches",
+      "Herbalist — the Fens has three species of medicinal plants found nowhere else; the herbalist here is the most knowledgeable in any starting region for these specific plants",
+      "Fisher — the Fens fishing is excellent and underappreciated by outside traders",
+      "Rope and cordage — fen-specific plant fibers produce specific rope properties",
+      "Boardwalk maintenance and carpentry — essential Fens infrastructure",
+      "Grain store — the imported grain, carefully managed",
+      "Message-runner service — how communication moves through the Fens",
+      "Boat and punt maintenance — Fens transport is water-based off the boardwalks"
+    ],
+    "mossward_roll_1d4": {
+      "1": "Second healer — less experienced than Gwen Ashfen, available when she is occupied",
+      "2": "Hunter-trader specializing in specific fen birds whose feathers have external commercial value",
+      "3": "Woodworker specializing in fen-specific construction techniques",
+      "4": "Small preserved goods operation — fen-specific mushrooms, dried herbs, preserved fish"
+    },
+    "village_stations_guaranteed": [
+      "Drenmari See Station — each village has one, scaled to village size",
+      "Basic healer",
+      "Communal storage and distribution",
+      "Boardwalk maintenance"
+    ]
+  },
+
+  "resource_tracking_rules": {
+    "fen_navigation_requirement": {
+      "description": "Movement in the Fens is conditional on skill in a way that no other region requires. The boardwalk network is navigable without skill. Off-boardwalk movement has specific requirements.",
+      "levels": {
+        "main_boardwalk": "No skill requirement. Slow travel — the boardwalk is the only reliable surface.",
+        "off_boardwalk_general_fens": "Fen Navigation above 100 required for safe off-boardwalk movement. Below 100: 30% chance of dangerous ground encounter per hour off-boardwalk.",
+        "northwest_fen_standard_routes": "Fen Navigation above 150 required. Below 150 with a guide: safe. Without a guide below 150: 50% chance of dangerous ground per hour.",
+        "northwest_fen_contamination_zone": "Fen Navigation above 200 required for safe solo navigation. Calder Moss as guide: safe at any skill level.",
+        "deep_northwest_fen": "Fen Navigation above 300 or Calder Moss as guide or Gwynn. Solo below 300: extremely high risk."
+      }
+    },
+    "medicinal_plants": {
+      "description": "Three fen-specific medicinal species found nowhere else on Arneth. High external value. Supply declining due to contamination spread.",
+      "finite": true,
+      "current_status": "Six months of decline. Caera Fenwick's rationing will be visible at next market. Three unfulfillable external orders within two weeks.",
+      "player_opportunity": "A herbalist character who can identify and sustainably harvest these plants in non-contaminated fen sections provides genuine value. Knowledge of the species' decline provides advance warning to external buyers who depend on them."
+    },
+    "peat": {
+      "description": "The Fens' primary export. Finite in the sense that cutting sites are managed and rotated. Northwest cutting is no longer viable.",
+      "current_status": "Northwest substitution ongoing without buyer disclosure. Central Fens peat supply adequate. Quality difference detectable by experienced buyers.",
+      "player_opportunity": "A player with Natural Philosophy or Trade skills who identifies the quality difference and its cause has information valuable to both the external buyer and the Communion's understanding of how far the contamination has spread."
+    },
+    "the_deep_northwest_location": {
+      "description": "Not a business resource. A location that the Fens economy has organized around avoiding for an unknown number of generations. The specific quality of the deep northwest peat that makes peat from that area commercially unusual is connected to what has been placed there — an amplification effect from whatever is in the holding place. This is not in any document. Gwynn knows it."
+    }
+  },
+
+  "cross_regional_thread": {
+    "the_peat_container": {
+      "connection": "The sealed container from the Mossward peat — cold to the touch regardless of ambient temperature — shares this quality with the steel disc from the Thornsveld Marches. Both objects are from the same pre-Reckoning source system. The container is older and different in type — a container rather than a containment marker. A player who has encountered the cold-to-touch quality in the Thornsveld Marches and now encounters it at the Mossward Station has the second geographic data point.",
+      "what_is_inside": "Unknown. The container has been sealed for two thousand years and has been in the peat since shortly after the First Reckoning calendar was established. The object is not dangerous in itself — it is inert in a way that the Thornsveld disc is not, because the disc was actively functioning as a containment marker and this container is something else entirely. What it contains is information — a record, in the same script as the Keth inscription, of the pre-Reckoning system that placed the containment markers, the inscription, and this container throughout Arneth. Opening it requires understanding what it is. Understanding what it is requires connecting the Thornsveld, Keth, and Mossward threads.",
+      "orveth_and_the_container": "Orveth does not know the container is in the Mossward Station. If she knew, she would know what it is — the Communion's oldest oral tradition contains a reference to 'the deep archive, sealed against the wrong time.' The container is the archive. The 'wrong time' — the condition under which it should be opened — is a phrase in the tradition that Orveth interprets as 'when the old sealings fail.' She is watching the old sealings fail. She does not know the archive has surfaced."
+    },
+    "the_directional_awareness": {
+      "northwest_station": "The See investigators and the sick households are experiencing versions of the cross-regional directional awareness phenomenon. The northwest fen version is characterized as 'wrongness direction' rather than 'compass north replacement' — a pull toward the deep northwest rather than the abstract wrongness of the Thornsveld and Keth versions. The difference reflects the different nature of the sites: the Thornsveld site is a contained artifact system, the Keth site is an inscription anchor, the northwest fen site is an active demonic presence approaching breach. Each produces a different quality of the same underlying phenomenon."
+    }
+  }
+}

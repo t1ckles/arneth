@@ -1,0 +1,299 @@
+{
+  "region_id": "amber_coast",
+  "file_index": "25b",
+  "npc_file": "amber_coast_major_figures",
+  "total_npcs_this_file": 20,
+
+  "npcs": [
+    {
+      "id": "aldren_calmaveth_factor_general",
+      "name": "Aldren Calmaveth",
+      "note": "No relation to the visible Solvanic trade envoy in Keth",
+      "role": "Factor-General — Factorate of the Coast",
+      "location": "Velmonde — Factorate administrative building, Cathedral Quarter",
+      "age": 58,
+      "physical": "The specific build of a man who was physically imposing at forty and has not entirely lost it at fifty-eight. Grey at the temples. Dresses formally without appearing to care about formality. Has the eyes of someone who has been looking at the gap between what institutions claim and what they produce for thirty years and has not become cynical about it — has become specific.",
+      "disposition": "Loyal to the people of this coast. Both other loyalties — Factorate and Queen — are instrumental expressions of this. Usually aligned. Occasionally in tension. Currently in tension.",
+      "financial_state": "Comfortable — Factor-General salary",
+      "faction": "Factorate of the Coast / Solvanic Dominion — instrumentally",
+      "religion": "Tidewarden Church — genuine, moderate",
+      "schedule": {
+        "early_morning": "Reviews overnight correspondence and harbor reports before his staff arrives",
+        "morning": "Administrative work — the actual machinery of coastal governance",
+        "midday": "Formal meetings — Factorate staff, Church representatives, trading house factors",
+        "afternoon": "The unofficial meetings — the harbor master, the Drenfield family contacts, the people who tell him what is actually happening",
+        "evening": "Reading. Has been reading the same political philosophy text for three months because the Salthaven report keeps interrupting his concentration."
+      },
+      "relationships": [
+        { "npc": "vaela_dawnmere_secretary", "type": "professional_trust", "note": "His most capable administrator. Has been sitting on the disease report at his request. Her discomfort is noted and reasonable." },
+        { "npc": "prince_pelvan", "type": "private_assessment", "note": "Has met three times officially. Has a strong positive private opinion. Has not shared it with anyone including Pelvan." },
+        { "npc": "oswin_drenfield", "type": "informal_intelligence", "note": "Twelve years of coastal intelligence through an unformalized arrangement. Trusts Oswin's read of Salthaven more than any official report." },
+        { "npc": "osric_halvaine_high_warden", "type": "institutional_management", "note": "Manages the Church's political weight on the coast. The Amber Point dispute is giving him a headache he does not have time for." }
+      ],
+      "secret": "Has been making succession preparations that Queen Aldeth would consider premature — specifically, he has drafted three administrative contingency documents for a Pelvan accession that assume a transition period of different lengths. Has been doing this because he has assessed the coast's institutional stability and concluded that being unprepared for transition is more dangerous than the political risk of preparing. The documents are in a locked drawer. His personal assessment of Pelvan — formed across three official meetings — is that the young man is considerably more capable than his reputation suggests and that the coast will be in acceptable hands. He has not told Pelvan this because telling him would change the dynamic of observation.",
+      "the_disease_report_calculus": "His reasoning for sitting on the Salthaven report is correct and is taking too long. He sent a Velmonde physician to Salthaven four days ago. The physician has not returned. He has sent a courier to check on the physician. The courier returned this morning with a note saying the physician has three additional patients and believes it is the Coughing Black. The Factor-General is now deciding between a controlled announcement and losing control of the announcement.",
+      "player_interaction": "Accessible through Factorate channels — formal petitions, administrative work, the notice board. More directly accessible through demonstrated care for the coast's actual population rather than its commercial surface. A player who brings him confirmed information about the Salthaven situation, or who demonstrates they understand what he is trying to protect, will receive the Factor-General's complete attention and his considerable institutional resources."
+    },
+
+    {
+      "id": "prince_pelvan",
+      "name": "Prince Pelvan Calmaveth",
+      "role": "Crown Prince — Solvanic Dominion. Currently in Velmonde for administrative education.",
+      "location": "Velmonde — official accommodation in Cathedral Quarter. Actual whereabouts: variable.",
+      "age": 23,
+      "physical": "His mother's face and his father's height — his father died when Pelvan was four and this comparison is made by everyone who knew both of them and never by Pelvan. Physically unremarkable for his position — does not carry himself with obvious royal affect. The specific quality that is visible when you look for it: the way he listens. Not politely — actually.",
+      "disposition": "Moral clarity concealed as tactical uncertainty. Has been performing 'untested' for two years while building something real. The performance is convincing because the uncertainty is genuine in some respects — he knows what he believes but not yet fully how to implement it.",
+      "financial_state": "Royal — substantial, managed by Factorate officers",
+      "faction": "Solvanic Crown — and his own developing network",
+      "religion": "Tidewarden Church — observed, genuinely uncertain about",
+      "schedule": {
+        "morning": "Official administrative education — Factorate briefings, harbor visits, trade house meetings. Performs appropriate princely attention.",
+        "midday": "Lunch with whichever faction advisor has secured the midday meeting.",
+        "afternoon": "The unofficial schedule — walks that go somewhere his handlers don't follow, conversations his circle doesn't record.",
+        "evening": "The Dock Quarter, every four to five days. Bren Ashwick's school is closed evenings but she works late."
+      },
+      "relationships": [
+        { "npc": "bren_ashwick", "type": "the_one_honest_relationship", "note": "Has told her his actual intentions. She is the only person who knows. She does not know what to make of him. He has not pressured her about this." },
+        { "npc": "vaela_stern_pilot", "type": "network_member", "note": "One of the people who understands the coast from sea level. Has been explaining things to him for eight months." },
+        { "npc": "aldren_calmaveth_factor_general", "type": "observed", "note": "Has noticed the Factor-General is more capable and more genuinely motivated than his institutional role suggests. Has been trying to determine how to approach him without triggering his contingency preparation instincts." }
+      ],
+      "the_three_factions": {
+        "tidewarden_church_faction": "Has been providing him with institutional history, legal framework for coastal governance, and a worldview that places the Church at the center of social stability. He has been learning from this about how the Church thinks. He is not going to govern through the Church.",
+        "trading_house_consortium": "Has been providing him with commercial intelligence, economic modeling, and a worldview that places trade prosperity at the center of social stability. He has been learning from this about how money moves on the coast. He is not going to govern primarily for the trading houses.",
+        "solvanic_military_faction": "Has been providing him with security analysis, threat assessment, and a worldview that places order at the center of social stability. He has been learning from this about the coast's defensive vulnerabilities. He will need this knowledge."
+      },
+      "what_he_actually_intends": "The Solvanic Dominion's commercial ruthlessness has been producing the conditions for the kind of instability that ends dynasties. His mother is brilliant and has been doing the same thing more elegantly for nineteen years. He intends to redirect the coast's wealth accumulation pattern toward the population that produces the wealth rather than the institutions that manage it. He has not said this publicly because he correctly assessed it would be used against him — each of the three advising factions would abandon him immediately if they knew, and he needs their knowledge before he can govern without their support.",
+      "the_player_thread": "The one person he told is Bren Ashwick. The second person he tells, if anyone, will be someone who has demonstrated they already understand the coast the way he understands it — from the ground level, not the administrative height. A player who has worked in the Dock Quarter, who knows the Drenfield family, who has encountered the disease report, who has spent time in Salthaven — a player who has been paying attention — is the kind of person Pelvan is looking for.",
+      "player_interaction": "Accessible in Velmonde if approached outside official channels. His afternoon walks are predictable to someone who has been paying attention. He will initiate contact with players who have demonstrated the specific quality of attention he has been looking for. The contact will feel coincidental. It is not."
+    },
+
+    {
+      "id": "bren_ashwick",
+      "name": "Bren Ashwick",
+      "note": "No relation to any previous Ashwick. The name is common on the Solvanic coast.",
+      "role": "Schoolteacher — Dock Quarter, Velmonde",
+      "location": "Velmonde — three rooms above a sailmaker's workshop, Dock Quarter",
+      "age": 24,
+      "physical": "Dock Quarter build — not soft. Has been carrying heavy things and working long hours since she was old enough to be useful. Ink on her hands that is not quite the same ink as a merchant's clerk — chalk dust mixed in, the specific combination of someone who teaches with both.",
+      "disposition": "Unimpressed by most things and genuinely interested in the few things she finds interesting. Has a specific quality of directness that comes from spending her days with children who cannot afford politeness.",
+      "financial_state": "Struggling — the school runs on almost nothing",
+      "faction": "None. Dock Quarter community.",
+      "religion": "Drowned Compact — the Dock Quarter's faith, genuinely practiced",
+      "schedule": {
+        "morning": "Teaching — the school runs from first light to midday for the younger children",
+        "afternoon": "Older children and working preparation",
+        "evening": "Administrative work — the budget, the supply problems, the ongoing negotiation with a sailmaker who has been raising the rent incrementally for two years"
+      },
+      "relationships": [
+        { "npc": "prince_pelvan", "type": "the_unexpected_relationship", "note": "He came to the school during an administrative tour and asked questions that were not administrative. Has been back four times. She has not told anyone because she does not know what to say about it." },
+        { "npc": "aldren_moss_dock_organizer", "type": "neighbor", "note": "Aldren Moss organized the Dock Quarter market. Bren's school is adjacent to Aldren's operation. They know each other in the way of people who work the same street." }
+      ],
+      "secret": "Pelvan told her his actual intentions for governance — the redistribution of wealth accumulation toward the people who produce it. She has been sitting with this for three weeks. Does not know what to do with the information. Is not romantically interested in him — finds him genuinely odd in a way she cannot fully articulate. Is politically aligned with what he described. Is professionally uncertain about whether she trusts a prince who sounds like a reformer.",
+      "the_school": {
+        "children": "Twenty-two children from the Dock Quarter, ages 6 to 14. Most of their parents work the harbor.",
+        "funding": "Almost none. Some parents pay in goods. A Tidewarden charitable allocation that barely covers lamp oil. Bren's own labor is unpaid.",
+        "the_sailmaker_rent": "Has been raised three times in two years. Currently at the edge of what Bren can manage. One more increase ends the school. She has been trying to find a patron for four months."
+      },
+      "player_interaction": "Accessible in the Dock Quarter. The school is visible and the work is genuine. A player who helps with the school's practical problems — the rent, the supplies, a medical issue with a sick child — builds trust with Bren that eventually opens the Pelvan thread. She will not immediately explain what she knows. She will eventually ask what a player thinks about how wealth moves on the coast."
+    },
+
+    {
+      "id": "vaela_dawnmere_secretary",
+      "name": "Vaela Dawnmere",
+      "note": "No relation to Sera Dawnmere in Keth",
+      "role": "Secretary to the Factor-General — Factorate of the Coast",
+      "location": "Velmonde — Factorate administrative building",
+      "age": 31,
+      "physical": "The specific precision of someone who has been managing complex administrative work since she was twenty-two. Keeps a list. Always keeps a list. The lists are accurate.",
+      "disposition": "Competent and increasingly uncomfortable with a specific piece of the work she has been asked to do.",
+      "financial_state": "Comfortable — Factorate salary",
+      "faction": "Factorate",
+      "religion": "Tidewarden Church — observes",
+      "secret": "Has been sitting on the Salthaven disease report for two weeks at the Factor-General's explicit request. Has been tracking patient numbers from the Salthaven physician's informal updates. The number is seven as of this morning. Has drafted the public announcement three times. Has not sent it because she was told not to. Is composing a formal memo to the Factor-General today stating that she is not willing to sit on it past this week regardless of instruction.",
+      "player_interaction": "The formal access point to the Factor-General's office. Her discomfort about the disease report is visible to anyone paying attention. A player who has independently found the Salthaven situation and brings it to her will receive immediate escalation."
+    },
+
+    {
+      "id": "osric_halvaine_high_warden",
+      "name": "Osric Halvaine",
+      "role": "High Warden — Tidewarden Cathedral, Velmonde",
+      "location": "Velmonde — Tidewarden Cathedral, Cathedral Quarter",
+      "age": 67,
+      "physical": "The institutional authority of someone who has held a significant position for twenty years and has let the institution do some of the work of presence for him. Formal in dress, formal in manner, specific quality of warmth that is trained rather than spontaneous.",
+      "disposition": "Institutionally confident and personally frustrated. Is correct about the Amber Point property legally and is losing the argument because his opponent is also correct, differently.",
+      "financial_state": "Church-supported — comfortable",
+      "faction": "Tidewarden Church",
+      "religion": "Tidewarden Church — genuine, lifelong",
+      "schedule": {
+        "morning": "Cathedral liturgical duties",
+        "midday": "Administrative meetings — conspicuously not including Senior Warden Morne",
+        "afternoon": "Property dispute correspondence and legal consultation",
+        "evening": "Private — has been spending evenings reviewing correspondence from twenty years ago without saying why"
+      },
+      "relationships": [
+        { "npc": "aldeth_morne_senior_warden", "type": "six_weeks_not_speaking", "note": "The dispute is ostensibly legal. The actual source is twenty years of maintained institutional distance following the novice departure. He knows about the departure. She negotiated it. They have not discussed it in twenty years." },
+        { "npc": "halvard_keld_notary", "type": "institutional_client", "note": "The Ledger holds the Church's property instruments. Has made three requests for specific documents. Has received three properly processed responses." }
+      ],
+      "secret": "Has been reviewing twenty-year-old correspondence because something about the current dispute triggered a memory he has been trying to confirm. The memory is about the novice who left — specifically, about a connection between the novice's departure and Aldeth Morne's position on the original Amber Point reclamation that he only now suspects may have been motivated by something other than legal conviction. He has found one letter that supports this suspicion. He does not know what to do with it.",
+      "player_interaction": "Accessible through the Cathedral. Will discuss the property dispute with genuine legal detail. His twenty-year-old correspondence is the thread — a player who can access that material or help him interpret it will receive his complete cooperation on the Church's institutional resources."
+    },
+
+    {
+      "id": "aldeth_morne_senior_warden",
+      "name": "Aldeth Morne",
+      "role": "Senior Warden — Tidewarden Cathedral, Velmonde",
+      "location": "Velmonde — Cathedral administrative building, separate from Halvaine's office",
+      "age": 61,
+      "physical": "The specific quality of someone who has been managing a specific secret for twenty years and has integrated the management into their baseline behavior so thoroughly that it no longer reads as secrecy. Precise, controlled, a warmth that is real but bounded.",
+      "disposition": "Correct about the law. Has personal stakes in being correct that she cannot acknowledge. Is doing something right for reasons she cannot fully defend.",
+      "financial_state": "Church-supported — comfortable",
+      "faction": "Tidewarden Church",
+      "religion": "Tidewarden Church — genuine",
+      "schedule": {
+        "morning": "Pastoral duties — the actual community work of the Church",
+        "midday": "Administrative work, conspicuously not including Halvaine",
+        "afternoon": "The Amber Point legal consultation and correspondence",
+        "evening": "Private — the Amber Point dispute has made her more publicly visible than she has been in years and she is managing the exposure carefully"
+      },
+      "relationships": [
+        { "npc": "osric_halvaine_high_warden", "type": "six_weeks_not_speaking", "note": "The legal dispute is genuine. The source of the dispute is the twenty-year-old maintained distance now collapsing." },
+        { "npc": "sable_renwick_corsair", "type": "unrecognized", "note": "Negotiated Sable's departure at 17. Has not recognized her in three years of the woman's presence on the coast. Sable has recognized her every time." }
+      ],
+      "secret": "Twenty years ago she used Church funds in an accounting manipulation that redirected charitable money into an instrument that funded the Amber Point reclamation. The reclamation that is now the subject of the dispute. She drove the reclamation because she wanted the Church to have the Amber Point property for reasons that were institutional rather than spiritual. The manipulation was witnessed by a novice. She negotiated the novice's departure. She has been maintaining the distance from Halvaine because he almost found the manipulation once and she has never been certain he fully didn't. The Amber Point dispute has brought the whole structure under examination again.",
+      "player_interaction": "Accessible through the Cathedral's pastoral operations — her community work is genuine and ongoing. A player who discovers the accounting manipulation has the most significant piece of leverage in the Church dispute. A player who finds Sable Renwick and understands her history has the second most significant piece."
+    },
+
+    {
+      "id": "sable_renwick_corsair",
+      "name": "Sable Renwick",
+      "role": "Corsair Throne second agent — Shallow Roads",
+      "birth_name": "Unknown to anyone currently on the coast",
+      "location": "The Shallow Roads caves — middle cave. Appears in Velmonde and Salthaven periodically.",
+      "age": 37,
+      "physical": "Twenty years of Corsair sea work visible in how she occupies space — economical, alert, specific awareness of exits. Has changed significantly from the seventeen-year-old who left Velmonde. The Church novice is not visible unless you know to look for her.",
+      "disposition": "Professional with a specific thread of something older underneath. The twenty years are real. The seventeen-year-old who was maneuvered out of her vocation by an institutional manipulation is also real and has not been fully integrated.",
+      "financial_state": "Corsair-supported",
+      "faction": "Corsair Throne — assessment operative",
+      "religion": "Was Tidewarden Church. Currently: nothing she can name.",
+      "schedule": {
+        "low_tide": "Cave access — the middle cave at the Shallow Roads",
+        "velmonde_visits": "Periodic, irregular. Watching Morne. Watching Pelvan. Watching the Church dispute.",
+        "salthaven_contacts": "Maintains three contacts in Salthaven who provide shipping intelligence. One of them is Torven Drenfield, who does not know he is providing it."
+      },
+      "relationships": [
+        { "npc": "aldren_voss_corsair", "type": "assessment_subject", "note": "Has filed her assessment of Voss — reliable, brittle, resentment banked. Waiting for instructions that have not come." },
+        { "npc": "aldeth_morne_senior_warden", "type": "twenty_years_watching", "note": "Has recognized Morne every time. Morne has not recognized her. The Amber Point dispute has made Morne more visible. Sable has not decided what to do with twenty years of watching." },
+        { "npc": "torven_drenfield", "type": "unknowing_source", "note": "One of three Salthaven contacts. Provides shipping intelligence without knowing he is providing it." }
+      ],
+      "the_novice_departure": "She witnessed Aldeth Morne's accounting manipulation at seventeen. The negotiated departure gave her a choice between institutional destruction and silence. She chose silence. Left. The silence has held for twenty years. The Corsair Throne does not know about the Church history. The Iron Wake knows she came from Velmonde and left at seventeen and has not asked further, which is a specific quality of the Iron Wake's management style.",
+      "waiting_for_instructions": "Her assessment of Aldren Voss was filed three weeks ago. Instructions have not come. The Iron Wake's non-response could mean the assessment is adequate and Voss stays. Could mean the Iron Wake is managing something at a level Sable is not briefed on. Could mean the Iron Wake is testing whether Sable acts without authorization. She has been waiting and watching and the Amber Point dispute has introduced a variable that was not in her original assignment.",
+      "the_pelvan_observation": "Has been watching Pelvan's unofficial movements for six weeks. Has identified the Dock Quarter visits. Has identified Bren Ashwick's school as the destination. Has not identified what Pelvan is telling Ashwick — but has correctly assessed from the pattern of visits that it is something specific and important. Has filed this in her personal operational log rather than in any report to the Corsair Throne.",
+      "player_interaction": "The Shallow Roads are accessible with tidal knowledge. A player who arrives at the caves during low tide will encounter the middle cave's occupation. Sable's response to the encounter depends on the player's approach and background. A Hollow Road Runner will receive the modified mark recognition and a specific kind of professional courtesy. Any player who demonstrates knowledge of Morne's history — the accounting, the departure, the manipulation — will receive her complete attention. She has been carrying this alone for twenty years."
+    },
+
+    {
+      "id": "aldren_voss_corsair",
+      "name": "Aldren Voss",
+      "note": "No relation to Dara Voss in Keth or Aldeth Voss in Oldmark",
+      "role": "Corsair Throne known agent — Velmonde",
+      "location": "Velmonde — Merchant Tier, documentary consultancy office",
+      "age": 44,
+      "physical": "The cold efficiency of a professional who does not invest in appearances beyond operational adequacy. Well-dressed because it's necessary. Not warm-dressed. The cover is a wine import documentation consultancy — he knows wine documentation correctly because he learned it for this assignment and has applied that same approach to everything else about living here.",
+      "disposition": "Cold, professional, correct. Finds the Amber Coast assignment beneath his capabilities. Has been requesting reassignment for eighteen months. Has not been reassigned. Processes this as data.",
+      "financial_state": "Corsair-supported plus documentary consultancy income",
+      "faction": "Corsair Throne",
+      "religion": "None observable",
+      "schedule": {
+        "morning": "Documentation consultancy — the cover is real and functional",
+        "midday": "Payment processing — the quarterly Corsair non-aggression payment moves through specific manifest lines in Salthaven's harbor records. He verifies it.",
+        "afternoon": "Intelligence gathering — systematic, correct, minimal personal investment",
+        "evening": "Writes the reassignment request. Does not send it. Has the draft of the nineteenth consecutive one in a desk drawer."
+      },
+      "relationships": [
+        { "npc": "fen_dalt_harbor_master", "type": "operational_arrangement", "note": "Seven years. The harbor master processes the payment line. Does not ask questions. Voss does not explain." }
+      ],
+      "secret": "The nineteenth reassignment request draft is different from the previous eighteen in one specific way: it contains an offer. He has identified a specific intelligence operation he believes he is uniquely positioned to run — something in the Cauldenmoor interior that is not beneath his capabilities. He has been deciding whether to include the offer or send the request without it, because including the offer implies leverage he is not certain he has.",
+      "the_brittleness": "Not disloyal. Professionally insulted. Resentment banked. Sable's assessment is accurate. A specific offer at a specific moment from a party other than the Corsair Throne could redirect the resentment into something else. Nobody has made that offer yet. The nature of the offer that would work is not coin — it is acknowledgment.",
+      "player_interaction": "Accessible through the documentary consultancy — a legitimate commercial service that anyone importing or exporting wine and olive oil on the coast would have reason to use. Cold initially, becomes interested in players who demonstrate competence at a specific level. His reassignment situation is discoverable through sustained engagement. A player who finds it has something genuinely useful."
+    },
+
+    {
+      "id": "halvard_keld_notary",
+      "name": "Halvard Keld",
+      "note": "No relation to the Durnward Bent Loom Guild factor of the same name. Both are common names.",
+      "role": "Senior Notary — Guild of the Sealed Ledger, Velmonde",
+      "location": "Velmonde — Guild of the Sealed Ledger, Merchant Tier",
+      "age": 55,
+      "physical": "The specific neutrality of someone who has been trusted with everyone's financial secrets for twenty years and has learned to make that trust visible in how they occupy space. Unhurried. The quality of attention that comes from having read more documents than most people will ever touch.",
+      "disposition": "Neutral by professional obligation. Currently carrying three specific pieces of information that he cannot share with any interested party without violating that neutrality. Finding this uncomfortable in a way that professional neutrality is not supposed to permit.",
+      "financial_state": "Wealthy — long service, significant institutional standing",
+      "faction": "The Guild of the Sealed Ledger — neutrality is the faction",
+      "religion": "Tidewarden Church — moderate, the default of his social class",
+      "the_three_things_he_knows": [
+        "The Amber Point reclamation instrument has a technical flaw — a reversionary clause in the original donation deed means the property reverts to the Solvanic Dominion, not to either party in the current dispute.",
+        "Neva Drenfield has been cross-referencing manifests that connect to the Salthaven harbor arrangement in a way that suggests she is close to understanding the Corsair payment operation.",
+        "A specific financial instrument in the Solvanic consortium funding — the same thread Sera Dawnmere found in Keth — also appears in the Amber Coast's incoming investment flows through a slightly different vehicle. The Halverness Factors are present on this coast too."
+      ],
+      "secret": "Has been composing a formal legal opinion that would require him to disclose the reversionary clause to the Court of Commercial Instruments — the official body that would adjudicate the Amber Point dispute. Once he files it, the property goes to the Solvanic Dominion and neither Church party wins. He has been composing it for three weeks. Has not filed it. Is not certain why.",
+      "player_interaction": "Accessible through the Ledger's services — legitimate commercial need opens the door. A player with significant mercantile skill and literacy will be assessed as a potential junior member. The three things he knows are individually discoverable through specific approaches. He will not share them unprompted. He will respond to the right questions with answers that stop just short of full disclosure — he is a notary and neutrality is real, but he is also a person carrying more than a person should carry alone."
+    },
+
+    {
+      "id": "oswin_drenfield",
+      "name": "Oswin Drenfield",
+      "role": "Patriarch — Drenfield family. Retired from active shipping, senior figure in Salthaven community.",
+      "location": "Primary: Salthaven. Visits Velmonde weekly for business.",
+      "age": 58,
+      "physical": "Thirty years at sea and twenty in offices has produced a specific combination — the body of a working sailor and the hands of a man who has been signing documents. Genuinely warm in the specific way of people who grew up in communities where warmth was practical rather than social.",
+      "disposition": "Warm, sharp, specifically uncomfortable in formal Velmonde settings despite having enough money to belong there.",
+      "financial_state": "Wealthy — cargo shipping operation",
+      "faction": "None. Salthaven community. Factorate informal contact.",
+      "religion": "Drowned Compact — Salthaven faith, genuine",
+      "schedule": {
+        "early_morning": "Salthaven harbor — old habit, does not entirely need to be there anymore, goes anyway",
+        "morning_velmonde_days": "Business meetings in the Merchant Tier",
+        "evening": "Home in Salthaven. Family dinner every Hearthday."
+      },
+      "relationships": [
+        { "npc": "aldren_calmaveth_factor_general", "type": "informal_intelligence", "note": "Twelve years of providing the Factor-General with accurate harbor intelligence through an unformalized arrangement. Trusts the Factor-General's basic motivations. Is aware the Factor-General is under unusual stress." },
+        { "npc": "neva_drenfield", "type": "family", "note": "His daughter. Has noticed she is doing something with manifests that he has not asked about." },
+        { "npc": "torven_drenfield", "type": "family", "note": "His son. Has noticed Torven knows something about the harbor that Oswin has not been told. Has not asked. Is deciding whether not asking is wisdom or cowardice." }
+      ],
+      "secret": "Has suspected the Corsair payment arrangement in Salthaven harbor for three years. Has not confirmed it. Has not told the Factor-General. His reasoning: the non-aggression payment is keeping Drenfield cargo ships off the Corsair Throne's list of targets. Telling the Factorate ends the arrangement. His ships are his children's inheritance. This is the calculation he has made and has not been able to fully make peace with.",
+      "player_interaction": "Accessible in Salthaven or Velmonde. Warm to anyone who demonstrates they know the actual coast rather than its institutional presentation. The family dinner on Hearthday evenings is the most information-rich social occasion available to a player who has earned trust with any Drenfield family member."
+    },
+
+    {
+      "id": "neva_drenfield",
+      "name": "Neva Drenfield",
+      "role": "Commercial director — Drenfield family shipping, Velmonde office",
+      "location": "Velmonde — Merchant Tier office",
+      "age": 32,
+      "physical": "The most comfortable of the family in formal Velmonde settings, which she finds she dislikes about herself. Carries herself with the specific confidence of someone who is better at their work than most people around them know.",
+      "disposition": "Sharp, commercially precise, has a specific thread of something her family would call conscience and she would call professional discomfort.",
+      "financial_state": "Well-compensated — Drenfield family",
+      "faction": "Drenfield family commercial interests",
+      "religion": "Drowned Compact — less practiced than her father and brother, more believed",
+      "relationships": [
+        { "npc": "halvard_keld_notary", "type": "professional_friendship", "note": "Began as commercial relationship, became genuine over three years. Has noticed something in the Ledger's financial flows she has not asked about." }
+      ],
+      "secret": "Has been cross-referencing Salthaven harbor manifests against known Corsair Throne operational patterns from a shipping intelligence document she should not have had access to — a Solvanic naval assessment she found in a document bundle the Factorate incorrectly included in a commercial correspondence run six months ago. She has identified the payment arrangement. Has not told her father. Has not told the Factor-General. Has not told Halvard Keld. Is sitting with it because she cannot identify a disclosure that does not damage her family's commercial interests.",
+      "player_interaction": "Accessible through commercial channels in Velmonde. The Halverness thread — which Sera Dawnmere found in Keth — also appears in manifests Neva has been examining. A player who connects the two regions' threads through Neva will find a woman who is ready to act on what she knows and has been waiting for someone who can tell her how to act without destroying what her family built."
+    },
+
+    {
+      "id": "torven_drenfield",
+      "name": "Torven Drenfield",
+      "role": "Cargo captain — Drenfield family shipping, active",
+      "location": "Salthaven, when not at sea",
+      "age": 26,
+      "physical": "Still has the sea in him in a way his father now only has in memory. Moves like someone who is used to decks moving under them.",
+      "disposition": "Direct in the way of young men who have spent significant time at sea and have limited patience for the social rituals of land-based commerce.",
+      "financial_state": "Comfortable — family and ship captain's wage",
+      "faction": "Drenfield family",
+      "religion": "Drowned Compact — practiced",
+      "secret": "Has assembled the Corsair payment operation from observation. Knows Fen Dalt processes a specific payment line. Knows Aldren Voss's documentation consultancy is connected to the payment. Knows the timing corresponds to the Corsair Throne's non-aggression zones in the sea lanes his ships use. Has not told his father because his father would tell the Factor-General. Has a more recent piece of observation he has not yet told anyone: one of the three contacts he has been providing shipping intelligence to — not knowing it was Sable Renwick's network — asked him last week about Prince Pelvan's movements in Velmonde, which is not a shipping question.",
+      "player_interaction": "Accessible in Salthaven. The most direct Corsair Throne operation thread on the coast. A player who gains his trust — through sea work, through demonstrated understanding of the harbor's actual operations — will receive the full picture of what he has assembled. The Pelvan question is the thread that connects the Corsair operation to the succession."
+    }
+  ]
+}

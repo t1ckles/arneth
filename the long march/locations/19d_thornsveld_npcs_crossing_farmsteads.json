@@ -1,0 +1,226 @@
+{
+  "region_id": "thornsveld_marches",
+  "file_index": "19d",
+  "npc_file": "kelds_crossing_and_farmsteads",
+  "total_npcs_this_file": 22,
+
+  "kelds_crossing_npcs": [
+
+    {
+      "id": "vaela_keth_morn_full",
+      "name": "Vaela Keth-Morn",
+      "note": "Primary record in 19b. Extended detail here for Keld's Crossing context.",
+      "role": "De facto go-between — Keld's Crossing",
+      "home_location": "A house on the northern edge of the village, facing the ford",
+      "home_description": "Larger than it looks from outside. Two rooms on the ground floor used for storage of goods she brings through. A third room she keeps locked. Karn objects on the walls alongside Thornsveld domestic items. The house of someone who chose not to choose.",
+      "kelds_crossing_presence": {
+        "when_home": "Two to three weeks per month. The weeks she is 'visiting family' she is running the chain between Esven and Halvard Ironmark.",
+        "routine_when_home": "Mornings: at the ford, assessing who is crossing. Afternoons: in her house or at the village elder's hall. Evenings: alone.",
+        "what_the_village_knows": "That she has contacts on both sides. That she is trusted by both sides. That her house has never been searched despite the garrison sergeant's opinions."
+      },
+      "her_son": {
+        "name": "Eddan Keth-Morn",
+        "age": 12,
+        "location": "Fostered with a Karn clan family — the Mornveld clan, four days north of the ford",
+        "official_story": "Visiting extended family",
+        "actual_situation": "An informal gesture of faith in the negotiations. Vaela's idea. Not authorized. The Marchwarden does not know. The clan treats him well. He has adapted faster than Vaela expected, which she finds equal parts relieving and disorienting.",
+        "discovery_implications": "If the fostering becomes known before the negotiations conclude, it could be read as personal loyalty to the Karn cause — material for a treason charge in the wrong political climate."
+      }
+    },
+
+    {
+      "id": "elder_fenwick_dalt_crossing",
+      "name": "Elder Fenwick Dalt",
+      "note": "No relation to Dalt Morrow in Durnward or Fenwick Dalt in Ashford. Dalt and Fenwick are both common names in the Marches.",
+      "role": "Village elder — Keld's Crossing",
+      "age": 64,
+      "physical": "A farmer who became an elder by surviving longer than the other candidates. Solid, slow-moving, quietly observant.",
+      "disposition": "Pragmatic. Has governed a mixed community for fifteen years by understanding that everyone needs to eat and live and most political positions soften when hungry.",
+      "financial_state": "Comfortable by village standards",
+      "faction": "Nominally Thornsveld. Functionally: Keld's Crossing.",
+      "religion": "Blended — Reclaimed Path forms with Old Ways undercurrent",
+      "schedule": {
+        "morning": "The ford — watches who crosses, collects the voluntary toll that is technically not a toll",
+        "midday": "His hall — open for whatever the village needs",
+        "afternoon": "Administrative — the village actually functions better than Durnward in several respects"
+      },
+      "relationships": [
+        { "npc": "vaela_keth_morn_full", "type": "protective_cover", "note": "Knows she does something with her absences. Has actively chosen not to know what. Covers for her when the sergeant asks." },
+        { "npc": "sergeant_aldren_wick", "type": "managed_friction", "note": "The sergeant is doing his job. The elder is doing his." }
+      ],
+      "secret": "Has been approached by a Karn clan elder about the possibility of the village's mixed community receiving formal recognition under any future Karn-Thornsveld agreement. Has not told anyone this was discussed. Has been thinking about it for two months.",
+      "player_interaction": "The legitimate point of contact for official purposes in Keld's Crossing. Useful source of regional and Karn-adjacent information. More forthcoming than he appears."
+    },
+
+    {
+      "id": "sergeant_aldren_wick",
+      "name": "Sergeant Aldren Wick",
+      "role": "Garrison sergeant — Keld's Crossing post",
+      "age": 35,
+      "physical": "Standard garrison soldier, slightly better maintained than average because there is nothing else to do here. Frustrated expression that has become a resting face.",
+      "disposition": "By the book. Not stupid — by the book because the book is what he has to stand on when everything else is unclear.",
+      "financial_state": "Garrison pay",
+      "faction": "Thornsveld Crown — loyally, not factionalized",
+      "religion": "Undying Ember",
+      "schedule": {
+        "dawn": "Muster — two soldiers",
+        "morning": "Ford observation",
+        "midday": "Patrol of village perimeter",
+        "afternoon": "Correspondence to Durnward garrison that receives slow replies",
+        "evening": "Ford again — the late crossings"
+      },
+      "relationships": [
+        { "npc": "elder_fenwick_dalt_crossing", "type": "professional_friction", "note": "The elder technically cooperates and practically obstructs. Wick knows this and cannot prove it." },
+        { "npc": "vaela_keth_morn_full", "type": "suspicion_without_evidence", "note": "Has filed two reports about her irregular travel. Both were logged and ignored by Durnward." }
+      ],
+      "secret": "Has seen Karn outriders at the ford at night — twice in the past three weeks. They crossed south without stopping. He filed a report. No reply. He does not know whether the lack of reply means the Marchwarden knows and is managing it, or the Marchwarden doesn't know and his report is sitting in a stack.",
+      "player_interaction": "A point of official information about Keld's Crossing. His reports — unacknowledged, increasingly alarmed — are a thread a player can pull."
+    },
+
+    {
+      "id": "karn_representative_brenvar",
+      "name": "Bren Ironmark",
+      "role": "Karn clan representative — visits Keld's Crossing periodically",
+      "note": "No relation to Brenvar Keld in Ashford. Ironmark is Clan-Chief Halvard Ironmark's family name, not this person's — it is how he is known to the Keld's Crossing community.",
+      "age": 38,
+      "physical": "Karn dress and manner. Large. Deliberate. The deliberateness is considered.",
+      "disposition": "Measured. Is here as an observer and sometimes as a participant in conversations that are not officially happening.",
+      "financial_state": "Clan-supported",
+      "faction": "Karn Clans — Halvard Ironmark's",
+      "religion": "Karn ancestor practice",
+      "schedule": {
+        "irregular": "Appears at the ford every two to three weeks, usually Ashday or Wayday, stays two to three days, crosses back north"
+      },
+      "relationships": [
+        { "npc": "vaela_keth_morn_full", "type": "working_relationship", "note": "The conduit on the Karn side. Not the decision-maker — Halvard Ironmark is the decision-maker. But the person who actually moves the communications." },
+        { "npc": "elder_fenwick_dalt_crossing", "type": "trading_relationship", "note": "Publicly: trade. Privately: whatever the trade is a cover for this visit." }
+      ],
+      "secret": "The Karn outriders moving further south were not authorized by Halvard Ironmark. They were a clan sub-chief testing boundaries during the negotiation period. Bren knows this and has not told Vaela because he is waiting to see if it resolves itself. It is not resolving itself.",
+      "player_interaction": "Approachable through trading at the ford. Not forthcoming about the negotiations. A player who earns enough trust — Karn standards apply — may eventually learn about the unauthorized outriders."
+    },
+
+    {
+      "id": "half_karn_family_elder",
+      "name": "Aldren Keth",
+      "role": "Elder of the half-Karn family — Keld's Crossing",
+      "age": 55,
+      "physical": "Two generations of mixed ancestry visible in his face. Has the settled quality of someone who resolved the question of where he belonged thirty years ago and has not revisited it.",
+      "disposition": "Settled. Wants to be left alone. Will not be left alone.",
+      "financial_state": "Comfortable — the family farms the best land near the crossing",
+      "faction": "Keld's Crossing — his identity is the village",
+      "religion": "Old Ways mixed with Reclaimed Path forms",
+      "secret": "Has been quietly informing both Elder Fenwick and Vaela Keth-Morn about patterns in who crosses the ford. Not because he's a spy — because he understands that the crossing's stability depends on both sides trusting it, and he is the crossing.",
+      "player_interaction": "Deep knowledge of the ford, Karn culture, and two generations of mixed-border life. A source of nuanced perspective unavailable from either side alone."
+    },
+
+    {
+      "id": "lay_preacher_messenger",
+      "name": "Brother Fen (lay title, not ordained)",
+      "role": "Reclaimed Path lay-preacher — travels between Durnward and Keld's Crossing",
+      "age": 47,
+      "physical": "Road-worn, cheerful in the way of people with a clear purpose. Carries a walking staff that doubles as a legitimate reason to be on the road.",
+      "disposition": "Genuinely devout and completely unaware of what he carries.",
+      "financial_state": "Surviving on hospitality",
+      "faction": "Reclaimed Path",
+      "religion": "Reclaimed Path — lay practice, genuine",
+      "secret": "The sealed letters he carries between Durnward and Keld's Crossing every fortnight are not all from temple correspondents. Two of his regular 'temple letters' are from Vaela's communication chain. He knows they are not from the temple. He has told himself they are charity correspondence. He has not opened them. He does not want to know.",
+      "player_interaction": "His route is useful to players moving between settlements. The sealed letters are discoverable. What a player does with that discovery has implications."
+    },
+
+    {
+      "id": "keld_crossing_widow",
+      "name": "Sova Greywood",
+      "role": "Farmer — Keld's Crossing",
+      "age": 33,
+      "physical": "Running a farm alone since her husband left for Ashford work two years ago and did not come back from the mine collapse.",
+      "disposition": "Getting by. Occasionally not getting by. Doing it alone.",
+      "financial_state": "Struggling",
+      "faction": "Mine families — connection to Morra Dawnfield's network",
+      "religion": "Reclaimed Path",
+      "secret": "Her husband was one of the forty-one. She has not been to Durnward to join the families' effort because she cannot leave the farm. Has been waiting for someone to ask.",
+      "player_interaction": "A sympathetic contact. Provides a human face for the mine situation at a geographic remove from Ashford."
+    }
+  ],
+
+  "outlying_farmstead_npcs": [
+
+    {
+      "id": "aldren_saltmeadow",
+      "name": "Aldren Saltmeadow",
+      "role": "Farmer — Saltmeadow cluster, east of Durnward",
+      "age": 51,
+      "physical": "A farmer's face — sun-weathered, specific to the east-facing fields he has worked for thirty years. Something has been making him look over his shoulder for two months.",
+      "disposition": "Steady. The unease he currently carries is visible precisely because steadiness is his baseline and departure from it is legible.",
+      "financial_state": "Comfortable — a well-run farm",
+      "faction": "None",
+      "religion": "Reclaimed Path",
+      "schedule": {
+        "dawn_to_dusk": "Farm work — seasonal",
+        "marketday": "Durnward market — every Marketday without exception"
+      },
+      "relationships": [
+        { "npc": "brother_soren_aldrath", "type": "uneasy_supplicant", "note": "Told Soren about the disc because you tell the priest. Now regrets it and cannot say why except that Soren's interest felt like something more than pastoral concern." }
+      ],
+      "secret": "The disc was not the only thing he found. There is a second item still in his east field, covered with a flat stone. He did not tell Soren about it. It is similar to the disc but smaller and its surface is covered in marks he cannot read. He has been trying to decide what to do with it since he found it three weeks ago.",
+      "the_disc": "The disc he gave to Soren: partial steel with deep blue-green gemstone grown through it, cold to the touch, looks almost like a Steel Disc denomination but older and wrong. The marks on the second item match marks on the disc's edge.",
+      "player_interaction": "At Durnward market every Marketday. Approachable as a farmer selling produce. A player who earns trust over multiple market visits — treating him as a person, not a quest giver — may learn about both items."
+    },
+
+    {
+      "id": "shepherd_torven_greywood",
+      "name": "Torven Greywood",
+      "note": "Same NPC as listed in Durnward supporting cast — he moves between the farmsteads and Durnward. Primary residence is the Greywood cluster.",
+      "role": "Shepherd — Greywood cluster",
+      "extended_detail": {
+        "what_he_saw": "Karn outriders, three riders, Karn dress, moving south on the second and ninth of this month. Both times before dawn. Both times they did not stop and did not look at him — which means they knew he was there and chose not to engage, which is more unsettling than if they hadn't seen him.",
+        "why_it_matters": "The second sighting was a full day's ride south of where Karn outriders have historically appeared. They were on the road toward the Dawnfield cluster, not toward Keld's Crossing.",
+        "his_theory": "Does not have one. That's the problem. Karn moving south without apparent purpose is either a message or a mistake and he cannot tell which."
+      }
+    },
+
+    {
+      "id": "isolated_farmer_discovery",
+      "name": "Oswin Saltmeadow",
+      "note": "Aldren Saltmeadow's younger brother — different farmstead, same cluster.",
+      "role": "Farmer — Saltmeadow cluster",
+      "age": 44,
+      "physical": "His brother's build, softer. Spends more time thinking and less time moving.",
+      "disposition": "Curious in the way of someone who has spent too much time alone with his thoughts.",
+      "financial_state": "Comfortable",
+      "faction": "None",
+      "religion": "Reclaimed Path",
+      "secret": "His brother told him about the disc. He did not tell his brother that he has seen the marks on it before — specifically, in a weathered stone on the east edge of the Saltmeadow fields that everyone calls the Boundary Stone and uses as a property marker. The marks match. He has been working around the stone for twenty years and never thought about it until now.",
+      "player_interaction": "The thread from the disc to the Boundary Stone to something much older. Can be found at the Saltmeadow cluster by a player investigating the disc."
+    },
+
+    {
+      "id": "hollow_road_farmstead",
+      "name": "Brena and Keld Ashwick",
+      "note": "No relation to the apothecary or to any other Ashwicks — common name.",
+      "role": "Farmers — The Notch cluster",
+      "age": "Brena 48, Keld 52",
+      "physical": "A farming couple who have been on this land for twenty-five years and expect to be on it for twenty-five more.",
+      "disposition": "Hospitable without questions. This is not incuriosity — it is a practiced policy.",
+      "financial_state": "Comfortable",
+      "faction": "Hollow Road — adjacent, not affiliated",
+      "religion": "Old Ways, rural variant",
+      "secret": "The Notch is a waypoint on a Hollow Road route. Three to four travelers per season stop here for a night, pay a fair rate, are not asked their business, and leave. Brena and Keld know exactly what this is. They began it because a road traveler helped them through a bad winter twelve years ago and they have never been asked to do anything they weren't comfortable with.",
+      "player_interaction": "A genuine rest stop for players moving between settlements. Players with Hollow Road background may recognize the waypoint markers. Others may encounter travelers staying here who are more interesting than they appear."
+    },
+
+    {
+      "id": "mine_family_farmstead",
+      "name": "Aldren and Gorra Dawnfield",
+      "note": "Morra Dawnfield's in-laws — she married into the Dawnfield farm. The farm carries the family name.",
+      "role": "Farmers — Dawnfield cluster",
+      "age": "Aldren senior 68, Gorra 65",
+      "physical": "Elderly farmers carrying the specific grief of people who lost a son in the collapse while watching their daughter-in-law become a public figure about it.",
+      "disposition": "Proud of Morra. Worried about Morra. Missing their son. Running the farm short-handed.",
+      "financial_state": "Struggling — mine income was a supplement, now gone; Morra is in Durnward instead of farming",
+      "faction": "Mine families",
+      "religion": "Reclaimed Path",
+      "secret": "The farm is closer to failing than Morra knows. They have not told her because she is already carrying everything she can carry.",
+      "player_interaction": "A humanizing window on Morra's situation. Physical farm labor is available — they need it. Helping the farm is a concrete way to support the mine families that doesn't require navigating Durnward politics."
+    }
+  ]
+}

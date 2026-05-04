@@ -1,0 +1,211 @@
+{
+  "region_id": "ironmark_borderlands",
+  "file_index": "27d",
+  "system": "businesses_and_procedural_generation",
+
+  "design_philosophy": "The Borderlands is the most dangerous starting region and its businesses reflect this. Nothing is decorative. Nothing exists for comfort alone. Businesses here serve the garrison, the crossing trade, the displaced population, and the specific economy of a contested zone — where information, movement, and basic survival goods are more valuable than luxury. Business names are functional and worn. A tavern called The Grinding Stone is named for the sound that started showing up in travelers' dreams, because people in the Borderlands name things after what they experience.",
+
+  "anchor_businesses": [
+    {
+      "id": "hegemony_administrative_building",
+      "name": "The Hegemony Hall (local name) — Formally: Aldenmere's Cross Garrison Command",
+      "type": "Military administrative building — four hundred years of continuous occupation",
+      "location": "Aldenmere's Cross — Garrison Quarter",
+      "description": "Brennac stonework that is better than anything built since — higher ceilings, thicker walls, drainage that still functions while everything built around it floods in Thornmelt. The garrison uses it because it is the best building in Aldenmere's Cross and has been since it was built. The records room in the basement contains four centuries of administrative documents that nobody has catalogued. The garrison notice board is outside the main entrance.",
+      "resources": {
+        "records_room": "Four hundred years of Hegemony administrative documents. Contains: pre-Reckoning survey documents for the Bleeding Ground area, correspondence from the last demonic site activation in this region three hundred years ago, Brennac census records, road survey data. None of it catalogued. Most of it in readable condition.",
+        "garrison_stores": { "current_level": "Adequate for six weeks at current consumption. Three weeks at elevated consumption during a military engagement.", "finite": true }
+      },
+      "access": "Garrison personnel and authorized contractors. Records room through quartermaster application.",
+      "hooks": [
+        "The records room — the Hegemony documents with demonic activation correspondence and pre-Reckoning survey data",
+        "Brennwatch's office — the man at the far end of the common room",
+        "The notice board — auxiliary garrison posting"
+      ]
+    },
+    {
+      "id": "the_eastern_nail",
+      "name": "The Eastern Nail",
+      "type": "Inn — Crossing Quarter, primary traveler accommodation",
+      "location": "Aldenmere's Cross — Crossing Quarter, first building east of the ferry dock",
+      "description": "Named for the original iron nail hammered into the door lintel when the building was constructed sixty years ago. The nail is still there. It is the oldest iron object in Aldenmere's Cross. The inn is functional — good food, honest rates, rooms that are clean because the owner considers cleanliness a strategic rather than a comfort investment. Travelers who have been in the Bleeding Ground for any length of time tend to eat more than they expect at the Eastern Nail. Nobody has found a satisfying explanation for this.",
+      "owner": "Tev Coldmarsh, 49",
+      "resources": {
+        "food": { "source": "Market Row purchasing, river fishing, direct from two farms east of the Cross", "finite": true, "notes": "Current concern: Bren Mallen's food stall supply reduction will affect the inn's kitchen within three weeks if the Ironmark's supply review produces the expected outcome" },
+        "water": { "source": "Town well — the second well, further from the river", "finite": true },
+        "accommodation": "Twelve rooms, one shared dormitory floor for soldiers and laborers"
+      },
+      "pricing": {
+        "private_room": "One bronze mark per night",
+        "dormitory_floor": "Three iron chits per night",
+        "meal": "Two iron chits — a significant portion of a laborer's daily wage, which is accurate to how much food costs in a contested zone"
+      },
+      "hooks": [
+        "Brennwatch at the far end of the common room — the man-at-arms spawn hook",
+        "Tev Coldmarsh's sixteen-year guest log",
+        "The specific quality of appetite the inn produces — a player with Disease Recognition or Spiritual Awareness above 150 will note this as consistent with proximity to pre-activation demonic ground"
+      ]
+    },
+    {
+      "id": "the_grey_contracts_billet",
+      "name": "Grey Contracts Billet — The Crossed Spear (common room name)",
+      "type": "Military billet and recruiting station",
+      "location": "Aldenmere's Cross — between the Garrison Quarter and the Market Row",
+      "description": "A converted warehouse that the Grey Contracts have been using for three years. The common room has a specific quality of organized chaos that experienced soldiers recognize as a well-run company's common space. The notice board outside carries the current recruiting posting. The common room inside carries Kela Marsh's intake table and whatever soldiers are off-duty and available to be observed by candidates.",
+      "resources": {
+        "weapons_maintenance": "The company maintains its own equipment. A rack of blades that are in better condition than the garrison's comparable equipment, because the company's budget goes to the soldiers first.",
+        "intelligence_board": "Inside the common room, not visible from outside — a map of current patrol routes and known Ironmark positions. Updated daily."
+      },
+      "services": [
+        "Recruiting — Kela Marsh's intake, Firstday and Fourday mornings",
+        "Patrol assignments for contracted soldiers",
+        "Intelligence sharing between company and garrison — through Rald Morcroft's informal channel"
+      ],
+      "hooks": [
+        "Kela Marsh's intake assessment and the one question",
+        "Tomas Feldwick's behavior changes — visible to a player who spends time in the common room",
+        "The intelligence board — shows the current Ironmark forward position advancing toward Cravenmoor's Ford"
+      ]
+    },
+    {
+      "id": "reclaimed_path_temple",
+      "name": "Temple of the Reclaimed Path — Aldenmere's Cross",
+      "type": "Religious institution",
+      "location": "Aldenmere's Cross — northern end of the Market Row",
+      "description": "A working temple in the most practical sense — not grand, not beautiful, built to do the work that a Reclaimed Path temple does in a community that has been under consistent pressure for twenty years. Sister Morna Daelwick has been here longer than any of the Priors who have come and gone above her. The kitchen feeds anyone who asks. The floor space is available to anyone who needs it. The records of the congregation reach back three hundred years and contain one reference to the previous demonic manifestation in the Bleeding Ground that Wulf Pendwick has heard of secondhand.",
+      "resources": {
+        "food_charity": { "current_level": "Adequate — community donations supplement the temple's own stores", "finite": true },
+        "congregation_records": "Three hundred years. The demonic manifestation reference is in year records from approximately Year 12,700, noted as 'the trouble in the eastern fields, which resolved after the old man did what he did.' This is the extent of the documentation."
+      },
+      "services": [
+        "Daily charitable meal — no conditions",
+        "Floor space — available",
+        "Pastoral care — Morna Daelwick's primary function",
+        "Connection to the underground Saltfen congregation — not advertised"
+      ],
+      "hooks": [
+        "Morna Daelwick's Saltfen connection",
+        "The congregation records and the demonic manifestation reference",
+        "The displaced community network — the temple knows the South Shore"
+      ]
+    },
+    {
+      "id": "fera_colm_farmstead",
+      "name": "Colm Farm",
+      "type": "Working farm and Hollow Road waystation",
+      "location": "Three miles east of Aldenmere's Cross on the road toward Cravenmoor's Ford",
+      "description": "A functional farm that produces what borderland farms produce — grain, root vegetables, some livestock. The farmhouse is practical and well-maintained in the way of someone who maintains things because maintenance prevents larger problems. The barn is locked with a better lock than anything else on the property. The farm is the hedge farmer spawn hook's destination and the primary waystation for Garet Denn's operation.",
+      "resources": {
+        "agricultural": { "current_level": "End-of-season adequate — the harvest came in correctly this year", "finite": true },
+        "the_barn": "Garet Denn's operation. Contains: sealed correspondence packets awaiting transit, basic supplies for people who need to move through the Bleeding Ground, a specific cache of documents that connect displaced Saltfen and Weldgate residents with relatives in Durn territory. The better lock is a Keth-made mechanism that Garet acquired through the broader Hollow Road network."
+      },
+      "hooks": [
+        "The locked barn and Fera Colm's two-week test",
+        "Garet Denn — accessible here when not in the Bleeding Ground",
+        "The document cache — a player who accesses it finds the human geography of the displacement in specific detail"
+      ]
+    },
+    {
+      "id": "wulf_carten_trading_post",
+      "name": "Carten's Ford Post",
+      "type": "Trading post — Cravenmoor's Ford primary commercial establishment",
+      "location": "Cravenmoor's Ford",
+      "description": "Twelve years of operation serving both Durn and Ironmark travelers without distinction. The interior is organized around this principle — the layout does not favor either direction of travel, and the goods available are things both sides of the administrative line need. This is not neutrality in any moral sense. It is a commercial decision that Wulf Carten has been making for twelve years and that has kept the ford's economy functional.",
+      "owner": "Wulf Carten, 44",
+      "resources": {
+        "general_goods": { "current_level": "Adequate — supply lines to both sides functioning", "finite": true },
+        "information": "Wulf Carten knows who has crossed the ford in both directions for twelve years. This information is not for sale in any conventional sense. It is available to people who understand what kind of conversation to have with a trader who has been watching the ford for twelve years."
+      },
+      "hooks": [
+        "Wulf's negotiation channel to Ironmark administrative contacts",
+        "The sealed packet from Osric Fenwall — the hollow road runner spawn hook thread",
+        "Twelve years of ford crossing intelligence"
+      ]
+    }
+  ],
+
+  "procedural_business_tables": {
+    "aldenmeres_cross_guaranteed": [
+      "Hegemony Hall / Garrison Command (anchor)",
+      "The Eastern Nail inn (anchor)",
+      "Grey Contracts billet (anchor)",
+      "Reclaimed Path temple (anchor)",
+      "Tallow chandlery — Osric Fenwall / Hollow Road waypoint (anchor)",
+      "Blacksmith — Cavan Dalt (anchor)",
+      "Ferry operation — Kessa Durn (anchor)",
+      "Market Row food stalls x4",
+      "General goods x2",
+      "Tanner — Eld Brant",
+      "Two coopers",
+      "Rope and cordage",
+      "Budget inn — The Low Eave (South Shore, cheaper than Eastern Nail, no questions)",
+      "Tavern — The Grinding Stone (named by soldiers who started having the dream; they do not explain this to new customers)",
+      "Tavern — The Dry Ditch (South Shore, displaced community gathering point)",
+      "River fishing operation — sells through Market Row",
+      "Farrier and horse care",
+      "Carter and wagon repair",
+      "Garrison supply depot — not open to public",
+      "Letter writer — one, operates from the temple",
+      "Small arms and tool dealer — sells to both sides of the border"
+    ],
+    "aldenmeres_cross_roll_1d6": {
+      "1": "Second smithy — specialist in farming tools rather than military equipment",
+      "2": "Physician — basic, much worse than Salthaven's physician, much better than nothing",
+      "3": "Pawnbroker — buys anything, asks about nothing, used extensively by displaced families",
+      "4": "Herbalist — old Cauldenmoor border herbalism, not the Fens-quality of the Moor Communion but functional",
+      "5": "Glassblower — rare, here because borderland forts need lamp glass and the supply from the heartland is slow",
+      "6": "Second inn — worse than the Eastern Nail, cheaper, tolerates longer stays without explanation"
+    },
+    "cravenmoores_ford_guaranteed": [
+      "Carten's Ford Post — Wulf Carten (anchor)",
+      "The Ford's Rest inn — Nara Coldwick",
+      "Small market — twice weekly, Marketday and Sevenday",
+      "Reclaimed Path wayshrine — not a full temple, Sera Venn's base",
+      "Farrier — essential for a ford crossing settlement",
+      "Grey Contracts detachment post — not a business but a presence"
+    ],
+    "weldgate_guaranteed": [
+      "Scorched Covenant temple — newly established, Edric Sorn's operation",
+      "Ironmark administrative office — Pell Greyvane",
+      "Market — suppressed since absorption, recovering",
+      "Two farms operating",
+      "General goods — Ironmark-sourced supply",
+      "The barn — underground Reclaimed Path meeting location, no marker"
+    ]
+  },
+
+  "the_grinding_stone_tavern": {
+    "name": "The Grinding Stone",
+    "type": "Tavern — Crossing Quarter, Aldenmere's Cross",
+    "description": "Named three months ago by a Grey Contracts soldier who had been spending time in the Bleeding Ground on patrol and started having the same dream — a sound like grinding stone from below the earth. He told two other soldiers about it. Both of them had been having the same dream. He named his next round of drinks after it. The name spread to the tavern. The tavern keeper did not choose the name but has adopted it because it draws soldiers who are curious about why it is called that and soldiers who know exactly why it is called that, and both groups spend money.",
+    "significance": "The name is the first public signal that the Bleeding Ground's threshold is producing effects beyond Drevhan Coldbeck's survey marks. A player who asks about the name learns about the dream. A player who has also experienced the directional wrongness from the Thornsveld disc or the Keth Archive exposure will recognize the dream as another manifestation of the same phenomenon — the threshold approaching activation is producing sleeping awareness of what is below the ground.",
+    "owner": "Morna Coldwick, 51, no relation to any other Coldwick in the region. Coldwick is a common borderland surname.",
+    "hours": "Late morning through Early Night. Never closes early. Has been busier than usual for the past month as soldiers spend more time inside than outside."
+  },
+
+  "resource_tracking_rules": {
+    "garrison_iron_shortage": {
+      "description": "The garrison's equipment maintenance is running at reduced capacity. Iron costs more than budget allows. Three soldiers have weapons that should be replaced.",
+      "player_impact": "A player with smithing skills who works with Cavan Dalt on garrison equipment repair earns significant garrison goodwill. A player who can source cheaper iron — through trade contacts, through the Ironmark's supply chain, through Garet Denn's informal network — earns something more significant.",
+      "finite": true
+    },
+    "food_supply_pressure": {
+      "description": "Bren Mallen's Ironmark supply review will reduce his stock by approximately 30% if it proceeds. The garrison supply chain takes the northern detour if Cravenmoor's Ford falls, adding three days and cost.",
+      "player_impact": "Food prices in Aldenmere's Cross will rise within three weeks regardless of what happens at Cravenmoor's Ford. A player who is tracking the political situation and understands its food supply implications has advance knowledge of a price change that a merchant character could capitalize on or a supply-chain character could address.",
+      "finite": true
+    },
+    "the_bleeding_ground_passage": {
+      "description": "Crossing the Bleeding Ground adds one day to travel between Aldenmere's Cross and Cravenmoor's Ford versus the longer road that goes around. The shorter crossing is the route Garet Denn uses and that Ironmark scouts use. The longer road is safer and slower.",
+      "threshold_effect_on_travel": "Characters crossing the Bleeding Ground at night during the current pre-activation period will experience: interrupted sleep if they camp there (the grinding stone dream), animals refusing specific sections (documented warning sign), and in the area within half a mile of the mass grave site — the directional wrongness that sensitive characters recognize and that connects to the Thornsveld and Keth phenomena.",
+      "player_choice": "Shorter, stranger, slightly wrong. Longer, slower, normal. The choice is always available. The consequences of the short route accumulate."
+    }
+  },
+
+  "cross_regional_thread": {
+    "the_grinding_stone_dream": {
+      "connection": "The Bleeding Ground's pre-activation threshold is producing a specific dream in people who spend extended time in the contested strip — a sound like grinding stone from below the earth. This is not the same as the directional awareness produced by the Thornsveld disc or the Keth inscription artifacts, but it is related — both are outputs of demonic threshold phenomena, expressed differently based on the specific nature of the site.",
+      "players_who_recognize_it": "A player who has encountered the directional awareness in the Thornsveld Marches or the Keth Plateau and who then encounters the grinding stone dream in the Borderlands will notice that they are not the same phenomenon. They are related. A player with sufficient knowledge of demonic taxonomy — through the First Scholars, through the Pale Company, through religious lore — can determine that the difference is between a contained artifact site (Thornsveld, Keth) and an accumulative mass-death site approaching activation (Borderlands). The distinction matters for what each requires to address.",
+      "drevhan_connection": "A player who finds Drevhan Coldbeck and who has also encountered the other manifestations has the most complete picture of the current cross-regional situation available to any character on Arneth. Drevhan does not know about the Thornsveld or Keth artifacts. A player who brings him that information changes his assessment significantly."
+    }
+  }
+}
